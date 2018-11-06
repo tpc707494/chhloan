@@ -1,0 +1,879 @@
+---------------------------------------------------------------
+[ 2018-11-04T08:01:19+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.874044s][吞吐率：1.14req/s] [内存消耗：1,473.18kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015983s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.040484s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T11:21:09+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.222383s][吞吐率：4.50req/s] [内存消耗：1,473.20kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000197s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.021727s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T11:35:45+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：1.062403s][吞吐率：0.94req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015626s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.038791s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.024418s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T11:36:27+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.048632s][吞吐率：20.56req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002764s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002583s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T11:36:57+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.050777s][吞吐率：19.69req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003606s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002563s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T11:40:26+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.131877s][吞吐率：7.58req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000666s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006175s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005574s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T11:50:41+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：1.797427s][吞吐率：0.56req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.103688s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.112997s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T12:48:21+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.080202s][吞吐率：12.47req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000202s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004623s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004669s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T12:49:23+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.058621s][吞吐率：17.06req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003799s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004034s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T13:17:17+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.085113s][吞吐率：11.75req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000158s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005568s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004888s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T13:30:40+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.074433s][吞吐率：13.43req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004093s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T14:16:23+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.171702s][吞吐率：5.82req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000785s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009905s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007233s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T14:19:42+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.090036s][吞吐率：11.11req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005703s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005191s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:20+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.486706s][吞吐率：2.05req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000187s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015706s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:21+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.046381s][吞吐率：21.56req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003607s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:21+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.042352s][吞吐率：23.61req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004266s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:22+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.068541s][吞吐率：14.59req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003999s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:22+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.047261s][吞吐率：21.16req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005033s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:22+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.042901s][吞吐率：23.31req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003765s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:22+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.046014s][吞吐率：21.73req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004875s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:22+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.046966s][吞吐率：21.29req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003584s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:22+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.038111s][吞吐率：26.24req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003537s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:25+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.046760s][吞吐率：21.39req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003394s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:26+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.047277s][吞吐率：21.15req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003618s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:26+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.038993s][吞吐率：25.65req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003849s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T16:57:26+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.040392s][吞吐率：24.76req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004008s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541160967933%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541162767933%7D; __51laig__=9; _gid=GA1.1.766157232.1541301770',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T18:01:58+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.967041s][吞吐率：1.03req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016152s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.039738s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.041253s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T18:06:44+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.067844s][吞吐率：14.74req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005189s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003745s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T18:06:51+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：0.051499s][吞吐率：19.42req/s] [内存消耗：1,633.03kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003744s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002574s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T21:17:07+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.130681s][吞吐率：7.65req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000110s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005143s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; _gid=GA1.1.766157232.1541301770; __tins__18759442=%7B%22sid%22%3A%201541332575689%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541334375689%7D; __51laig__=12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-04T21:17:15+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.045498s][吞吐率：21.98req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004452s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; _gid=GA1.1.766157232.1541301770; __tins__18759442=%7B%22sid%22%3A%201541332575689%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201541334375689%7D; __51laig__=12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

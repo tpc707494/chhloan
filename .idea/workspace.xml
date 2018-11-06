@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f894993f-39e7-4c07-8f8a-814026744c31" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/vendor/doctrine/cache/" />
+    <ignored path="$PROJECT_DIR$/vendor/endroid/qr-code/" />
+    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/" />
+    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/promises/" />
+    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/psr7/" />
+    <ignored path="$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons/" />
+    <ignored path="$PROJECT_DIR$/vendor/monolog/monolog/" />
+    <ignored path="$PROJECT_DIR$/vendor/mtdowling/cron-expression/" />
+    <ignored path="$PROJECT_DIR$/vendor/overtrue/pinyin/" />
+    <ignored path="$PROJECT_DIR$/vendor/overtrue/socialite/" />
+    <ignored path="$PROJECT_DIR$/vendor/overtrue/wechat/" />
+    <ignored path="$PROJECT_DIR$/vendor/paragonie/random_compat/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpmailer/phpmailer/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpoffice/phpexcel/" />
+    <ignored path="$PROJECT_DIR$/vendor/pimple/pimple/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/container/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/http-message/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/log/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/http-foundation/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/options-resolver/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php70/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge/" />
+    <ignored path="$PROJECT_DIR$/vendor/topthink/think-captcha/" />
+    <ignored path="$PROJECT_DIR$/vendor/topthink/think-helper/" />
+    <ignored path="$PROJECT_DIR$/vendor/topthink/think-installer/" />
+    <ignored path="$PROJECT_DIR$/vendor/workerman/gateway-worker/" />
+    <ignored path="$PROJECT_DIR$/vendor/workerman/workerman/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="117732198">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Info</find>
+      <find>set_rl_infp</find>
+      <find>checkToken</find>
+      <find>qixian_a</find>
+      <find>get_api_config</find>
+      <find>get_user_money</find>
+      <find>loan_in</find>
+      <find>$das1</find>
+      <find>input</find>
+      <find>aui</find>
+      <find>4001</find>
+      <find>loan_info</find>
+      <find>微信</find>
+      <find>setloaninfo</find>
+      <find>image</find>
+      <find>$result_data</find>
+      <find>setloan</find>
+      <find>showIOSActionSheet</find>
+      <find>$returndata</find>
+      <find>return</find>
+      <find>$goodsname</find>
+      <find>$json_d</find>
+      <find>ui-btn-lg1</find>
+      <find>$this-&gt;code</find>
+      <find>get_cashin</find>
+      <find>$_POST</find>
+      <find>cashin_status</find>
+      <find>loan_id</find>
+      <find>set_loan_info</find>
+      <find>$type</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>apii</replace>
+      <replace>user/cashout</replace>
+      <replace>userinfo</replace>
+      <replace>general/apiconfig</replace>
+      <replace>Info</replace>
+      <replace>__CDN__/assets/weui/dist/example/images</replace>
+      <replace>$_GET</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\install\server\xmapp721\htdocs\fask\public\assets\aui</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/admin/lang/zh-cn.php" />
+        <option value="$PROJECT_DIR$/application/admin/lang/zh-cn/general/apiconfig.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/general/apiconfig/edit.html" />
+        <option value="$PROJECT_DIR$/application/api/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/apii/config.php" />
+        <option value="$PROJECT_DIR$/application/config.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/UserBaseInfo.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/UsersModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/AfterTheRestModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/CaseInModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/GlobConfigModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/GoodsTableModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/MenusRuleModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/User.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/Cashout.php" />
+        <option value="$PROJECT_DIR$/application/apii/model/UserModel.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/UserMoney.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/UserLoanModel.php" />
+        <option value="$PROJECT_DIR$/application/admin/lang/zh-cn/user/cashout.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/user/cashout.js" />
+        <option value="$PROJECT_DIR$/application/admin/model/HeHuoRen.php" />
+        <option value="$PROJECT_DIR$/application/common/controller/Base.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/user/base/LaonShangjin.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Common.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Pay.php" />
+        <option value="$PROJECT_DIR$/public/assets/weui/src/example/index.html" />
+        <option value="$PROJECT_DIR$/public/assets/weui/dist/example/example.css" />
+        <option value="$PROJECT_DIR$/public/assets/weui/dist/example/example.js" />
+        <option value="$PROJECT_DIR$/public/assets/weui/dist/style/weui.css" />
+        <option value="$PROJECT_DIR$/application/apii/view/Paytest/error.html" />
+        <option value="$PROJECT_DIR$/application/admin/controller/user/Cashin.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/user/cashin.js" />
+        <option value="$PROJECT_DIR$/application/admin/model/CashIn.php" />
+        <option value="$PROJECT_DIR$/application/apii/view/Paytest/index.html" />
+        <option value="$PROJECT_DIR$/application/admin/model/PreRegistrationModel.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/SendCodeModel.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Login.php" />
+        <option value="$PROJECT_DIR$/application/admin/model/user/base/Alipay.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Bean.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/BeanCashin.class.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/BeanCashin.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/bean/BeanCashin.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Getindex.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Paytest.php" />
+        <option value="$PROJECT_DIR$/application/apii/view/Paytest/errorview.html" />
+        <option value="$PROJECT_DIR$/application/apii/view/Knowpay/cashin.html" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Knowpay.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Wxnotify.php" />
+        <option value="$PROJECT_DIR$/application/apii/controller/Setindex.php" />
+        <option value="$PROJECT_DIR$/application/apii/view/Paytest/cashin_view.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/public/assets/libs/Sortable/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/art-template/loader/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/art-template/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/bootstrap-table/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/eonasdan-bootstrap-datetimepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/fastadmin-citypicker/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/fastadmin-cxselect/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/fastadmin-layer/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/jcrop/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/jquery-slimscroll/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/libs/require-css/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/weui/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/pinyin" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/vendor/workerman/gateway-worker" />
+      <path value="$PROJECT_DIR$/vendor/workerman/workerman" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/qcloudsms/qcloudsms_php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="734" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fask" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fask" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="apii" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fask" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="apii" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\apii\controller\bean" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\public\assets\js\backend\general" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\admin\view\general" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\admin\controller\general" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\admin\lang\zh-cn\userinfo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\admin\model\user\base" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\admin\model" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\public\assets\aui" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\public\assets\weui" />
+      <recent name="E:\install\server\xmapp721\htdocs\fask\application\apii\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f894993f-39e7-4c07-8f8a-814026744c31" name="Default" comment="" />
+      <created>1538069127211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538069127211</updated>
+      <workItem from="1538069128899" duration="813000" />
+      <workItem from="1538225899905" duration="9811000" />
+      <workItem from="1538888118587" duration="42901000" />
+      <workItem from="1539183563259" duration="8193000" />
+      <workItem from="1539308842670" duration="8406000" />
+      <workItem from="1539665520851" duration="158000" />
+      <workItem from="1539665808034" duration="20489000" />
+      <workItem from="1539821444254" duration="11245000" />
+      <workItem from="1540022230162" duration="16244000" />
+      <workItem from="1540109346980" duration="644000" />
+      <workItem from="1540188641344" duration="1605000" />
+      <workItem from="1540190990459" duration="29756000" />
+      <workItem from="1540348445253" duration="47128000" />
+      <workItem from="1540688591410" duration="63685000" />
+      <workItem from="1541030491848" duration="39295000" />
+      <workItem from="1541471677673" duration="3714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="274010000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20972222" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32985657" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/example/images/layers/popout.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/example/images/layers/transparent.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/example/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/example/example.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="354" column="72" selection-start-line="354" selection-start-column="26" selection-end-line="354" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/example/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret column="767" selection-start-column="766" selection-end-column="767" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/libs/jquery/src/effects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="566" column="4" selection-start-line="566" selection-start-column="4" selection-end-line="566" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="699" column="9" selection-start-line="699" selection-start-column="9" selection-end-line="699" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/libs/jquery/src/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="330" column="4" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/style/weui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="404" column="11" lean-forward="true" selection-start-line="404" selection-start-column="11" selection-end-line="404" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/libs/jquery/src/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="381" column="32" selection-start-line="381" selection-start-column="25" selection-end-line="381" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/aui/script/aui-toast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/weui/dist/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="593" column="18" lean-forward="true" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/cashin/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/user/cashin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/libs/jquery/src/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/user/Cashin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/model/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/PreRegistrationModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/SendCodeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/user/base/Gjj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/user/base/Alipay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/user/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/ucenter/library/client/uc_client/control/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/common.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/bean/BeanCashin.php" />
+    <entry file="file://$PROJECT_DIR$/public/assets/aui/css/aui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="2647" column="15" selection-start-line="2647" selection-start-column="10" selection-end-line="2647" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/aui/css/api.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/view/Paytest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/view/Paytest/errorview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16587">
+          <caret line="873" selection-start-line="873" selection-end-line="873" />
+          <folding>
+            <element signature="e#6998#7004#0" expanded="true" />
+            <element signature="e#7662#7666#0" expanded="true" />
+            <element signature="e#7686#7690#0" expanded="true" />
+            <element signature="e#7778#7782#0" expanded="true" />
+            <element signature="e#7799#7805#0" expanded="true" />
+            <element signature="e#7811#7817#0" expanded="true" />
+            <element signature="e#7956#7960#0" expanded="true" />
+            <element signature="e#8222#8226#0" expanded="true" />
+            <element signature="e#8238#8242#0" expanded="true" />
+            <element signature="e#8249#8253#0" expanded="true" />
+            <element signature="e#8259#8263#0" expanded="true" />
+            <element signature="e#8268#8272#0" expanded="true" />
+            <element signature="e#8361#8365#0" expanded="true" />
+            <element signature="e#8441#8447#0" expanded="true" />
+            <element signature="e#8452#8458#0" expanded="true" />
+            <element signature="e#8626#8630#0" expanded="true" />
+            <element signature="e#8650#8654#0" expanded="true" />
+            <element signature="e#8678#8682#0" expanded="true" />
+            <element signature="e#8782#8786#0" expanded="true" />
+            <element signature="e#8806#8810#0" expanded="true" />
+            <element signature="e#8833#8837#0" expanded="true" />
+            <element signature="e#8997#9001#0" expanded="true" />
+            <element signature="e#9022#9026#0" expanded="true" />
+            <element signature="e#9032#9036#0" expanded="true" />
+            <element signature="e#9048#9052#0" expanded="true" />
+            <element signature="e#9200#9206#0" expanded="true" />
+            <element signature="e#9210#9216#0" expanded="true" />
+            <element signature="e#14140#14146#0" expanded="true" />
+            <element signature="e#14149#14155#0" expanded="true" />
+            <element signature="e#14172#14178#0" expanded="true" />
+            <element signature="e#14180#14186#0" expanded="true" />
+            <element signature="e#14191#14197#0" expanded="true" />
+            <element signature="e#14204#14210#0" expanded="true" />
+            <element signature="e#14911#14917#0" expanded="true" />
+            <element signature="e#14919#14925#0" expanded="true" />
+            <element signature="e#14928#14934#0" expanded="true" />
+            <element signature="e#14941#14947#0" expanded="true" />
+            <element signature="e#14949#14955#0" expanded="true" />
+            <element signature="e#14957#14963#0" expanded="true" />
+            <element signature="e#14965#14971#0" expanded="true" />
+            <element signature="e#14976#14982#0" expanded="true" />
+            <element signature="e#14983#14989#0" expanded="true" />
+            <element signature="e#15015#15021#0" expanded="true" />
+            <element signature="e#15024#15030#0" expanded="true" />
+            <element signature="e#15032#15038#0" expanded="true" />
+            <element signature="e#15043#15049#0" expanded="true" />
+            <element signature="e#15056#15062#0" expanded="true" />
+            <element signature="e#15064#15070#0" expanded="true" />
+            <element signature="e#15072#15078#0" expanded="true" />
+            <element signature="e#15080#15086#0" expanded="true" />
+            <element signature="e#15091#15097#0" expanded="true" />
+            <element signature="e#15098#15104#0" expanded="true" />
+            <element signature="e#15166#15172#0" expanded="true" />
+            <element signature="e#15175#15181#0" expanded="true" />
+            <element signature="e#15183#15189#0" expanded="true" />
+            <element signature="e#15194#15200#0" expanded="true" />
+            <element signature="e#15207#15213#0" expanded="true" />
+            <element signature="e#15215#15221#0" expanded="true" />
+            <element signature="e#15222#15228#0" expanded="true" />
+            <element signature="e#15230#15236#0" expanded="true" />
+            <element signature="e#15241#15247#0" expanded="true" />
+            <element signature="e#15248#15254#0" expanded="true" />
+            <element signature="e#15266#15272#0" expanded="true" />
+            <element signature="e#21472#21477#0" expanded="true" />
+            <element signature="e#21523#21528#0" expanded="true" />
+            <element signature="e#21546#21551#0" expanded="true" />
+            <element signature="e#21596#21601#0" expanded="true" />
+            <element signature="e#21612#21617#0" expanded="true" />
+            <element signature="e#21627#21632#0" expanded="true" />
+            <element signature="e#21646#21651#0" expanded="true" />
+            <element signature="e#24829#24833#0" expanded="true" />
+            <element signature="e#24840#24844#0" expanded="true" />
+            <element signature="e#24918#24922#0" expanded="true" />
+            <element signature="e#24930#24934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/view/Knowpay/cashin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="190" column="38" selection-start-line="190" selection-start-column="32" selection-end-line="190" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/CashIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Getindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/user/base/LaonShangjin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Wxnotify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="76" column="101" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Setindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="300" column="11" lean-forward="true" selection-start-line="300" selection-start-column="11" selection-end-line="300" selection-end-column="11" />
+          <folding>
+            <element signature="e#72#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/view/Paytest/cashin_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="171" column="67" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="67" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Knowpay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="181" column="55" selection-start-line="181" selection-start-column="54" selection-end-line="181" selection-end-column="55" />
+          <folding>
+            <element signature="e#129#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Paytest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          <folding>
+            <element signature="e#39#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="140" column="101" selection-start-line="140" selection-start-column="90" selection-end-line="140" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="74" lean-forward="true" selection-start-line="29" selection-start-column="74" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#1419#1452#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/apii/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="232" column="31" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="31" />
+          <folding>
+            <element signature="e#38#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

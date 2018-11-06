@@ -1,0 +1,82 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Uid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-uid" class="form-control form-control" name="row[uid]" type="number" value="{$row.uid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cash_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cash_name" class="form-control form-control" name="row[cash_name]" type="text" value="{$row.cash_name}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Case')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-case" class="form-control form-control" name="row[case]" type="text" value="{$row.case}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Fees')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fees" class="form-control form-control" name="row[fees]" type="text" value="{$row.fees}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Real_case')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-real_case" class="form-control form-control" name="row[real_case]" type="text" value="{$row.real_case}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cashout_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cashout_type" class="form-control form-control" name="row[cashout_type]" type="text" value="{$row.cashout_type}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cashout_account')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cashout_account" class="form-control form-control" name="row[cashout_account]" type="text" value="{$row.cashout_account}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" class="form-control form-control" name="row[status]" type="text" value="{$row.status}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Note')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-note" class="form-control form-control" name="row[note]" type="text" value="{$row.note}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{$row.create_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Verify_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-verify_time" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[verify_time]" type="text" value="{$row.verify_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Transfer_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-transfer_time" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[transfer_time]" type="text" value="{$row.transfer_time}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

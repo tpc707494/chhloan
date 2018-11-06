@@ -1,0 +1,96 @@
+[ 2018-10-09T11:24:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006523s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:24:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'userbase' [ RunTime:0.001521s ]
+[ 2018-10-09T11:24:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_userbase' [ RunTime:0.001207s ]
+[ 2018-10-09T11:26:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006585s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:26:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001363s ]
+[ 2018-10-09T11:26:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001374s ]
+[ 2018-10-09T11:26:35+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_base_info' ORDER BY ORDINAL_POSITION [ RunTime:0.020504s ]
+[ 2018-10-09T11:28:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006543s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:28:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001428s ]
+[ 2018-10-09T11:28:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001322s ]
+[ 2018-10-09T11:28:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006304s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:28:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001372s ]
+[ 2018-10-09T11:28:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001589s ]
+[ 2018-10-09T11:29:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006199s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:29:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001393s ]
+[ 2018-10-09T11:29:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001396s ]
+[ 2018-10-09T11:30:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006342s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:30:00+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001325s ]
+[ 2018-10-09T11:30:00+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001323s ]
+[ 2018-10-09T11:30:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.008062s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:30:11+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001366s ]
+[ 2018-10-09T11:30:11+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001355s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006229s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_base_info' [ RunTime:0.001330s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_base_info' [ RunTime:0.001431s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_base_info' ORDER BY ORDINAL_POSITION [ RunTime:0.019911s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006175s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.017756s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user' LIMIT 1 [ RunTime:0.000524s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/base' LIMIT 1 [ RunTime:0.000416s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (66 , 'user/base' , 'base' , 'fa fa-list' , '' , 1 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.075291s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/base/info' LIMIT 1 [ RunTime:0.000695s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (89 , 'user/base/info' , 'Info' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.048111s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/base/info/index' LIMIT 1 [ RunTime:0.000504s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/base/info/add' LIMIT 1 [ RunTime:0.000406s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/base/info/edit' LIMIT 1 [ RunTime:0.000420s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/base/info/del' LIMIT 1 [ RunTime:0.000391s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/base/info/multi' LIMIT 1 [ RunTime:0.000577s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 90 , 'user/base/info/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.000906s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 90 , 'user/base/info/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.000309s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 90 , 'user/base/info/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.000168s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 90 , 'user/base/info/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.000176s ]
+[ 2018-10-09T11:30:21+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 90 , 'user/base/info/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539055821 , 1539055821) [ RunTime:0.000176s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.008149s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_gjj' [ RunTime:0.001403s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_gjj' [ RunTime:0.001767s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_gjj' ORDER BY ORDINAL_POSITION [ RunTime:0.021289s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006121s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.037411s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user' LIMIT 1 [ RunTime:0.000534s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'user/gjj' LIMIT 1 [ RunTime:0.000410s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (66 , 'user/gjj' , 'Gjj' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1539056125 , 1539056125) [ RunTime:0.059474s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/gjj/index' LIMIT 1 [ RunTime:0.000438s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/gjj/add' LIMIT 1 [ RunTime:0.000321s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/gjj/edit' LIMIT 1 [ RunTime:0.000282s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/gjj/del' LIMIT 1 [ RunTime:0.000296s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'user/gjj/multi' LIMIT 1 [ RunTime:0.000285s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 96 , 'user/gjj/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1539056125 , 1539056125) [ RunTime:0.012065s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 96 , 'user/gjj/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1539056125 , 1539056125) [ RunTime:0.000201s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 96 , 'user/gjj/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1539056125 , 1539056125) [ RunTime:0.000163s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 96 , 'user/gjj/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1539056125 , 1539056125) [ RunTime:0.000194s ]
+[ 2018-10-09T11:35:25+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 96 , 'user/gjj/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1539056125 , 1539056125) [ RunTime:0.000155s ]
+[ 2018-10-09T11:36:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006396s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:36:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_gjj' [ RunTime:0.001379s ]
+[ 2018-10-09T11:36:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_gjj' [ RunTime:0.001406s ]
+[ 2018-10-09T11:48:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.009152s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:48:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_jsz' [ RunTime:0.001374s ]
+[ 2018-10-09T11:48:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_jsz' [ RunTime:0.001232s ]
+[ 2018-10-09T11:49:06+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006680s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:49:06+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_lianxiren' [ RunTime:0.001312s ]
+[ 2018-10-09T11:49:06+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_lianxiren' [ RunTime:0.002024s ]
+[ 2018-10-09T11:49:06+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_lianxiren' ORDER BY ORDINAL_POSITION [ RunTime:0.017368s ]
+[ 2018-10-09T11:54:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006222s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:54:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_rl' [ RunTime:0.001294s ]
+[ 2018-10-09T11:54:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_rl' [ RunTime:0.041654s ]
+[ 2018-10-09T11:54:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_rl' ORDER BY ORDINAL_POSITION [ RunTime:0.024327s ]
+[ 2018-10-09T11:54:13+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006355s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:54:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_sb' [ RunTime:0.001328s ]
+[ 2018-10-09T11:54:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_sb' [ RunTime:0.002229s ]
+[ 2018-10-09T11:54:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_sb' ORDER BY ORDINAL_POSITION [ RunTime:0.020498s ]
+[ 2018-10-09T11:54:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006300s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:54:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_wechat' [ RunTime:0.001293s ]
+[ 2018-10-09T11:54:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_wechat' [ RunTime:0.002180s ]
+[ 2018-10-09T11:54:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_wechat' ORDER BY ORDINAL_POSITION [ RunTime:0.041625s ]
+[ 2018-10-09T11:54:34+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006246s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:54:34+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_xinyongka' [ RunTime:0.001336s ]
+[ 2018-10-09T11:54:34+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_xinyongka' [ RunTime:0.002355s ]
+[ 2018-10-09T11:54:34+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_xinyongka' ORDER BY ORDINAL_POSITION [ RunTime:0.023809s ]
+[ 2018-10-09T11:54:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006191s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:54:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_xsz' [ RunTime:0.001298s ]
+[ 2018-10-09T11:54:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_xsz' [ RunTime:0.032136s ]
+[ 2018-10-09T11:54:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_xsz' ORDER BY ORDINAL_POSITION [ RunTime:0.017948s ]
+[ 2018-10-09T11:54:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006413s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-09T11:54:47+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_sjk' [ RunTime:0.001295s ]
+[ 2018-10-09T11:54:47+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_sjk' [ RunTime:0.001909s ]
+[ 2018-10-09T11:54:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_user_sjk' ORDER BY ORDINAL_POSITION [ RunTime:0.019581s ]

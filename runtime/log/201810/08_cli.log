@@ -1,0 +1,4 @@
+[ 2018-10-08T18:05:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006098s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-08T18:05:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'cashout' [ RunTime:0.001047s ]
+[ 2018-10-08T18:05:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_cashout' [ RunTime:0.001439s ]
+[ 2018-10-08T18:05:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_cashout' ORDER BY ORDINAL_POSITION [ RunTime:0.033920s ]

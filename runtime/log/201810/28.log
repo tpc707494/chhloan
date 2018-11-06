@@ -1,0 +1,2906 @@
+---------------------------------------------------------------
+[ 2018-10-28T09:35:15+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：1.135101s][吞吐率：0.88req/s] [内存消耗：2,729.12kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000526s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016596s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.052952s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.081115s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:35:14'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.072543s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.081810s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:35:17+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.378738s][吞吐率：2.64req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004522s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002806s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000903s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.149561s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:35:17'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.061021s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.076287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000797s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:35:17+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.295297s][吞吐率：3.39req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006008s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002808s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000908s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.053692s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:35:17'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.054374s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.048480s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.050765s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.001192s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:35:21+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.225886s][吞吐率：4.43req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004817s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002629s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000876s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.040635s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:35:21'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.086927s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.030430s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:35:21+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.214614s][吞吐率：4.66req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004797s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002468s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.032730s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:35:21'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.054077s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.029657s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.029426s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000941s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:36:24+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.388356s][吞吐率：2.57req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004605s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002928s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028106s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:36:23'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.253855s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.026925s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:36:27+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.230170s][吞吐率：4.34req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004843s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002487s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.058160s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:36:27'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.067611s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.032443s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000909s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:36:34+08:00 ] 192.168.1.104 POST /apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.326439s][吞吐率：3.06req/s] [内存消耗：2,727.35kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007398s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005945s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001133s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.071515s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:36:34'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.068567s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.091886s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.001239s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:36:34+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.333114s][吞吐率：3.00req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000118s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007856s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005835s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001689s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.067881s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.011013s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:36:34'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.082179s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.054934s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000877s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:36:35+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.253615s][吞吐率：3.94req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005737s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004483s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.033458s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:36:35'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.066098s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.033236s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.001605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.035502s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000960s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:40:12+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.140343s][吞吐率：7.13req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005887s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__51cke__=; __guid=111872281.1111390201129146600.1540370156582.2195; __tins__18759442=%7B%22sid%22%3A%201540585363080%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201540587163080%7D; __51laig__=34; _ga=GA1.1.1315841170.1540630862; _gid=GA1.1.875196179.1540630862',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-28T09:46:08+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.064795s][吞吐率：15.43req/s] [内存消耗：1,473.38kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005344s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__51cke__=; __guid=111872281.1111390201129146600.1540370156582.2195; __tins__18759442=%7B%22sid%22%3A%201540585363080%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201540587163080%7D; __51laig__=34; _ga=GA1.1.1315841170.1540630862; _gid=GA1.1.875196179.1540630862',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-28T09:53:25+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.233410s][吞吐率：4.28req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006260s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003827s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005957s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.042366s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001401s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:53:25'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.061795s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.029994s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000894s ]
+---------------------------------------------------------------
+[ 2018-10-28T09:53:37+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.199373s][吞吐率：5.02req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004858s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002531s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001050s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.038183s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 09:53:36'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.055966s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.033578s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2018-10-28T10:47:06+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.403140s][吞吐率：2.48req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000153s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009063s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004080s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003866s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.062252s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001246s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 10:47:06'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.127827s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.107069s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.001086s ]
+---------------------------------------------------------------
+[ 2018-10-28T10:47:06+08:00 ] 192.168.1.104 POST /apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.405043s][吞吐率：2.47req/s] [内存消耗：2,727.35kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008839s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005253s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.061040s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 10:47:06'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.187830s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.048705s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2018-10-28T10:47:07+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.294616s][吞吐率：3.39req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005147s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002524s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.031165s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000743s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 10:47:07'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.125154s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.041227s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2018-10-28T10:48:51+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.183922s][吞吐率：5.44req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004533s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002858s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.027029s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 10:48:51'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.065418s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.027483s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2018-10-28T10:48:53+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.174759s][吞吐率：5.72req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005069s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002682s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001089s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028446s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 10:48:53'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.047181s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.028849s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000730s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:36:15+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.232503s][吞吐率：4.30req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000229s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007450s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004366s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003698s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.033966s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:36:15'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.055959s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.031941s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000782s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:37:15+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.201724s][吞吐率：4.96req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005820s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004113s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.032356s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:37:15'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.042647s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.041729s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:37:15+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.235333s][吞吐率：4.25req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007251s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005153s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001005s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.053436s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:37:15'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.054315s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.028728s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:37:17+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.185516s][吞吐率：5.39req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005216s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002497s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001119s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.029963s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:37:17'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.053325s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.029437s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000798s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:37:19+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.229880s][吞吐率：4.35req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004209s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002940s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.041733s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:37:19'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.087545s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.030216s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000678s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:45:14+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.312209s][吞吐率：3.20req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004679s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002226s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.054530s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:45:14'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.091742s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.050635s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000812s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:45:27+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.200132s][吞吐率：5.00req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006706s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002791s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001010s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.033373s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:45:27'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.050528s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.034536s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2018-10-28T11:45:34+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.181094s][吞吐率：5.52req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005773s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003006s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028745s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 11:45:34'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.041172s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.028480s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.000830s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:07:35+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：3.977595s][吞吐率：0.25req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000146s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.162811s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.148441s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103304s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.246311s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.002537s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:07:34'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.492195s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.140262s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000724s ]
+at` DESC [ RunTime:0.001082s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:07:39+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.221462s][吞吐率：4.52req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005257s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002692s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001088s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028471s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:07:39'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.059518s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.027378s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.028828s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000747s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:07:42+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.200511s][吞吐率：4.99req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005138s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003288s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.042152s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:07:42'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.059244s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.031239s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000775s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:07:44+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.360832s][吞吐率：2.77req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004293s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002630s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001007s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.085515s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:07:44'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.149394s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.059344s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:08:00+08:00 ] 192.168.1.104 POST /apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.325895s][吞吐率：3.07req/s] [内存消耗：2,727.35kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005257s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002486s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001139s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.046675s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:08:00'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.091413s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.118472s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:08:00+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.432119s][吞吐率：2.31req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006099s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002431s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001256s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.053164s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.018867s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:08:00'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.196568s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.094409s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.001010s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:08:01+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.219522s][吞吐率：4.56req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004471s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002524s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028521s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:08:01'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.070028s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.023885s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.024831s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000909s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:08:04+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.236920s][吞吐率：4.22req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003928s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002602s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.023583s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:08:04'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.118131s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.023751s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:08:06+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.190931s][吞吐率：5.24req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005035s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002785s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010907s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.030621s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:08:06'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.058646s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.023614s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:09:14+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.257675s][吞吐率：3.88req/s] [内存消耗：1,473.20kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000281s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005374s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5603.400 QQBrowser/10.1.1775.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__51cke__=; __guid=111872281.1111390201129146600.1540370156582.2195; __tins__18759442=%7B%22sid%22%3A%201540585363080%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201540587163080%7D; __51laig__=34; _ga=GA1.1.1315841170.1540630862',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-28T22:09:41+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.393317s][吞吐率：2.54req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000082s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010055s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005981s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005579s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.058118s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.003797s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:09:41'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.093798s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.080655s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.001037s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:09:41+08:00 ] 192.168.1.104 POST /apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.397112s][吞吐率：2.52req/s] [内存消耗：2,727.35kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007912s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004740s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008559s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.069662s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.010273s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:09:41'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.103801s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.059180s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.000859s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:09:42+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.298176s][吞吐率：3.35req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006132s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002471s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.036621s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:09:42'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.104824s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.035976s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.040008s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000993s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:09:46+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.216676s][吞吐率：4.62req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004890s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003670s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.030891s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:09:46'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.072507s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.035687s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.001052s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:09:47+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.222866s][吞吐率：4.49req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005475s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004716s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001490s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.048645s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001304s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:09:47'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.056211s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.031643s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:09:52+08:00 ] 192.168.1.104 POST /apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%403fe8bc9
+[ info ] 192.168.1.104/apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%403fe8bc9 [运行时间：0.144335s][吞吐率：6.93req/s] [内存消耗：2,755.69kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005931s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'mCallbacks' => 'null ',
+  'qixian' => 'null ',
+  'lixi' => 'null ',
+  'allloan' => 'null ',
+  'yongtu' => 'null ',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+  'huankuan' => 'null ',
+  'alllixi' => 'null ',
+  '$change' => 'null ',
+  'serialVersionUID' => '8822751046783895228',
+  'this$0' => 'cn.qhh.com.chh.activity.Loan.AcLoanApplyView@3fe8bc9',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003634s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.027455s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` IS NULL LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:10:55+08:00 ] 192.168.1.104 POST /apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%403fe8bc9
+[ info ] 192.168.1.104/apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%403fe8bc9 [运行时间：0.118697s][吞吐率：8.42req/s] [内存消耗：2,755.69kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000090s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005695s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'mCallbacks' => 'null ',
+  'qixian' => 'null ',
+  'lixi' => 'null ',
+  'allloan' => 'null ',
+  'yongtu' => 'null ',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+  'huankuan' => 'null ',
+  'alllixi' => 'null ',
+  '$change' => 'null ',
+  'serialVersionUID' => '8822751046783895228',
+  'this$0' => 'cn.qhh.com.chh.activity.Loan.AcLoanApplyView@3fe8bc9',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002660s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001418s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.043150s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` IS NULL LIMIT 1 [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:11:02+08:00 ] 192.168.1.104 POST /apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%403fe8bc9
+[ info ] 192.168.1.104/apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%403fe8bc9 [运行时间：0.106294s][吞吐率：9.41req/s] [内存消耗：2,755.69kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004861s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'mCallbacks' => 'null ',
+  'qixian' => 'null ',
+  'lixi' => 'null ',
+  'allloan' => 'null ',
+  'yongtu' => 'null ',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+  'huankuan' => 'null ',
+  'alllixi' => 'null ',
+  '$change' => 'null ',
+  'serialVersionUID' => '8822751046783895228',
+  'this$0' => 'cn.qhh.com.chh.activity.Loan.AcLoanApplyView@3fe8bc9',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002972s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001225s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.030786s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` IS NULL LIMIT 1 [ RunTime:0.000887s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:14:23+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.347829s][吞吐率：2.87req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000307s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007036s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004728s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005176s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.045569s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:14:23'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.113068s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.078519s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000767s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:14:23+08:00 ] 192.168.1.104 POST /apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.399309s][吞吐率：2.50req/s] [内存消耗：2,727.35kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000321s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008007s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005121s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004787s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.044463s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001690s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:14:23'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.179586s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.063785s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.000903s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:14:24+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.290938s][吞吐率：3.44req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005086s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005154s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001411s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028092s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:14:23'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.103659s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.045696s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.036605s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000950s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:15:01+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.161786s][吞吐率：6.18req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004726s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002588s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.024928s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:15:01'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.036829s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.027069s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.001771s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:15:03+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.208828s][吞吐率：4.79req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004294s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003275s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001421s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.031074s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:15:03'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.058832s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.029040s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.019329s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:15:10+08:00 ] 192.168.1.104 POST /apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%40820bc18
+[ info ] 192.168.1.104/apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%40820bc18 [运行时间：0.107504s][吞吐率：9.30req/s] [内存消耗：2,755.69kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004630s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'mCallbacks' => 'null ',
+  'qixian' => 'null ',
+  'lixi' => 'null ',
+  'allloan' => 'null ',
+  'yongtu' => 'null ',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+  'huankuan' => 'null ',
+  'alllixi' => 'null ',
+  '$change' => 'null ',
+  'serialVersionUID' => '8822751046783895228',
+  'this$0' => 'cn.qhh.com.chh.activity.Loan.AcLoanApplyView@820bc18',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003107s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.038873s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` IS NULL LIMIT 1 [ RunTime:0.000781s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:17:17+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.307499s][吞吐率：3.25req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009405s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005543s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001231s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.050075s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001575s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:17:17'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.064638s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.069428s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.001106s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:17:17+08:00 ] 192.168.1.104 POST /apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.310833s][吞吐率：3.22req/s] [内存消耗：2,727.35kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009369s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005314s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002281s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.052412s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:17:17'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.081073s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.056167s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.001559s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:17:18+08:00 ] 192.168.1.104 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.238900s][吞吐率：4.19req/s] [内存消耗：2,741.64kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005244s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002955s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001133s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.033726s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:17:17'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.059840s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.030454s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.026222s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 7 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000929s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:17:20+08:00 ] 192.168.1.104 POST /apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_guodu?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.304558s][吞吐率：3.28req/s] [内存消耗：2,729.13kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004267s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_guodu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002625s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_guodu[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001506s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.038757s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.006014s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:17:20'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.152502s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.029252s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:17:22+08:00 ] 192.168.1.104 POST /apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.314383s][吞吐率：3.18req/s] [内存消耗：2,728.57kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006123s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002806s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.034806s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:17:22'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.155935s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.041209s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '7' LIMIT 1 [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:17:27+08:00 ] 192.168.1.104 POST /apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&phone=18398608857&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%40d44d773
+[ info ] 192.168.1.104/apii/setindex/setloanlixi?mCallbacks=null&qixian=null&lixi=null&allloan=null&yongtu=null&token=2c3ffe6a87574992d112648f8644e842d848f738&huankuan=null&alllixi=null&%24change=null&phone=18398608857&serialVersionUID=8822751046783895228&this%240=cn.qhh.com.chh.activity.Loan.AcLoanApplyView%40d44d773 [运行时间：0.197341s][吞吐率：5.07req/s] [内存消耗：2,812.41kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005665s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'mCallbacks' => 'null ',
+  'qixian' => 'null ',
+  'lixi' => 'null ',
+  'allloan' => 'null ',
+  'yongtu' => 'null ',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+  'huankuan' => 'null ',
+  'alllixi' => 'null ',
+  '$change' => 'null ',
+  'phone' => '18398608857',
+  'serialVersionUID' => '8822751046783895228',
+  'this$0' => 'cn.qhh.com.chh.activity.Loan.AcLoanApplyView@d44d773',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002626s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001347s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.031168s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:17:27'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.070604s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000816s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:32:49+08:00 ] 192.168.1.104 POST /apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] 192.168.1.104/apii/getindex/get_api_config?alias=qixian_a&phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.248694s][吞吐率：4.02req/s] [内存消耗：2,726.08kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013095s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_api_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'alias' => 'qixian_a',
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003581s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_api_config[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001551s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.045537s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:32:49'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.070061s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.027678s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'qixian_a' [ RunTime:0.001031s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:55:36+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi
+[ info ] localhost/apii/setindex/setloanlixi [运行时间：0.160681s][吞吐率：6.22req/s] [内存消耗：2,753.27kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008340s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1540535703',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003790s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.031698s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` IS NULL  AND `phone` IS NULL LIMIT 1 [ RunTime:0.000869s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:55:36+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.046937s][吞吐率：21.31req/s] [内存消耗：1,472.39kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004738s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/apii/setindex/setloanlixi',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1540535703',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-28T22:56:03+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.352854s][吞吐率：2.83req/s] [内存消耗：2,974.05kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000797s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007180s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1540535703',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003758s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000998s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.035413s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:56:03'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.063619s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.029230s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000756s ]
+[ error ] [0]致命错误: Call to a member function toArray() on array[E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php:791]
+---------------------------------------------------------------
+[ 2018-10-28T22:56:19+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.277161s][吞吐率：3.61req/s] [内存消耗：2,824.37kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000113s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005160s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1540535703',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003549s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.033741s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:56:19'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.102859s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.031842s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000700s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:56:29+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.267649s][吞吐率：3.74req/s] [内存消耗：2,970.34kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000118s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005310s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1540535703',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003788s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001190s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.034262s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:56:29'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.069890s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.062803s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000776s ]
+[ error ] [0]variable type error： array[E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-10-28T22:56:46+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.299675s][吞吐率：3.34req/s] [内存消耗：2,796.68kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000113s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006077s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1540535703',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004184s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.033594s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:56:46'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.133578s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.029623s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000962s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:57:25+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.219490s][吞吐率：4.56req/s] [内存消耗：2,795.18kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000086s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005125s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004224s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011443s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028662s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:57:25'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.057159s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.026385s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.001005s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:57:38+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.174144s][吞吐率：5.74req/s] [内存消耗：2,790.74kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004200s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002790s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.025217s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:57:38'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.056037s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.025355s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000814s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:58:31+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.202158s][吞吐率：4.95req/s] [内存消耗：2,790.96kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004456s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002605s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001181s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.026752s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:58:31'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.076378s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.027254s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000705s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:58:39+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.195949s][吞吐率：5.10req/s] [内存消耗：2,790.95kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004134s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002746s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001057s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.024502s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:58:39'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.077520s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.024686s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:58:48+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.245581s][吞吐率：4.07req/s] [内存消耗：2,823.78kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004790s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002779s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001268s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.051681s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:58:48'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.078798s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.033931s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000895s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:58:48+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.047190s][吞吐率：21.19req/s] [内存消耗：1,471.58kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004773s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-28T22:58:53+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.211097s][吞吐率：4.74req/s] [内存消耗：2,790.95kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004976s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002480s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.027907s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:58:53'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.089260s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.026126s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000832s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:58:55+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.202444s][吞吐率：4.94req/s] [内存消耗：2,790.95kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004367s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002482s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.028778s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:58:54'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.073005s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.026630s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:59:24+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.184991s][吞吐率：5.41req/s] [内存消耗：2,823.97kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004684s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003021s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001162s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.025993s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:59:24'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.063696s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.025389s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.000851s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:59:24+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.047302s][吞吐率：21.14req/s] [内存消耗：1,471.78kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004099s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-28T22:59:40+08:00 ] 0.0.0.0 GET /apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738
+[ info ] localhost/apii/setindex/setloanlixi?phone=18398608857&token=2c3ffe6a87574992d112648f8644e842d848f738 [运行时间：0.287626s][吞吐率：3.48req/s] [内存消耗：2,823.99kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008151s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'setindex',
+    2 => 'setloanlixi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '2c3ffe6a87574992d112648f8644e842d848f738',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007530s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Setindex->setloanlixi[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Setindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001746s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.055988s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.001359s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-11-04 22:59:40'  WHERE  `token` = '2c3ffe6a87574992d112648f8644e842d848f738' [ RunTime:0.052745s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.003078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.050451s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `type` = 'loan_set' [ RunTime:0.001473s ]
+---------------------------------------------------------------
+[ 2018-10-28T22:59:40+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [运行时间：0.059267s][吞吐率：16.87req/s] [内存消耗：1,471.78kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005484s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

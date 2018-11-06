@@ -1,0 +1,3163 @@
+---------------------------------------------------------------
+[ 2018-10-15T08:30:37+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.054632s][åžåçŽ‡ï¼š18.30req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.77kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003885s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003405s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:33:09+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.054931s][åžåçŽ‡ï¼š18.20req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004685s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '630',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÎÇ¢k@' => '»¡ç_–ƒrŠÇ­Yö”D.(m¯.¶óU²B÷²’Aùâ€Ëˆ¥K£Ë±¡¨üm|¤¬' . "\0" . 'mÜIŽ_ÿçRŸDQ¨¯‹¾IDÏìÜ;ä™Ù?³»œÜˆýwñH †3^s6y…	\'Jûqã¯Í<¼Ù·úR’HË›“‚NÈøÈ("*t#áºú1ª#º¶þ	nãºS:ß!¯ý•S©"÷\'yPs7ràÔF*eù',
+  '›E-q›åk9±Œ•nÂ,½«Õ`zÇ±á>éÆê«uøšœ~íã/¥Ýºmêh^ãYúØDrœ€Æå0ÆšÃÁÕæUùŽNcÎ¹‡ô¤çÂôaD(]Pí•ºOÏm' => 'Êðå¹‚à^Úfß@Ž÷éÆNì\'U«CZ¹|¥)¥©z!ª®' . "\0" . '¸–Š¡FSh­¨0¸ncœ¿À®ÿwèþ4Š‡~ñ›kaED
+ Ãò>gâk‡Ùõè >³fÍ¬ µzSÔRD‰JÅwZi\'yiÛ×OvÕ:,y.tÏ…R!Îü)¢ôÈnÕ¥¦¢<{¡\'÷ ItÂX’' . "\0" . 'gú½qœ^ˆqg§¼„¬V2aVµbO*²tQã:Í”™VùŽ\'Q7=z¯ø¾ËÛ…àòýJ^ÃœèJ
+íÝošÇ(®¬ BÊ	üø•†tÜvé^ß3k¦Ï*„²Twç˜fÞ@û²h<êA\\iLéuºuî|¾ÿ' . "\0" . '',
+  'ßâ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:33:09+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.040944s][åžåçŽ‡ï¼š24.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003100s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '630',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐÙÚB@' => 'ýÿ¿ÁùN­ª',
+  '‹¿´šäçË7äQ_v|ôa©²žôHD¸d“_ß`nZî_®yÙœJâ¶ó›ã%¬XÔ¦á~’…Gf¡*%{žAÉW¾Y©‚,À—³;çýK‘µ™ˆOmöžÍ|g×HÓØMd' => 'Oý%Ø_û#¼.
+œ¯˜1õ-ëSfÀVy÷‰04Š7’ˆ–ôzÀW¦7w·W/HãyØEÊ¡cV!]£ˆR7ÌˆcT6‚õñX Ç¸TX†LØ
+|*Ìà7Á—DWf”‚[ÆØ[-å7oÈEú²7>÷¦Ý¡;%Ã½b*‘®ÜÃÞb‰ÄÉ-ßñ4û8´Ješ@Jâ$Mq3rTdCÈ§g\'v%ºQè¯Éík[—47$Ùj Îp}å››zmÁ¡=2ûÄÕ®=?‹ñ…\\ß×…G›…ï^?ú¤¤U`{ƒ,',
+  '‰¡xÚTƒt Ÿ¢˜^¥(ÌhðX_?¦øîMê0îÓðìhøm_Ýênðf³j¢ÎS	<ïÿ¿gqØú·ñ)väƒã_¡¾î±*bêN»¥ûæo£/³jMÝ ")-ŽdËäwlâÿÃP‹îºâ¶OÞÑÃ×(!x#2×RËòßªË<ƒ¢ks' => '!›ÇZé†Ý˜Ls¿›ø›ANm[)ëÚ6¶´þŒs#4û”¨vÇ)x‰¥²%,ˆuÁç×,€Y…t¯Œz„¤¥†öEI¶‰GKÙ´t^˜37¨ŽÔ½ù°#0«N™Ç¶º¨Ïã‰¦b2™´Hl™?ÛÖ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:33:09+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.048282s][åžåçŽ‡ï¼š20.71req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004399s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '649',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐ5¢«@' => '§ÿïSLÃó*Ñg½B?ñäÙÝÊíUÚÄ5{ö½O¸Ì ¥ÉO¾RP\'Õp’¸P]«6lûŽ.tÓM	ºlT–$©WnØu¶¡"\'=òŠÇò‚Â,' . "\0" . 'sëáÞ¦ÁBaßh_X1w£ÐtþºÝ"®Hˆ/ cûÜ¤(AGkci¢°ä®µ¸JñoØ/4”ËŠï”•3U?xÿäÕtøtä_ÐèD5Þ™p•Ùïq<ÐàžjõFøÜQHe	3t±Ä¦«g@ÏÏÉz04âÃhÕ½ÌD7½yH§ËÙ5/fbé94Až6‘Òj«¦§v|ò²¶ÒIVÅ"©™ðÐš¿P',
+  'i·lSuŽÖAá@‹fÎñ«-°ÿ_¦è7þÚö5~Z˜œžØÛççÂbRÄ}ÙMÎðPÄÊÎÑ)³' => '|ñçô¤?~ç!eØ©L-gÌ v2êl¯¹‰—[é‰_B§xÒá6«(IÁq?ã¯Ñé8SDÀaÕÈVVŽfñÎºÏ™©"ÎmÇhÄN{ñãS#)7Kö,9êŸäzž$ÍK=ƒ/¼]›KÉkÝ,¡3z$wä¾x?³«)_-®¯Üãû}Sê4À¸ÿõ«¯¼­dý^q çÞP9p=O[›áOç
+\'ˆé£Èwúþo~§Èüh[„ÕG’#5uŒDX‡AÝQÏ}IÀ³˜¶ö
+´}Ø!ÙŸJ“\\J½„‰ÖÑÐïöÓìw)ÊŸÕl@¥|kœvY°ÉA¤$Õ
+²„›õ]ÆEÙÒÃåÐr×Qýx™9Îÿû÷ô¬',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:33:09+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.039729s][åžåçŽ‡ï¼š25.17req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003095s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '651',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÌÇ¢k@' => '',
+  'ðò¶²¡¼PÁŠŽéýë7|bY_>â' => '7\'-:Òcï\\*K5nFGëHjø•¹_“jœ',
+  'ÅÛ\\}zm)wÉ¦þÁaq ³‚ï?¢/Û:º-^ã†Ý;×<}¢½"óz>È"²TÅåEcŠÀó‚ïo`Ìð¡øÛÃòÞÇpõÓÕ`÷{G¸]@#ýC­H6!1ÄÛh·fÌ3†µª–Œ,6Rkœ¬ÙQ±ÍÞâþ¾Ÿ—ñ…£äª‘œæmâkñ9c{Æ„_¡gôÇl¤\\%ÑåÌ›•e' => '§a
+ŒYjk÷N%jýÞx°C¡ÞBÝïU/Wªøu®º:;t~V¦:þiQ!a©I¬' . "\0" . '”3xo"6ãäA‹,WA»èC1L_µú© ñZ¸´‡9Ä>ÛFÌ#’Ý“­Üm¢¨ÜŠ´Á÷OJ)§ìÆˆ|ÿ¤•Ò3ÝFÜ…ccr¨‰ýFf„¤¾-ôOöx75rë¸¨k5°Ø…D™â¬[E°î_çÁ:…HúLr¿§Îd h£=Ä³–}íÍó\\Æéèb¼Î–H”ï í÷ý›¾û?ýz¿0NÍÎ["ˆV5úÓÊîÔÀzŒ£ˆ*ˆE’8HmvO)ûKH5]1/wG=1CÀ™<Æò×å„ºj!MÉ\\ŠOað’½V£~Ë­†frWÕv /77û*“ÐÖzð÷÷v\'	Œ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:33:09+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.048672s][åžåçŽ‡ï¼š20.55req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003068s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '663',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÁG¢C@' => '',
+  'dEŸ·‘§	äÖ‡¦Ñì­®4’' => '',
+  '¹ÜhQk•"±êMTÙ®umd´ñyÔtG»±ŽEbX43tê%’åÈqûÖ\\6òh]iÕ:' => '',
+  ';J²ô¹š¢(üÄtT0C8µ–zÊ‹\\®zø½µú¯Q9óÍ‡Îdî¹(ôo¸ÙàCgD†ó' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:06+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046017s][åžåçŽ‡ï¼š21.73req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.47kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002953s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1002',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÔ7¢ª@' => 'JŸ…ó¥™pö¾¿æó{$Ià€´-_´àLÎµ¶ˆ4Ñæs«IEoØ“ý˜‘ÀÂXÌ)å^Ä¢¨?¶ûUÝ-õHƒÄ—ùZ‘˜¨ù„óõ—^Ó#¶ÎÌ[5êë‰B·CÂõÄ¬ÔNH_vÈóÜ¡O',
+  '€j)qM¹1ÜÚŸoV-_¼³TÞ÷üªèWœ~é‘h¢·á˜gÉ•ä½ìVþ6_Ñ­šÃB`|ÔÄ_’âMaZÊ×þ¤Cƒ^ø6…ò÷ZŸÕ«¯?òÏ…t©/¿eËÍŸ¯ú‹ÇúT˜S' => '',
+  'ðìJÉ%¿¾f†Š…åg½•úª‹,téÝð›v¤bÉÇ_¼UªÌ÷ÒÉÂâkP`´Ç’·¯Xl¥Ì÷fúYø…Ý¬ÅMpWj¥øˆ‡áÂå^ß’V¶ˆcèÁå_åçWM¡6f¶†åv˜Se®K˜whôaìŽÚ¿Ì0¬ÄNTŠP_®Õì½9ÝîÎ"6UxÓÑFlwŒ{G·bŽù®sn6ïñ¶yò‘*Fš/éôÅž°ä˜ˆ6‘$8{Ãq(ã`Óüú|_R;âmoöc9;§î¨Æ¿:ÍËÁÑ' => ']SÂ"bYékûUÍÓ"gÖÖímaEÎ >wá§Ê',
+  '»™‰ñÁJ8@*¸z' => '',
+  'ÿTßº;Ë½–è¯§Ú/_raOÇïã;5_`ÖôÓˆŒ' => 'púÞ{kdf>¹BžV¾‘½Ó!xõŒ˜èŸ1½¨ÑÇLÙ7£KÚµ>šBA‚‚1XuW”>¼>òå‹µ«	5Y¶>,»®ÞO' . "\0" . 'K~#ã',
+  '½Qk>\\×X#•r—xµä]Ó¢\'PSèºŒ\'Ä€«aF\\¨’	cºƒUš/y|ž)A¢¤PXŽa9<6©¡ŒÆb_kGßbÍVSŠ“:pÈT×ºž—_‰Í½´®IevÔ½æc*ïi¨ ²yV"˜\'¦å>ö¤B„µ‡Ú_ÍøæBò‹T!_$¾¥6ÍÓÁò' => 'b',
+  'ì0dNøéY-œø`Á¯7
+\\Kûem¶gšŸÿþmc¤B' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:07+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.040923s][åžåçŽ‡ï¼š24.44req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002929s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1014',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ’5¶«P' => 'Wæ¥ä)éÇ7ÔÊÛ’\'AZâdc›Fò7ßuý/µBÒÉHú#—±÷ÜF•í1†®-.ÎËb
+L%Ésóð¸ÿB9N3KÖGîÚLoÌK­Á7s
+¢Î»$ùyjQ¶†ÉH±WªÊËzÜŠßœ ÷ïÕ)IÎíg¬zè ÁNÈ«>Å-ÇYnx~<ÚmÞ‡ëµÒ\'ü²KT±µÞGóÏ[Æ6Ñ}ªZ\'m’â¼rüj”ãÍeèu€q…	ù$è3…™É…ÙÅé%äèuÏ·ô²5Ñ?ñ¡áÚ›ü_CŠ¦~žø€Z?õï’TËV¾!QÃä^ÇÍ{”Ù/vbÎ«ƒ•êÄš£ûr–’‘(KKÇv%T®ô/®â %-xSS÷M´',
+  'Å½W!‹_¹Z‚’_ÏzÈaÞºò7¯9Ññ¼8ô' => '',
+  'f¦—³÷žYf†¿%Ì$ùm<#?pIÃ~R%£µd6©ðœhv}“ðzNå}JŽÖi¦w_}6Ô<äÌçzoij	' => '<•š¯rï‡zÇ€JÚ4À`Û×š|_\\w?‹ tÐ’ùD¸²ž',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:07+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.041191s][åžåçŽ‡ï¼š24.28req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.66kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003263s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1014',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ‘G¶lP' => '¯X$/HÄÄan~Ü?C£!·­ÀçÄ]Ég<ßn3± â8ì†´-Ÿ¥àIž½µ4‘hbSZT',
+  'Ù/<r' => '',
+  'õ°ÂŽP™xµ”28/ÖÜiK³ùå£Œ-Â4á0‚wñë"`ø½$µ÷|ô?†–fñ’' => '”zBòo¼_±ÈcÒÓû¬¿òfÃCÈÀ­±|2Bqûù°ÛŸÀXÙÑ UÛhoöÍÏð_úÙ0.°§{¥f"Ïóú0T²ÏëÎ,×‚A…=´ÄzÅ,·m5«ct6˜V?£n"„9å¾üÛ ìGnïÛ_æœ',
+  'ŠÊ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:07+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045951s][åžåçŽ‡ï¼š21.76req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003002s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1035',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ5¶¤P' => '',
+  'œL³ªt¹ó§<fËJÊr21:3Q÷54†æ×…ôùrâŽ§]Mä<\\t@Û–ÏRpÇ÷ÖXPK¾*,Ü—îFÜF@¯šY7µ' => '',
+  '§Y0Y^*Js×Ieñ:€´—UÅª!î#¡\\C1ûaÖŒM>£G$>¥h]"¿õ@¹¤6È^;«5/óe0ìæ-¶o»râÊçgà“ÒŠÁuìø6^â¬6À3†X½ç}{Evÿ­€' => '€†8ñm´tÛ.ò£wž@	ùnßÇ3v1HÅ-.~¥#bOŸr˜[ÔèI‹!Kœ1%‰Ÿ*{U³<3C‘U!§‡CH—S*ùØ_|%gsüû ™R‚¸Ý«$©ü®xPùM°Wh\'x˜ôÝÍpýÙ<`÷rVêT¡µZáGXÀÊöI"aÕ!X Ôè#ž3„N­ˆ´H]÷w' . "\0" . 'mñ\\¢L°˜Þ|ø*×íöÖæ¯êi§ãå¾QªUM5ŸûãÓ,ül7Vê‹è×0­‚Øøaž™×\\ÓúÎ¬)™ï§96b	|$Ì÷¥Êå9ÅL¢=Õtn{FtQWÚf½¿Õœò9"i\\w4c?]ZÞ' . "\0" . 'Ù¦áDä:õ}«cñ¶mc!â ör™¼¥n÷I(Š¥MySªªEÌY*ÝX«¹…Îl§Åj;“6sß¯N¥',
+  '‡KùFî{Frñ]CÄ­]' => '',
+  '©¢þmÝ^' => 'v)åÆ t)÷¸ã#Õ#ŸM2ÇæÂuVb»¢aµÖÈ-™O¢©³!	´âJ$ŽŽøž¿Ÿ ½¿ÚÛÍÐ’ûî¹‘a@ÿfÁwïÁ”°·nUpƒ>½d!D~Èd†ì‡gÄf±Û”' . "\0" . 'WSÂ…½U øç…¢é8cÅp)€õMRèz‚í2ŠFèÏùŒ ß¾ÙR§°Wö¼½¾É™wP',
+  '°ü^àC»w¦©ôÆnMO“³©ž
+½ªåƒ_7<>' => 
+  array (
+    'úê}ZRëšîpvÀ\'bàB ß²!9þÒPŒ*ž*	¼' => '',
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:07+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046762s][åžåçŽ‡ï¼š21.38req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002958s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1037',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÔIÖk@' => '‰‰ ±çý¸\'ÖZÏ”;vC\'åOm©m˜¼k¶yñ°qÄN¯t<¶˜çMGp`Š1•­u—Áï¯EwØùöS„võMÑã0ôêá‹ëŽsŒïW•ëþV¶MIOû“F©¤]þ\'r!Ì1L*B=cW	€³øn	¶
+0m_Y¸½¥28½ßcÕ¼¦]ÎŽ }OsžÆÛ{Ê…;o‰ÏŒ¢(ú²É,VÎƒ[¹ô è1oQŒçS%Ê¢WqèDË-ÃBy>5|¸¢§0¡Œœ[¥O…Ñ…¥ì_Õ%†­ÍH
+¿ô¹©ûIØ•Ïõv°v[¶åh0ÐòËFTTe§´È!	Ñjº¸kÀ¹b*‘\\y:àùžÅø§ýËGËónf*­gÍ¨é>jý•1OU4!ÑÇS—?\\"¸fÛ1ÿøiØqx¿Þ–ˆ…ÿÊÝÁLìû8—1Šã{÷³¹—¬¡qóìâpÖ·ß¡¿µÆì¶' . "\0" . '(fí†,kN‘ÄOŽšŸ' . "\0" . 'æ©G¸äz¾7µLvŒ"÷öœdÑ§EP¼¨ñ%›í¤ãÉ1[P7õ8gBÛs©‰n`:¥}’4TÉµ±õm\\nUÊCØµ„ôœ¿{“ âï€›D;I‘89†›Y(¾|ÇLK^.óqØ—}¿C³ŠÃG"Ø"Ø™ú7zD]©ÒµåÓ*6Ü4›´ ¸¦ŠâÒMPÿ:ÓàYW/\'pü¾r!=™ÒeÒQ‚êæÚ¬ä	ñ÷åˆ!V¡-¢_cFºià.YJz¯™„(T dä®!ÎIÕ~«V7åÈÌ¡\\)ú„7ò·¸Ç¯¦_=t…œÑç–vJ"g¦¸9rgWh)öi—¤´®§íƒŠÙŽ´€èçðr1/È¼:ýÍ²]’
+j)êú%yZ¤5æi³ä¬ŽŸ!Xl!’âj$S>æ“1¶IO”kÄŒÖkýƒê´È‹Û4K“‡#DR1NVOÕª(¨™¥š6Ãm—C±Ò³Ô(_¯Y†8¤†¹>µ^ô·ÿúòýý,~ûQêG]Š®ù¨–°ã‰·¼}–T„ÏS¹c¸ o°[’ø"´Î”diƒêüû÷„;·È',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:08+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.040379s][åžåçŽ‡ï¼š24.77req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002932s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1014',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“E‚ƒ@' => '',
+  'N¯-qó„í)_bf8wü*95Lª!FçáîlÔúXO¢9E¤G)H±µ_«W(s' => '›æé{TêÐ½Î2¥ñºÛ²´|Ç',
+  'ìyŸ
+É‰ïÃ¹"xðäÖ›T	zš"÷4Z¢k:\'îÖÐÕ‹$z;Åþ_)yy#öÏzTïÉ>á®T®®©ì2Ø¶Í¾ô«CpgsG;‰«ð9¾(í_`u™ÀÇòÿžï×IRF™6šh®Õ$ÁyÓVó]{}\\¶¢·t{l¨¦gá¸½þÏÛ€Ò£9¢øþ½‚>a‹N…`Î®/ÛU´üt4ò¼¾?ÿÇaÝƒÄÀíGœ£ŒUx~Ã{qRÇ~}vAØÜœa¾ò
+óÖÃ6ôG™Ã^ì0¬ˆÀ\'Rc^%r·B4F˜Ý"ó­‡5Œ:Çð}^ç‡%^è›ÔqîI
+žjÎMg˜ÓuÂ@Z©Yª¿·‘"¤
+ê_ùØ×Ò~€Õ–J^¿]hÎÞì¥Ñ•ÆµÊs,Õ»Y> zQÖ}¼4¬6¾PxŠ¬®ÔÓÃÕ!_K,®D †ag^¦nZ‰Xˆ¨¢âÉÓÜáÇï(' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:10+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047728s][åžåçŽ‡ï¼š20.95req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003284s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '998',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓ5¢¬H' => 'ýþ;TÕ</¸åÌx± Î’/vþçè~ß‰(xàÐö"öt',
+  '•ÈdÍŠ£gä¹€l*Sç¨¼–Y‚¸9†´Sí_' => '',
+  'Ë¥í²_ZðHš‘ˆ‰3©‰9¯¡±Œ°.”\'Ìˆ³÷p<Íj‚3p1>c}' => 'nøøw|oð‹üâK¬
+De’¯˜½ïá™%œ
+jFƒ>“/š@ÍÄÃÑªÑù“ü‹¦"²*¬XseYmädÙ3x0Õ‡ÄêØ³ÎTÃÄnÖîcÛ¾p9šíxÌÌi}2¦ÃÑ®”ÎE{Í"ƒR¹“ÞøCg<8€Fˆ4.©%)äéFvÎ®ìÎ;¶úCTyÖ8R’Æ5*;[™PÁŠ}‹RTŸ¤ÍÆðöÄ\\ãAƒÒ".d²ñíQù-pä¯3—M?¼\'.ô¾d7ârÕmWŸÈúøvÅ^',
+  'Pj¢ºyA/yâ2ÐA±œ~s‰O¤Äy¡Ðeû#7àºÇ³3u“ãøÄ^"bMÊwÏí~¦¾hDxÚf§?Ä™ŒÅTž»f¾­uàVÀÛÏ_ÇT›þ‚¨©0Üe¡Ða¨(„ÔZùÖ­¾¦ç	mîO5ZØšåÑ
+Kq½ö<47T/‡	läwìh#¦vŒ,¹Ãõ7µEªÄúÁ,Pin‚è~8Jíö´¼‰›Ù‚)íPIËtß_7' => '¶·÷ÈEÝîI™Þ]}H•Yl˜ãä“»àý?7Ïs±ëLåKm´…Zrßx£‡µî,{	B)=ÂùˆÀªÕFš—“ŽÿÁêz›©ÌU€FÌÉ£OÝNjŸþ‘Q*‚[N…ÃˆÑ>’…¯gsï—\\ªÕÍl@Õ$é»^_¶kŸ´Ç-”Š#—°žw#',
+  '±k	ËC¬¨¾îA›jw×_ÏZBœmý0ü¸z©(ºé@¾á(î‡NÀïÊƒ]\'ûð§dœ¥˜’mí–ê_ÓÁ*£VÓÁôtYžÎJñ' => ',zäû„1‘2ˆÿExÊõ1F¿°ýUŸƒ¾ï;–aÂ¼KÒ¶UºŸ­?‰4eNùO@Fùÿ?Í²$',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:35:10+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046943s][åžåçŽ‡ï¼š21.30req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003792s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1014',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑÅƒ@' => 'qŸõ2†ú3Í½(¨.H’ÓæªÛ¾càËò3œ)§¨Kàh¯0œ:_.XPlÀoEõÄ
+Hc6É6áß–Ásâº0¡8cþB_ÃŽºÕÆDñ“‹8×	…A.pm­ƒe@å©Uoý|s]LKm·Ëßoö	$_Í' . "\0" . '_¥;²·)‚\'?`ªûÙÀA‹K¹¤€¸µ‰‚l‘–`d8S×âa_oß‰ÞÎ2õf€ÍÈ–wý–ÖÝm\\Ç˜ÕJµ¨x«§TÈâV3ljžôOÃ›šÜDk\'ô®\'2ñ;m…© —ù‡Ù¸EÝ‰èÚ£uó"Y¥:®l—Í"=fýË‘§Á_<÷ûÃeås2¨0FÑv­X W˜n`ST%	®U7Æa²W»_=|Óó«•‡³R[GÚ­”×¹„>À0ãhÉõãÐdõõŽÌZüOØQó‚Ë\\™LÊ•8­që«ûµF˜6•ÇM2Búóõª6VÙ[ÐŒËÞåÉ…øÙÈv%4G÷ÈjÔ‰
+\\c•Æç9UÁ;µ<||ÝÇã[NrÝÆùé`5él‘î"»VÙÿd€ÝPŸ÷çw*‘•Î¸ÑW6ê÷KìrÕCÍ5ŽŸ¼Q†{¥Z(d¿ß„Ïò¥[šÑi	áÙJ(ÇÑ¨P’õð êù|0~ÈY|l¶zƒÏ©¿þ}ƒ$¥mKr®-PÒîG#/Áâì³{Zí;±b{|	ó<TDsÿð¤n^‰½¾?ô	ƒ•„t	³åÃ˜¤HÆ’÷‚\\Å³%[Î©²{®ÊýÅsåÇm•²é\\—	¥Ø×’a>™†±cuèç{%ÓØË(54ç_ÉšÒã>uùäx§ eVz”Biø($ÆJWPË¸„–ÛÅ{¡¼]Ÿ»þµÀ›!§ð‘¡¢SUh»Šë\'ÜDQ œzwE9¹_.«%j$$
+O‰)OÀÙ4Û¨\'¡3NQ¿Áˆ§¢ÂZpd¯K4ÇFÛpÌTÂA]
+AIåF‘»dDÐzªÂK•$¬VîÞL“¥Üa0î»Õ›$¸îí;JÚÌ‰†–¤[8H[;2„¶5¦¸ÿœÕºz›f:CtßŸ°j¶2› rLHÞmýà¿¿Ç\\š1ŸwÜ|elžlŽ"5ÌsË)h¥Ùû²d®ÇÞLâåV[óø6ÒYE‹GG\\ŸÖAäà„À¢!!5‰û)ªé#«Þøœ™-hç5GÒû§’*ø½7ÚÛùŽ‹´—',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:35+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.055094s][åžåçŽ‡ï¼š18.15req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003306s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004013s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:35+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.060360s][åžåçŽ‡ï¼š16.57req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.16kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004138s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '821',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐG¢l@' => '',
+  'ÏIëÂ†ÒŒùsÇÝ®6ñK$‰8¹ˆsPÔè×†,*O¯:Â5F¬¹Æ6öñ/Ÿx"ö˜#*y…	EË­Iba6xtº’ûÔWÕ€VÖV™”¿ÉB§Gš“¯ÙÏ™}£DUûxÓ‘xsé£	|ßœÑ„ÂÄ’àïeC¢¶ÉU5†Ý>\'7îñ£tàÓ„TÝ9Å0åþio__ž–\'£ŸSí' => 'Aêˆ;ìüzì½B¾n$AFÁ@2úÞ•Éá¯1É«Ýt_7œÛK²_Ý©ŽðäJ¡Îq|CBÙø/°»}´RUd003p–¾ê[Q"¾£€9˜?¯K±åÂý,(ñ“ù‹;hìOTãOÝ0û(æíDÞV	-¬¸¢V©Í=êû“tÙ¡#‘bU7r' . "\0" . '’r¡\'#¼t§0·Q7é ¸;rk§T¥D £Q·V“¼Ò³öÛƒé_S‡	,óªKê‰K”ÞêÉ€.y‹/ãAä4Z¥Èþ¡7ïÏê„6\\šj™³¬¢hÅ\\o®¯Ç3ÐÆý',
+  'o’–ÿn»Eh«ôÿ¬XÊ°4¿`­çŽ—œ­k†PÄ‹á(íŠÝf$Ÿ?ýÈ’U­÷E…­_“‚ã†*bÅ÷Vë´c¿_‹KgožWtx<ž§‘¯}lscN\\Ó]M?xA_w~ßõ9/¾‘øËmÄoþ9Íž}m†V™Ç„¸6eÃ/Â¥ãÊáyeVôy²søãf]™' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:35+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045485s][åžåçŽ‡ï¼š21.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002965s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '856',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœG¢ª0' => 'ì$á%_ž’R	(‹‰ÅzçÃ”:b ö”7{³åh1k¤ªÌBàØÒ pÇûTØTŒ‘ÌFAëü€uW¤åZª\'çêfµÚÚO„|ºéê[^®äu®cè¡šÉù2Åü¯	?úøhãCË´i­u',
+  '´70?YŒbQ†}Ñu7|¥)™¹¹õ›„Bß@ªÚ ' => 'v±Ú*UºjÁ#zHO‹óµ)|Ö=3µP' . "\0" . '-•êÄJ©}Màãv®µ§o\\µÅø1ŽE¼dÏÚµœ*EÏJÎ®è0Å',
+  'ì—I´s“£~`vw¤' => '',
+  'a×<DlnõûÖyË#7öð_6½•ý_»89çbKõy}„ÑÏÑŽèÜšu~>çË3±û×²ÁQaÆ¿1–²M#BŸ_Áå÷–‚¿Ï9x~V”]´v¤o<2w5°­ß\\`$"œ©Èß§>y±°/hÚº}FøR1«8•Lj1t±•4AáÏYˆú}mëTCÚ°J:ÈöÌç¡ÌÙ½Óu#¥:»lÝ³‹£|§?ØSó÷Ø>šßýNO’©ºS»9þEaû:4%šÄ§!Zåt·pÈX‡…_šEBÃ¨#qË	·˜ìæRûÅO‡WNÆ?x]Y	¹JáüÇ8rÞü7~q9OtØ_gec9nŒ^¡úêm_÷‹y£ÉTÕ«Õ÷N‡Êë·2¤¨Óþº.@Î¤|«Áíí;™‰‡÷®ÊbãÔò´¢—k-€[Ï¬9€Çe).fGqúcöÓ± ÍtÂöÂ·' => '',
+  'JÞY¸id¥S-tM7;,\\æç‚Ãu¬ïvö“ÖGÒéA™' => '',
+  'äxŸK]š¥LÔŠ²|/Êò»#mÍÐ¼_¿ù³„Ç\']B‹Ê"f' => 'éØ¢fò´öQÍÆ½ñÇreoOªËÊŸÖ˜‘ÅB‡mö¯/ÊŒ¥p®\\š|ÅÞ‚—p ”.–÷ï??mÕ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:35+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.040845s][åžåçŽ‡ï¼š24.48req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.72kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002941s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '856',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑ7²«H' => '',
+  'U…™Má˜ãŸ)ëÓÅ|\'6¯Ï-NÄ¾”¬L|°ÂÝ²éTaH_|4ršzU_ûd	§k¾~i_#c]¡ÌŠ0˜SÊvÃ
+¢÷\\t½V¡ÆyÀãÍéùwR†u‚' => '´ÉŸýÔ¥ëWjJ¥’ÎQ˜',
+  'fT4y¾Kóu×jÄž¶˜’9ê•G‹¢ÿ¢)NÞ¿è‚Î¢(Øöí·G Mfûï°l;' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047442s][åžåçŽ‡ï¼š21.08req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003797s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '536',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑG‚ª0' => '',
+  'ïY‰ÉÂm¯ïÞ¾}¸¤„À\'øz‰O/3Ùòí_@‘›šü>sÁBú·ëxõFpµ6TS!§,J‘þ‚ÆŽž{ó<‘àõAÒØL¨àe€«¹_esÕ´RÄµF³Çõž¢~^IÍm¡F¤uk^°ª*«5ºw¢I3üéöØm:)Ñë‰¬ïÕlhYñ•Ð¦ÇGSîì¨ÞË£wøy©Ÿ‡nq5µ†%ßú±í‹HñuW†È ïzÓ§^°ðÎìðÝ4¡‘¬¨ü„ BCÖ½bO\\ ZuŠÁÉ†Sÿ|Œ­ä°‰”ñâ§ì70mžÞKû×ê`“ÚÑŠ¿¥óíˆŽžÜ' => '—QJ´n¸g·ëÈŠ› :l”Ä[(˜ûkqúc6g¶¿Ä¿Éz†¯þšã!··ŸØÿŸ.kCÏ>ÀDéD»˜§¾Ô}Í¡KH¯”ï“(Ç†w¬•º»ìú8¯ñ(¤¥½Jøqž¹Â³£-"0û€áªîæÞwn|',
+  '·}{š‡ÇƒøÓS!¢Ò(Õþhã×·' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.039942s][åžåçŽ‡ï¼š25.04req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002915s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '532',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÍE¶£@' => '',
+  'ý?Ëà¸­ìW\\0eî' => 'Ýfg$ŠÄà:ß×¨wrï­ƒ¥‰ÂÓ›Öâ*#Ô`o^P¦\'Tk=¦ÌÔñþ¼F¨Dš>a;@º{›§dñ6Ý,"gÃŒ‚Óž§ˆ27S]!*i®´¾é½dHUýÖOøåÉþG\\',
+  '±ªê§kë¥ ÚÀµa¼0þH,÷Ÿ}tÔ’“9õö…ˆC' => '',
+  '’–×_ÉÙïî$Åÿ‚¬Ý_YèÝJ_Š/ƒxkŒPÒ_S­\'Ý»M¬knoÏg%P#-­Îxa›2cIÓjÅß•ZøPVÎ²ôÐë)¼ðÛ-‡IæŠœ-¨Ÿto6¬@#³N4JO‰õ¦Æ¼ß0[IJšXå58yAŠî„š±ØˆÉ0%Bí³îw' => '„fña¤P¨ºÓ-6o™­<>óXyÐÇJæ´ÿ
+HýõVŸõ‹¿¬¼¦BÂ•Í@¥î:09•£Æ÷™*õXXôà"ˆrxÍx·QKpKÕ¨ã<®Ù†¦Á
+›ó¡Éd<cd	$øÙH©–ê~Üs',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.035181s][åžåçŽ‡ï¼š28.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.78kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002983s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '550',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÁG‚‚0' => 'ÎU#ªŸ`(¿pÁò	ÝãK	¼Ÿrp¢=ÂÌuÓ#÷\'‹õ¾¬“ºm¸Ü°ƒpÅS ÜDŒ|jºU6l9…|(Œ´”N4G\'‡ÅÔa‚Ã6,ÿ.’ûS0 ­›÷æç€å',
+  'Ë`Å1öÜHì´x#ÛX»§”hü]ë³Ž¤þÄzÙ·ÕÆžãZÕK#vì½BÀÊŽì¹…˜›B¾Og—XUŸƒ/ëË	§Å™ææ~xy\\ÎÎX½!Á1Ì_ÅRØ`_êøj~Ç_	Ù«!-ƒl‘½©fW_­ñ	thØnÂTô>znÕ
+^ÇÅ¥zØÉeîd”úœ§±è¼Ûìù”cØæs
+‰…tU°ÎƒÏLwž®¥zí\\i9µfQUív™²¨o}#Û¸T´¥­«À
+X"áÉ»ÁÇ I¨¹:¾m ßônRMµ‡ZR^|?\'_ÉâÜX\\qEùHÅó(òPi–£µ,ªŸ‘ùÉ‰Ç' => '§¡£ž£hyFV–bÆIÁõYX•Øn% ½¡ßºj©²ˆ‘›EkÅ Íý¾úí’™˜"÷º¨ÂyDë[L~éÎNZ¨õcóROX%8 Sã	©²²•/ÿÆ´ë^«~‰•{Ïº÷Ë4ÂPÆéìoêç—<
+3¥ï‡šd',
+  '#–õwÉC³Ãõïï!àƒ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:42:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.051485s][åžåçŽ‡ï¼š19.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002987s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '554',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐËÂr@' => 'ýâ(Pz9Ô¿€ôÒÚÍÛk¸òK¤ëüÞ öBµ³nk²Žµhb)âp®9[Òž°æãŒiX/îXü§WþQ_í$õÆZk\'Ñ~ÆPU)‰‰ã]ìŠûF‘)íï Þs¹s?-­h­*Ú‹ËÚÙÐuïûÆ£´®5É¤ÏÉÖ3Môvs“öÆÞ9Eµ†~L¨Üž§¤.{è1ãêUí˜ÕxToƒÓßÄ)è"uË.AXw’tN•ûC0 ½•v!CQ‘“I Ð`vèâ',
+  'ÚÇºV;õP³@1!“³Ñà­…í¬	TÍdxƒgöÃ¥¨´Þ¼›uÓ¤Ü1ÉÓ-ö“‹ð' => '',
+  '(’ÇAæŒì¯\'Ò6_Tìqêáwúh¢Y’;wÿº³Ë—<¼ž
+ç"¸Y]zMµ¦K£ùa¿SñìŸZ™‚ô¸Î' => 'çÌÖS-º<C=£Ì6Jp€ÀÐk·B¶Ø¨1lD?>¢rïL½é“"xjUÉDý0¾=S¹uÔWš¬Kó' . "\0" . 'cyÓËrƒñ.Ö	\\à9GýoP=UÐþþþò×ä–',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:43:36+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.043698s][åžåçŽ‡ï¼š22.88req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002949s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003490s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:44:23+08:00 ] 192.168.1.101 POST /apii/getindex/get_loan_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_loan_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š1.427670s][åžåçŽ‡ï¼š0.70req/s] [å†…å­˜æ¶ˆè€—ï¼š2,724.40kb] [æ–‡ä»¶åŠ è½½ï¼š65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004217s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003793s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060439s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.111404s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 08:44:23'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.084562s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.044762s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 3  AND `status` <> '-1' ORDER BY `create_at` DESC [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2018-10-15T08:44:25+08:00 ] 192.168.1.101 POST /apii/getindex/get_user_money?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š0.656184s][åžåçŽ‡ï¼š1.52req/s] [å†…å­˜æ¶ˆè€—ï¼š2,724.13kb] [æ–‡ä»¶åŠ è½½ï¼š65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004512s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004018s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.016930s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 08:44:24'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.363945s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.089588s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '3' LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-10-15T08:44:25+08:00 ] 192.168.1.101 POST /apii/getindex/get_rl_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_rl_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š0.684560s][åžåçŽ‡ï¼š1.46req/s] [å†…å­˜æ¶ˆè€—ï¼š2,719.71kb] [æ–‡ä»¶åŠ è½½ï¼š65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003012s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_rl_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003481s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_rl_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.010435s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 08:44:24'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.104631s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rl` [ RunTime:0.096419s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rl` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2018-10-15T08:44:26+08:00 ] 192.168.1.101 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š0.421848s][åžåçŽ‡ï¼š2.37req/s] [å†…å­˜æ¶ˆè€—ï¼š2,738.70kb] [æ–‡ä»¶åŠ è½½ï¼š66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002932s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002412s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.009832s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 08:44:25'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.273802s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.052868s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.010585s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 3 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2018-10-15T08:45:05+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.065576s][åžåçŽ‡ï¼š15.25req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004586s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002449s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T08:50:47+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.062906s][åžåçŽ‡ï¼š15.90req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004013s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003351s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:51+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.058246s][åžåçŽ‡ï¼š17.17req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004020s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1181',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ”7¶£@' => '',
+  '²0qšÜ³™bu2W\'Žj‚Uç²ù4]Kçºé%]Ô*G’ÏRnfØ0]®<#ŸÛ²R@²œB,‚Í,Ü{LƒcÁºÐ˜o¡®áw·«…!' => '³cõ©O”üˆiÃÊp³¥µ<âèoþ†vš^Ø8d¾°Â«Žân2å¿H”ØV>ö°Ø¸ŠWŒ$â5–d[Ç ”m=Ê³e€Jèµ¾­U³›Aùq£¥‡KcÛ‚µ¬ÐªëùíÅjëFCæ
+ýì‰™Íô:g‹:?íS)É0\\¹ô±ýv7Ñs@¯PRÑþŠðÏö[œ¿…«cd¿Äÿ²û§‰r/«{F HYrŸÇ4‚G;±AŽ)	ßÑ7W¡¾ßŸË¾cß±ýYÁœâvîz¨á­4z´*«½›©bä¢Ó7ß`énjë:Q2eüCù ÛÖ®CÒ…!»´hVìe‘‘9©C(£œ?ul°£¦Eî¨Ë^™ú)sËÛÀúi5\'}ÝyØ3%Å:ï kÌKHyU‚2™XS{ZÐ“?éáñ`\\2rI«ð–MLþí%K°ü²ºiò°“çXÜæ5…7‘VÏ"jaÔ©·?$ùæ‹¸ódŸ­^ÑwÏñÆÝ?ŸpÏ†µ0Îj7mÔÏDÝÛšq¾ôÜá/ÑVæýWíÔ8–Ää¹h“ñhƒ#ýÂ‹·f¯8þÜŽ{-kìÃºW¶œ¾ä|ç8|bGÛ[]±òô–^c—Ÿ¹OdÂÏß×)(–]$¤
+gašôúðîK$úâ[Ë§½‚÷ygÝ»}T9¬æŠ¶×ÜÙý>Û²¶F¤Ò~îô•Ò¬“íü\\dÝ°M¶Ðâ9hî¼ÓÌ|H?‡ÞBŸ„)íø½' . "\0" . 'bð‡¦0Øk‘ÑËÒXñÔÔÓuOzÑfÇ¾ß¹œ”ÍÂ`=Û¾•KR!jÖ®©\'åK¦VYÏÀkªˆþ¨}`Ç<v¯´‰)è®í‚…±|v;(¦>˜' . "\0" . 'ÝyvKÆÞÄÔKñ4ü»ŸÚB•”ž÷†‹Ù€ì×O:þàY(9ØEKDxRå0ýîÚðÅ<Ãþè:Ez4oëø³»ŽÐ•‹7 ‹xãê4±Dæ¼ÁP†›·>„ØW1H@Ò«-MWªùôX¡’†ÛÌuìQk8B¬õ\'©—N%n=öBg[¸£˜¸U5—Õîi6ÆC$Ñr˜ýo{' . "\0" . ')÷–í
+3SsÕ“¸I',
+  'IR%Ó·¹©T˜’§Ñø¨6I‡»•!h<B' => '',
+  'æ†EŠTauw	“Špn×md„ÿþxŽúÒ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:52+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.042575s][åžåçŽ‡ï¼š23.49req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003276s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1193',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ”µ±äP' => 'ˆœË3FošŒ§¯CRË`õ1?Oöòðæ¤…ma~4z–Ìˆ‚iòÔ”¯
+Ô¸Æ¡.ÎéÀ‚>©õ|kê' . "\0" . '®qk©¹ö}Ù1jqí©Â€<uß¤Ü›÷$4RXŸ)Öõ( ƒj1Æ‘Èež÷]I¨]Á‹‘^úG«¨Z £³2×¿ÖhÈ‹ç`YˆÙ2Òs`¨"¡ÒXÑÌ?CZ	‰ÖPMŠíÜb…ø(õ¾Ñ' . "\0" . '
+xì"§GhÏ¾#ÒWÝ^ÄÔP!ŸØª”Ûs©/ˆ†ÉÏ÷:?à¨y»F\'L—A]5¤E¼*A‘®",ÚB2øéÏê ÑÅJî%m(¾Ì5ëð ¥„Ê0Åpm!·Nù\']‰v¯ÐáÙ±›8KsmY‘8' . "\0" . '×xÀ1V…šµ',
+  'ö9ˆöÇŸ)µ›–ZÍ5' => '',
+  'lç}Q·L}Ä©²UG¤EH²à_˜R¦¿fíh"ó‚(…kª;½¿ˆGø§Çù»ºqš_ª, W' => '',
+  '7ƒž^§nÏ!†y–¾0$:â_¯€ï†ÿBçÎWå®’ÚŸÑÂõÄ26v4í¾Û	Uý¦âÝlÎÐgÆ¢$åÏ”ÏP™³gÀ–ãâÑ²v™ìºw¯¨ßÏõˆ²«	¿>¬V½³³N¢ßx/‘p¥Øˆô½fülu' => ':e¹h©w¸ú(å‰ˆÍwT%cíx!4ÃÓçetH.C¿jÑ*§Äýs±æüšl])_ûk<wœé;‘…ùpDÏ7¼îHJäýúðÛ5	\'Ö.‡²ù‰WX4û*MjOZÉ$2ü’v' . "\0" . 'ÓÛl0˜°­"¥á‘—[²Òö½ÌmÿæÐð²<AS‚¬@¦j“©’$Ôžvu~¤(:	²Q-@Æ2ÒJ·_ÞÉ|úhö1Ù¥-“»L¸ÇVŽ¹õ«ÌŒVö{7ºhé¯Ë–™‚­/V7·l¨Qõ£ø(27º«ÄíFlf=‰ÕÎ>ÑD-´ß!ánaªÑ' . "\0" . '4	p=thA<¥ ¸¯tRÑ¿ÔÉKÂZ(ÿwNšòxî*NƒCGz0ªMB”§9šBËÊ´ 7{(È×PœM;«OòË;:}S‡ÑÞ½,6Ý¿a°AÎms.}í|³ý*ÆÎs9ä_é÷=pfE¼O9¿™C„yðRUûSÚBVDùÙ5^JÍcþRÖ*ßo`û“¤öÖâê<>·JLOÙù‰L¬M]6ÑëÜ±õÂNÅ¿ÿQÌq',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:52+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.039795s][åžåçŽ‡ï¼š25.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002927s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1179',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœT5²¤P' => '~œ•¸Çãi79CžG.Ú§-ÓcGÉ¿ã{oL(‰%ß”–	®¢Ûk¶ôb!ÀLÅ’àaî†7"âCôOÝ ‰«0xùÐ“üÖ#¨¡bÒ“S‰)I‰†¹3wÕnhf”S.4_|7sòzÒE^ò¬!´Xò$¡NDÿºÇÓêó9ph>Ô©OD~£äÀ',
+  '¨_ÕÎÖÖp°sxØ˜iz#ÓRà™óTß»Ä¤' => '
+O¿cf³ÞPÂ[òf\'ÿ¼Ñk\'<F[LŽo«Í' . "\0" . 'š5ùÙÛ…Ž±Ý†Q†-\'{#÷XÓ\'Žò¦ºç1 ViÌF¶áJMÌå¹…f¬z
+¸µ}š;÷’eGãÛtV¹`·8õCïh-D54¾ vOb×T ’m3{¨âA/Õwõ‘#‹5_$8þêþˆ@éó®ô.š$NAœßÙ†€ÖÝ©Q±Å:IÚvx>‰,óXƒN*Müõ0™*‘atŒ3€²o\'vf?¬OV§PM3ö¤Ž	Ó0‡ŸúøGFÏ]êé¢O³è|´ycÅ§M¡,
+×å]øÚ¢™XÑRœ‰$éâñYõjòŒßUº`’V{²mÿÌä¤<ÐÚËº',
+  'o42¤ÐÄÎÓ’\'\'M¾€—Ÿèî“…‘V·Z0(çŠÄ(Žì¤ÂÂ«1	çËh0²NøT„ ;¾¸|2÷O' => '\'‡Ìae»§C„`u} (8ŸC}T”=lyÔÞ¹àúêºÛ¥)ÿJêƒÇTù`ím{±´“*Å{•XR',
+  'QµKW?_*^\\%L{§E Î8²Î-ÔýÒ×»çoplÛK>à!÷¾­lFMh¸§£Ì›É§k7!­}›•X(æ' => '',
+  'ÿÕýoknWÂ«9e_Ð£§²®Î
+Ÿ' => 
+  array (
+    'Ià	[äü³Ç[¿ç?QŸàïP[9ªãÎ;î!M<Íß7?º PwáÙ%*kþ*ô}·òIÎš›Ù¼ïüúEMñ9*ÕWƒ¢<åô—·ç£qüŽ)Uwß‹U' => '',
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:52+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.037053s][åžåçŽ‡ï¼š26.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002980s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1193',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÔ5¢«P' => '',
+  'ÁªsÙFmßÑ@7½FÊ‘äÅ³”›v•-ÈIÆç`^
+H(Ä"ØÜÂ½Ç48V\\:gÄ' => 
+  array (
+    '¨kØïnµ°#EìdCÖ±~PÂ ½`k#ŸTáÈUkQ•jö÷L5aô\\Û—22Lo"j4ÝQ§—²¤È¶­ÂÐ÷Ã/µÊ¤—“t©Vé ýqªº},ómu¸4/‹ýbjEÛ‡ÇCå¸·' => '4ÀiŽDh%§ÅîNÉK¼·x' . "\0" . '' . "\0" . 'Ã)gWV×ëNÚ‚¨euÆVdIå†8!âµkc˜lÔÚOtàÎü˜Ì”|o¼à%n»Ž»êB÷˜7Ð×ŸêµgJ²s
+Ë!¶ G{3Î>îŠ,ù¨D	o|{ãDÑ÷˜À<ÚEŒ,òm""1û~¦
+ôcéø#åÆhÝ¤E,Ä“H¥áS„ YUHÂWáEèõdi‘P¬õ
+(g›ôÕ[Ì ïãò<µBåÃF¯íGqŒoPÏç·¯‚:Q²ÑHFÇ%n›v”Ä/ÕÕÒÿ‚ø',
+  ),
+  '÷bO¬Õ¸µÚ‡lþÁ^g^þ_¡_ùˆQÄ›H!‹ÂÞ–ÍÇµez×ðœ_kû‹ë|c™Æ¾_G¼¯ñ0OpÆÖ•/_îzüÌÜpÊXüm]¶”IÛí¨Ü·ÀÅ‚‡‡B#ÞNP/¥¾r__±Ò©_ïšCÙÎá%Ÿ—Ãâ' => 'Cå¾Åß¤xüîK\'–®#)åô¦!ÈÂì–-²6ðH,Ô¡S‹"]ÅJ‹“mÑÓ!HÁŽb %º”‡ œžFÐP2p´/{leÖüÇ«^Kô>,zRgE¶.AŸU±–PE®÷öDö7- µî` Å',
+  'qf2Âg,?h)yè$ï2lÏÎ_WÏ1t-±ê<å#ý£Öß¤ðƒÉ´‰ä\'ËÁ§_Ÿ²' => '',
+  '”X›¸¿‰ŽIN{>V†ŽœÉR8w|(q—(½-µg2ìÆujý‰“¢o¯)äs²LndfîL•?w˜@SÆJ_Íþý‘¤Òf6v™ÅˆÔÍ{ÁO¤¥ófõœÈÇU—§îíµ°Y5#ïa÷þ%Ùj_é1„’ØÆ…¤†ÂáàVÿ_ýYMEmÔ6ä†?N' => 'dÆmd~?ŸX\\Ïeˆ[\'Æ\'' . "\0" . 'š!¶G²Fls«â­°÷òÔÔ$ûàÓõ3©”¾×~è«_´ëy‚~XîôQñÙÅ…Ë‰·4zÜ¹iJÖ–-ßÓÍõ·ùßmÙ' . "\0" . '¬',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:52+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.044268s][åžåçŽ‡ï¼š22.59req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004163s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1193',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒE¢«H' => 'Îdö=QÇ­“6 RçðµGš>}ëèðz©^Ò üyüYÓxùŠeupû.#=µQíï¾Ç•‚ªa›UX',
+  'c®ò/á/$_zÎÎ»G>·aÞaöŽ>{b©ÇQ%ã\\MDjyÉ$ö—Â~?*è¶_ªÂªå¹BÒô˜~¾‘¨jm¢•h´¡ä;?šcWßv"á_AS¦%Ëî›†ñZÚœRåšt);E6RoÛLöá{•\\À»ŽzÖ­9ÙM¥®³Éž¨~ÄŒåDà{5!„
+Ø¨²«·Ç$‚^¤„?v,$,¦BL"Þ#9|¦ö’ÙÂCæê?ìž_Åu8d¾×_ág@TÝ÷‡~¢È»4Íw©µÀä}‚õëï†eZJÛýáq¥øåQ¸ªSÚI-¨LÍ›ÎìhÕÉ¹ÆsUÇ?þÁà)Ì¯Ÿ
+»v“”¿)nµJ<öY*Å(Õ\\éôl¯Ðæì¤¬ÓÒ4…Ž­9B' => 'ì*×,Œn¤,]Q	ÊˆO¬ü-Ç\\Í€ÄGÌ­2«=!^	‡$#Án”flí”ã™h»˜å5ŠÞž£Ê¿ oïXþÉöOº]â!†@I»‚„ä™¥ß?ËZƒ§™]	ìºÈÆD>
+çã»ïà±ÙðˆË?ØJ‡k¦CBŽ4Åê5!ÝªbÞc2]ÜŒ4º;ÐX»@	¹lSÂø~mjYRy¬¨3W«tª}„\\}Lõ¾œ¶{CöSp@Çs©	:×5nrH`~Î;Ðël…ËÖÓu¥¢Ù{Ò$²pøj!ƒÚæ²ºYS' . "\0" . 'œ¦®,†iˆgÉCÕÍ³Õ’9‹æi±Û×ãf’äHëNõ 6™ô5gíË€ª`¸·¨ÄÊ5~ËÈý–™o5ÇðÉ?õBì‰‹ëu	V÷ìA’À%ú„ ÛÉ?£SÄƒ$zjRÚá¶/ômbl#[`ð:…2ÎyÆ:îÑÂ5ª\\S_¥˜æ‘Œ)fSŸÃcgNß\\êÊ¤n\\–4ß}û5-©\'gë`ß­ö~î¼/üdrhe¢(¼›7R)ÎBò Ž•,K¡[:¿èIqû3ä‰ ÖÌ?È‰OÉ:koþŽy¹Íd™(ˆ½gÎê¸Tß|Á8fóÿÎW˜I÷y‚Ñ‹9sSårû‰Mû¸7¾äÇ‹#k?¸ÁÄnækÎ|ÊÖÖ¦Ê‘¤ú3úz¨\'ãC$ÿê`‹\'/’óïw:ØÉÇhñ~lL9·Üb"žHSÈÙ>¥éÝßEüž°ðJ‰€Âä®~áúQ—$0àrbíoEj×L*‚gµÁ”×0õ
+À´±RÍŸçˆ¢xJ2¸0æÜƒnÌ›¾þfóGÿýÈwþÆ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:52+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.041844s][åžåçŽ‡ï¼š23.90req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002907s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1208',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓE’ƒ@' => '',
+  '¯~¿›b‡ÏóØÉxŒe~Ø^ö®ðZk‰B‹Z£
+É•L7æÿ4˜tc“áJœx£éÆ’<uœgíSÖ¼hxÑ‡¿@lFÇPá¯ŸÞ3ÎFÂàÒ‚H·M«z)OÕÓ¥÷ŠÛLZÅ_|îÃˆ:iƒoë¦„*´1ªägÏOíÖ~˜T†_¼ÚÒ_sÖï' => '',
+  'ñOTô­ô„“žZ×õÄp)>Eiy‡_¾úêsÀ#¢–’ž_7°˜õ#‘*hD‹\\Ñ2õk0
+Žy' => '‰Ö—´B|¹<ýùÒi3ý:$ëŠ¾<Rœn‡ÆËà>¤†M>L^æÆ]Aqòò¿‘£=º”æíÀÀ"lsWö .’ÿ#«V9ŒÖÃÆ±„•ºúó (Y·^Á5a[ßhÛV2ÚÎÝÞ®×iQPTˆb_²¥üÓß¤Æ›SKï¦c¤‚Bà#ósÛyn“6S3‰[)$ÇVkd¦2LSÝ¨µË*†E©žÂ' . "\0" . 'Í4ß£¶ne|³©E<M×¦c‹>	óûÖiOÐä«llÎß71f¼Ë|b˜u±E§ýyÖTO
+ŠfÔø™ßOd¦/­#58v‡¢Ø4‡Â¹.¹PÞ{-´â‹«ü*#\\µ/Œ*¥M›œyÂQ"Ó¼ñ†²L‹º!"²–Ä!tÀŽ“#E' . "\0" . 'gÞœ=u³ý‘¬ŒààõYr¹D«Ì®Ù‚¿ª=¯í÷ÛiŠ€ë›_°',
+  '¼‡Ï7J]ƒ_o¬HP/›³}ƒö/cÖ' => 'üõ²¸ß,ì]É­V¼Áû§•sxi8uQ8Œ.úæuiëZ¤Ø°ÊÜEãéeÈo¿ï0#Fyb·ºx±¡ÀÎ·Öv^rÃÆ€ÏV™ëýli”ÛÝ·k',
+  'i1í©IMëU,oÑóñˆU9¶Bž}’_LýÄAŸ_jÏ)-3ðèDíÃ«Np¸¦7¤B¤@Îp¡øn7,¥Ê¦fA““Oa#æä¿E)íñå«ïPçI¿n„<¼¾Ú_¢pÞ1¦ö!¤ÃnÅ¥„Zúlq »ªyÇpÃµ-Ô|·2ˆÅ®Å—G×
+¦>šêÿ!(yÚ“‡ý¼aa' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:53+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046318s][åžåçŽ‡ï¼š21.59req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002942s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1206',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓE‚ƒ@' => '',
+  'hõ•ËšG5NËsÙM×’¹ª;	Jµ_¯›¡	;ÓÌOºÜyö¢\\¸e%²œ' => '',
+  'Ø™á¶€_o±JAH' => '',
+  'a‘›d/ôE³¨Å¦E#küIÌ$ÕÈ×–6y	d°uH<~ÊCG_{!¡uX¹Ò1B\\_	h©ä¤Å_!¬d’gîv}ÙÎÖi¢cXeùU,OËqN¸–}†DŽ¢„¼,™ö9<Y/œœá¾ššhRc¨Þ~êž2,ržä¹» ULþ	|›ç	¸ÌrrY' => '',
+  'd»ŽöµÄý	Ðó9ûµ¿â¢âñ#Þ-y,†htSŒÏýcÊ—V÷¢RùtüäãÜÏ^ÒQ;¬Hw–ÀâCåØ—–úgt?×Š-Áùtì' => 'Ñ›ó ÂH{UþNe*óv{£:õ|MÍQ	pÛMÛÍéù©™' . "\0" . '÷Àø/úÎa·xì;*Ø0òFqJHùFˆKÿš2¡‡dž§À«<¾°S.ÞëØ£ª—PtãŠöý»î«¢ë(¾¥
+»¡a·4Ã„WÊ„@Æº|Ÿºqg‚ {÷	²J<@m·ºûûR}Šž=-áï‰B3ÑâìÏki~´Ž¤¿(.äÏ»™ö^ãúùœ‘·¿1³lÞu)ŠN¦¤¡Ïúr(DðÓìiÒ#ËQ·ô‚ƒOv¾•.6ƒ
+=‡IüzÄuemlaAlËc¨0å! ¨ôC—<§ÁºFCúÕ•v|1–cäòW-È™Ý<¼©*æžÓ¯Ã†} ðžÒì’ü?m1æëkÌn\\-vÊN…Ìß{¨12¹°@êê#7ûdÙJ ²*º6’] µÙ~\' k1Y9ˆ´hRÞû¨µÑœª¢¼.˜þ‡Õœí5ÚËVEñ¿G)36xï§Bˆ|vírúT0D§_eµ ì§Äíç3à½<•ç ¸	s·u\'Z|dX”á´­³åË-ùoA€`õ¯5Jj}Xk|}>¤e=8ÿW,w†Û€}C¶}êfú[˜¼:v¬fø—¤r!?e“¿Ø_uDð2jˆ>¿ÞÖ¢\\ø‹çIë¢b$KíìQ0Ó©:7ï¿~Ê×±œ«NÞŠª R¹;†züŽò7MßìÚÛµ
+
+Wsîë®wG	à»m$HÔ$¨[‹-©øêHš”U1!ûqÉSP)¬Q³TNÁ_;Kß4ôáû¼ó›¥¢#	f±ª·év*Ý?wƒ_ÒOEF',
+  'î' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:53+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045906s][åžåçŽ‡ï¼š21.78req/s] [å†…å­˜æ¶ˆè€—ï¼š1,478.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002990s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1207',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœUÅ‘„@' => '',
+  'rŽŽùNxÎ!6eE$¾\'3Akxªè_*ŒVæ¼þÕmC¦Ú×Ž2«Ço–' => '',
+  '¬D7‹x¹Ó§fKrJR20:1PûýêÍ¯éò3d/Ä' => 'O³Èéó<rÑL—dïï­6¡(”|UkX!¸’nÑÛÝ"1Ðª~eš.Yúq®‰ÅÔ¸
+_oÄì$î¶˜ÇJ‰¨bÞ1¨`ZiÜ‹‹íXÿ¥ôsB5~{ÅÚ@ä« ²«qY$„¿Kk´4–TÙÅÅÄˆv×¨8=²n
+Ïô®fX}LeBt>8²¸¸V¸›uOƒ9IJÖã‹Õ7CÀ»	q' . "\0" . '#Û¸7^,ö–¼sX¡',
+  'm¬6çJç_ÝSEk«øHÿ…DûŒ²‚“ð,ZÄx‚ú‹ó<Ïzã_>v…ÖÁ‹o-›) 7Ü$º}¦®5~!bn¼äF1aI„T03o~¤ûäéØM,«’œåÊäçvùe8í“' => 'ÿ»îúˆêà8*!©va¨“v«¶Rf0®ÊÙÓú*rÉ2ÈðèèTý™µô„¤r×‡ÛÙø¾lüv’åu' . "\0" . 'mé¾kûŽ \\á‡ówPEvst›Û`:uñƒ‹åV†ãt3”ÝÞ’º˜¢…¬
+4¡“­	ö\' ‚i©·4ì=kŸ)<Í€ßÕ’U[áùZ="ë¦Â8[LnW
+,)¬“TÊZÉHq¥ì‹6²Qã[ÿ²Øé"œ¤“8%ò€}5ôA_¢r\\Ñ‹´ÔÄx›2W=æòœŒ¬< GÜ.hY4¿3Ú9„q‚q?§ƒÈáJòN³Âçßç[	^£Y–.ßÍnØ‰ä£sQõ3£˜Tž<ÇP4/÷êws{«ÇbÔ(Ú5œn¥=u®z\\5úpƒ*“ô»äÆÞŒÛ—º.E¯;¡AY,xÇdàòI[õÙ0¢Ëx)¼ŸfP•ªÇP)Õõö)V3ð½ÚŒzÃ6‘Þù 9kÚ)' . "\0" . 'a©î…üZbòþˆ!õúq=šcl¤—ü×GDùR_DÕ¶«{3NX¹™áµN‚Ã‡~ë¯—aˆv)Ì_ÔBmó§›é>¢©ó' . "\0" . '.Ž ÝQ*ÇÛ°š¨ž°2O' . "\0" . '¶çwd<QÙmâ>:dUä{ŒÊÑ”}^í—®™b®à^l\\øKåŠN¬N¥XvÔ!>si¨,?º@ ™Þ¦“ùu¦noçp×§EÞw	ß' . "\0" . '\\ŸtiƒA%¦~$œ•;]ƒÐLÆ‡mþdÎë{Æ0î·€öe>½\\¢ý -yØóh. ' . "\0" . 'Ã1²ï×a©ƒ’¥Ë¬‚ß‡C¨iò7ö£87åä¶ã6‚DéÝŠK±ù9¹ìQUÞU¿7 pLràwÈ¦t×¿ÏŸ-ËÄëÒÙÞŒˆ³Wú]î¬_2»rš' . "\0" . 'ÇÐñ	$Ìm_ÒEß}èÞÙ×¿®oE\'Ç3‚A-nM¼ëg^Ô}Âoµ' . "\0" . 'M' . "\0" . '2"Í™¹ù‚õtÈ(C‘ºvŒHAÌÀŸrù	ßQ˜ƒøÿþ' . "\0" . 'ù@?',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:03:53+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047222s][åžåçŽ‡ï¼š21.18req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002928s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1205',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœTE®„P' => '',
+  'hº–ÌÝI2¯ƒã7Kvªšåw¹³§\\fKJ320:5PçÕU†æ×…ôøä,Ä' => 'O»Èò<rÑ>m™;Êþß[cBI,3øúi`@p=;w!õO·6MÕ^9Kà¾œË ©­¡CKÙ‹:0i•ÔPÂ8 ià…/îH”„£ˆ/T@Ó¬¢J)@ãéþ]ÊN*Úd¡Ýe}ƒÂëðrl9ïiÏ/qNé;Û÷B¬Œ‚ý<ÁúfŽ ÁÛÓZ}´‚°fKaü7`6¨c”<“!¿,<KƒOê(’AŸ[' . "\0" . '¿Æ6µ %ø¡°}Â“9ã–dŒ»Àn„2×="Ä©þ1Vô‹ð«JK¾MOÈ.ü~yš!~D¼æ¢‚wR¹
+´k\\3¢†ß¨ðµûk\\3X§A_!ó(ù‘ÞŸØ0"a<	£¥‹ú4Ð|é=\'¾iëg:]÷aŽMX9Z{¼„v%vÝ™îÿ–Œ©“Ÿ´:Zïfl?ò@FSca<ózÁåBòT°ùº^ïcñö¸ß6‰ÞƒaûRþ†
+GÇÓœ‘–³0—.Oe×!×õ-žU¤òÄ“ù‚$ªƒ34Î¸‰ÃHQ@»ãë~Hð½UŠƒìÒ\\É‘ˆ(j—ô¡Á‰K?.8HJkVƒr£æš!§Ã',
+  'bÌJ*l€ ƒë‰Š$‰¢îUqŽÒÆaS' => 'üàA*Ft¬y¤"^¼ÚÓ²±¹M0ûa¡“ÈÂc`”xÁÈiõTr½I·´§*å¨JáûTR\'©Ÿy¸lýè)ëœÃD>ÓÛiÀºSåøS£YÃÇµÞÕ«?XÅ0n%JRÎeÇÚÆ©ÍåŽîg,ci|zVQ•™}iÃÐyZê' . "\0" . 'µEy•aŸ”æ	ó’šZ¶V®oLÈ:½€±†»u‰—’Yb÷Ÿ|êbn²ÈG(7ÓB?o¨úœd…¯ƒYÄpˆª¸9L%˜þT—y×o
+"äŒýxO¬Ä9|ÄI¬ýÏ¡ªÍñUÝ`.q’‡ÄL…ÿ,åIJ--r‰"KØì°íWÁÒG<!h`$û*ê}‡¤|°47¶K4bqâ¤Ó',
+  '®Úä½Ì´ûÿœ¯þ×__På#u˜ÞRå)WfÒÒOQ0‹þÍWÝ!Ÿo›{;ÉíPç± ƒ®V¦qx±íaŠ<öþ;6€egº·»äsìè¬beÍnu”V£àÊv˜½Ç#arj…µ´·´\'‰¬‘_`ò_°ãùÜü€®ÂìS”NV×ÅwÅdÿ\\Ô çK' => '',
+  'ÄªŠïqÂ–¹¯6' => 'xœ9­oñÜ)És,Q_”	=Ç´iH‡„ŠìùÂþ³ÊÂPØ.ˆŠ÷d¸%5(éEnsÒ©s\\~‘ëÒ‰yà¸Âî´»Ž\\ØÌdÏÈx5Jkqrëš¥šßëS#à˜Š/',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:17+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.073091s][åžåçŽ‡ï¼š13.68req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.72kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004356s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1179',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓ5¶«P' => '',
+  'èGž8¸s6;™ŽÁ³ž‘È9àÒNL_2‘P%RY³£°Â¡<åõ»n*U7TVÉA\\,$D³Šï|¥	A{Ìšä’¤$bâ011÷14òËLùü„¸3yýö»YLp|xœ0€¶å³?)¸¢k­-$Ž$†X”•I®„Í9ÚÆˆ°HÁÙŸÔûÜˆ7ÙÝU§Äª¡ÅÃ|)HP#Dj:¢|ùëƒˆ–äY3WâÍFÍõõˆqÊÉµŠ$ßŽœ<¦©Su' => '',
+  'M8ú¤»K>Ušœ®“Ò²“¹á…·½' => '',
+  't' => '',
+  'Š¢µ—¹)' => '',
+  '´sõk”‚6–oÛõŒÃ],tö¢N¾	XÇÑÝÄÃc)É}OÎÛœ;´Rg	Ážnü˜Þ?5ÇÙh¬¾' => '',
+  '¤L‚Bz³n6K¿:f%•rÇ³€Çzß­Ô_#ƒkpÌ?"S]9²DqgªüP8èbîáÓe¦59D‡ÞªûNNÕúÃ!W:bîGJÒ Î,íN¿Ýþå@Ñ7Î³T_ëpš-©UÙxý$|rñÁEÆ@¬#t‘´·lE	³‰TA>¨¤È}(EÍ`Ë’Ñüéê"ê·{¬akÉiIX‘³€ÓÐ¸¦' => 
+  array (
+    'åTT­ÛJ\'­‚1Äy£Žúî¡°#s†VóšÌ†™fðC}ìE,ÞtkÜw/ ‰Ù)­ƒ$UnyËb0Lˆ,é°Ötq¹ï»‹~î|)' => '',
+  ),
+  'ñf¯' => '2vù…þù–1Îl%QÛRöÃ²±‚­]ˆ4p|´“¬€w…smÐîH°oÚj¯´ƒv2¡Ùõ´Vª¼ZhX¶EÚµ¥îaþ‘',
+  'ÒMØ«*~|šÐêŒY£' => '',
+  'ì	Þ5½	‚_‚—ýnÁÓëS_£Š•LcÄÃg"ß/š÷:”ø' => 
+  array (
+    0 => '',
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:17+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.051751s][åžåçŽ‡ï¼š19.32req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.72kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003392s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1178',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ5¶¤P' => '',
+  '@wèF2ÜÝYýüÔ9·*–•z;Š™òB÷3:K¶Ø™‰œ£k¾ž³ˆCÚïÉ(O%Õ
+ƒ
+£¤9¯¿uÛ©¢;Bd•DãøÍPÀNT³ˆ—;MpÒ¥·$g¡$Q‰:¯®Ò·_„ÇÍ³€{8žf5óÇqÈEù”ezÌ_úwxoµ	E¡Hã«\\Ã`Kj«˜äƒG±/å±¡iùù!_#´Q‡bÝÚéøq°Ž7q æ³BjFÊÏ“ýb_"ED
+~*ä¶jíp¦~¸ÏUâÔNHÏÏ€¶' => 'riÈœ=GÙKŒ—¨ÍÄ«}ËH‚82ß==9Ç®b]„ŽÚØ×¦³Šè—‚šmêÐ[›,«ˆd¬C•X·†ôúáoˆê²Ž9k~¹îXï',
+  '4ñÞù#«V•ì»5/ijN\\{k(œoGôà9…†2Q¿~…SZmƒŠW¨•PÐÅí·Dp›\'ºÄ”»²0ÆŽ™¢õ_àðV§ô,Gñ ¢¢ÿ„Z`#•ns)öc ¬Ù_-Ê–†“ƒx6/^<L1cu®$«´C.©º/¯ÙŽÃn2ŠëQm½Ù­ Ÿiu–‹9#<o	lÒ»Úfˆ|' => '',
+  '|c0ÏVË×Ê_š>‚:\'ß~¸"' => '',
+  '­ï«´÷Î£Ÿ2rc«¨d9·Æ3øôk^†VÈI_}D¨?;¬L…â;áÚÀìò¸MSpR¹ÆÄpák©_§¨ý%c\\—»é›G“nZ‹E_·5êeÔÊã…éÇ˜¯p†t…Ô±îaŒ_vœ}BWœ¬ªÂˆk0ñoû*ä1ÀF”Ó#%5ñœ$d„]×îçyd~¬ý•O`z`ÝÅƒFš÷Úˆ£^õ»¬­;0¸±' => '',
+  'M õaz‹¦É$KÃXöÎ9dÆ˜®ÅóìÚÙ>xX™ÑˆeÛîAò®¯ïh¼ºìàÚÒeèÅ‚Í÷< â˜„ý˜Ù¹×¬Tù~µî*ê¢îŸ¥eÙôòR’¬à“±H_<ÒƒÄÁÅ×H
+ÿ~H%$Ë}S¦p®n_y[a®“ìAŠsþš£îì®«kµeOÚ;`h@' => '',
+  'Q‚œ jù#,8KðÐ#5ŸQê,!õO;5ýÇ–õYÎaòâ”¥œËßþlUPåi¯Ùò‚å' => '',
+  'Ê‘©RlAÐ)¹' => 'âË.LcSaRzpJå]×ým soOÉ=%Â-Õ£=a!y6S¹K‰î×ÌÆ–hJÂ¯ø¥šg‘j “í%>yÄvÈç¹ò:‹Ô§±AÑ	GÐ¤ÔpºPÉC¬ê{W™Ž^Ây|)a)íÊÌ“ïMægË[3ÐŸl©b> 	€Zð—a­BÙÝE]d]-ÈáŽ{xCë*ÿ­ Ë‚7=l·¡ª½cÇbi[¨‡é‰õl•©TƒÕt½š,‹ÌTVþuf%Áí?\\é”“è‰ƒú4˜ÐV§qYt¬çu‡Ø*_êK¹7E²äeb¹f³‚µm1Nàz	`q;—;',
+  'ct—K-¹èŒëß¿ÿˆnú·' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.043232s][åžåçŽ‡ï¼š23.13req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002998s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1191',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐ5¢£P' => ' Y(Ë	ÈÀ@f Î««4à¾éq älÄ=O÷5 ä8ä|`™3‰þß{kBI,ÒøWna‰`kÐ/$ðÅËˆÞ Jk*ð>Âª[l22ÇÉdŽ…Üé`èß¾kj 2š”†½hÛÎë3¬¿êu>ŽdM”GúBVÎ¶¥¬ïoƒ×Óðiu"Î£À°Äî3‚ÐØ½×ÂŸ‡´þ±#=´TV_Z=êí£þºÁŸJèÉÃ¡' . "\0" . 'Šü¤ˆŽƒ¶¹XÌ§5™qj˜ŸtØ7C:' . "\0" . '¬[ƒñkc9ÚxŽãt½XŸ†þÂ8ô)S$rMÏ‰uáIxžµ—CñR]¼Pq©¢Ø”ÛçoË¬ï·Çg‹©ó·f~[¢6k¾kƒv[â7­ÕÎ?S¥ê†Ö;h¥L|.8ê?¡¢ü„6`(XV	ˆPI%•’
+ó*íòL1ý›¼d´8ªÑ¡¢ØÈb}fÓŒ”U°gøæ^¹Þl,Äãþ{žî¼6,ƒKÜ¬›íñ$~< œð9!¤ê`Å³”îIoaP\'‹UéˆH0{óo”«——ÛcÜ }ræä£ÕSýjäËº”¤…ùsplš,*j’¨”Írœq\\ ³5õ®äº¶†
+wÓ}9¯ ?¶øœ?¶‹3²$%æBù
+ƒC¥¡“?ÄÍ`ZR¦NŽhBwáß>„¥kS1à¤cV?P×Ýt:ÞVÆÌhLË¡M\\iÎu9',
+  'ÊØvyä¶®glôy\'3	‹XµX÷ÃbÒŽÔÄ
+ÈÕ~J¼¹^âÞW	·ã?ÉÇü®°¶ô¥}–‘(Øf•IZm«JÌJO_?Àü÷¬OL5ôPK›8ÁSù>´”qóŠ_ñU´4ÉÊì	\\pè"lž' => '^nEíøÀ€øâjW7•',
+  '©ê' => 'žÈÎ
+¤[ÂA¥Ë’ PxŸ† ™Ãµ“hÎ9‹BŸßV¶±",è‚±¨A"ª2æ¢ Þ`”Q(ôrUo”ÅßZŠ©Šm]tÉ',
+  'N0Æ‰íéZ|?‚_æ}ÜTðÊÞû„¤ù´UX¹«è~|enÙy5‡fˆéåt©¦TQ^±AëQñmÛ<ºe<5˜ƒ¥“¥m³\\¢fäÛë’rÂ×_öM/x¸pýä;;ùç›Wˆ8‰|E7nŸhÏÔF#ÕsÜ××ÃÓƒ‚?¹d¯_pÅP$öèP›ì®­€@œÅx©yhÄÏ¾ò~ôCfúßŸÂA”³|Æ?]™–¼¹‘:ï|½÷òßHÛ»lNÈ4Ië«ëûçþÐŸÚíöÄ\'fKÂó¢ATÞ$ÔÊË¿ÿêfù¢' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.041354s][åžåçŽ‡ï¼š24.18req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003007s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1196',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ”µ²¤P' => '',
+  'žôœ5•]Ôf!Í¡®©¡Æ8±š‡¢@{¨/D™$M†0R3Yªi\\:|/F7û\'æŒÝœù§\'ÝœUKüÔLJˆ¤ûçDF~4õL{Ùf‘_Y\'îßmû ªsùÚçebä——ÒBnÓì”ûúã‰ÜË÷3l¬®>ŸsÃÈ4Û2¦_`€Å‚h<"ËŸÉçœ¾Cm­]è:8ªâùƒþLc¡*)ÌæÚ¿Z™úiŒ§¨{¨9sDâŽžæÎƒ0ÚèÃ]÷­™–ÚŠµ~#_DzÛûç—9Ð(-’gPA¶kÆ’\'¿ãÛ\\8ÞµUö(æa±Mîéžùv0Ù§!­ÊçÎ®¼tRlÄ”ò¢v|b3ø‰Ütò¾”´j;@õ1©~»µ—6Œ³Á~êÕá$ÛþÎ›Â–D)öš}û³›”å' => '',
+  'ð\\Õñ9a\'Þ‚Ç-µŸT¢WÌ§™>ÄšÐw3QÇAE”Dæì·_ÁU' => 
+  array (
+    '›g^
+Þ5ª\'ÎQ#Q7‘Þ6€8°þ¡eÅ¶J7q' => 'Å¥º~–=À×ÑÝò4.DM°Ï™)À·û•:A¬ã[‡4½:(;ˆ—e·¸™9RCbõíõJÌ‘¤ýÖºRjOl«å°VÅ',
+  ),
+  'ñ—~…ûQ— z<' => '',
+  'm¬Vz²vª;”CŒïF^™û–¨æ¿†' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.044328s][åžåçŽ‡ï¼š22.56req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002985s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1192',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓG¢lJ' => '',
+  '²€Ç¸)Mîh¦XÌUÃIâš`Õ¹lÂæÛÒ¹nz) ‹ZåHòâYÊE†]eË•#’ñ¹•†r
+³Y/ï1Ž×…†âŒyuÇÝ®8#Q?6`òƒ\\Éµ56–' => '',
+  '
+G®Zƒ«”ða‡RH¥Q	µÂ…è6¨"­¹?(8¯‰ÄÞ‡–Q­®Ô’HI÷5
+‘ån˜_)xš®ŒÃï“ð³çk' => '',
+  'ç¿_‘’ÞýLH”|…#^tÁ1“}YîÛƒÄ¦ãÚÝM—@§k”®Ò¨Ñƒ•Èm*kÈs¸¾Ãt3$Ô#×Ã’z²Ýö}ådîÂ³dizþ†‚F¤}s_6@9_·RpÊ•eI3ñ¾þkäp°Ò˜Éjïë%K¡ÚAI±÷f^dO>zi¶«ñ*`z_®Í_GèNÕwk¢©PßÑUÛ¶?†ø­ÍHksUÉAUOzÞ†ô' => '=^ï6€y{ÎÎV#uò±eÉk)ÿ
+Märœ8TÎ.€«šòvU#üwŸ—e=µ¤9Ub.ky‘.ú»t
+$ífÓÙÒœ@ÞW^ÀøŠPO±ÿÃ.âSÉõÊq¬¹†ôá´ÂgÓ(	a÷üt×¡¥·)™Ûø-H°QéèHùl#ÿ¶ŽÎí«ûÓÝâžîŽXD_' . "\0" . 'J¨†e¶8vrÿ× \'âï7àý¹§Dc äJnvY»~Dº3“sòÛtIÉ_¿qùÁüüàúÖÛ1Åâç©ð|GÇ%<üF ynª÷u[Ü¾J{ÆtE|RvÖ­nQçìö\\v•¯ÃþQ——I²ÂWª±¾Qk%Æû.v£Ñ>ÓÜwÄ$\'=|í|]NLòž=‰À]qEçÉ]¿°…Ãú$b¿O=ïï¨ÊU—ùœrÊ³j!ÆO:¸»-Âï¦à<®7‚¸¶[ã²4˜ddÄý‘Èq/§àÏÚÆ\\mý–žïïÝ	ß=o˜5L1¹Ø½‰Ïe—;aÕ%]Òqd/—ìsâªdQxÜbŒ"þY3„|× geÌìŸ>š7³·qíT ùi‡eD–¥®0´„çØO—½–áfiŸtJi1tW4¯Y{a…"(«,êÕfyÏdê{Å‘JäžÚìøh—%bS7kÚÉæ¼1¯mZð;½µð`–@•go¸BlGÂõRl?eDüCüŽMMõiìò-5À2ÏL¾ç€V¢øSÃ7' . "\0" . '¢ÍFëH®|9‰iðd.«Pæ ' . "\0" . 'þÌ;@rã',
+  'øýÞb;Ÿ¼ÚèŠUÓW¶õx{vk/%' => 
+  array (
+    'š…lWÌ’Y)…´¹…é¯Ry•Ç%í¾ðRaÿ¹ÿXøAKpæZê×ÖÞ£’§öGŒ‹N‚«yLÊØ\'xÖ$þö¤¨' => '',
+  ),
+  '©ÿbRº×{X>	hV¡Fßs}•éC¬Ú†j4Û~¸Ìb#pÞd0\\~ÓAÎòbš­3,b¢¨ð®ù1*9>¹¼Ó:ŒÇl„-Ÿ¼ðßÿÐ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:37+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047343s][åžåçŽ‡ï¼š21.12req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.47kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003379s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1176',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ5¢£P' => '',
+  '‘úÔ·\'ŽêÝ4`„9ÑŠ¡årç7SíBÍ
+s™žM¼»ÄÅQ‹bü„šyŸÍ(äÓŸêzºi¸¤ŒÝ”*¯O¤ZA¶âNï' => 'Â9m I82sŽD' . "\0" . '’åKJÔ.ÈŒ±üç°öjºÖâ³¶~ëäA’‡£®="v¦- ñÐÚ-½eÕî>Fž6k Qªíé­',
+  'S1]]¾5ºÖí”i§ì)®U÷ôxá·ãƒnòEL¯§ì¼o±\\c’°ZFp·áÕÛÞˆ?™£#aÛØª0~ò£Ö©o’EÂüxä¨–3µ_Ã#Eî€ª}ÄhÜT(dôòø÷6¡é§' => 
+  array (
+    'zglÑ¦®cÂ	éD`ÿ\\[ÒœÄ£jšá~®\'ŒHJÀ”v#Ô¸îgU¬¸Gç
+—a0Ã€*®£jœ(G¡û8Çý˜±±Ýåt"å‘òÊ|”¬Q€RÜ>-‚»ñ9%¶¬ß†‘‹½´iÎX!”™ÿfƒž8fbPz­!Éš‘õ(' => '',
+  ),
+  '‘¦ªNúGû5Oòæ…-X½ð·ƒT¢âgïüÏÖµ-s†ÛÃª§5œ¹¤!»ñ(uªåš|tV™Öšß­«äçËíž“%ûè”Ü’µ¾3]%O5ñI_Nt3eèCv‡ïßÅ¦ÃY
+)^·Ñß•PáNÇd' => '',
+  'äõÓÔ#@;k®º`K™?-0\'"ím•' => '',
+  'Y4µ8Ù!#GQ$¨dwÌ §iÆ/_~DâR‹„Î¢«,é-¼nª¶-þº}MÛ×ëZL4üÛšÅÖ@O¬ëØ‡£Ëld)žÃ÷\'CÃ™ÅŠXñ ƒø@#>f!þ²¾©Ûïõ²óëçðüÃ_â
+íOÇò$j¢»sÔÂã©	›©`ËO`ÏñÌTH^­òÊs#(3ƒû!ÒTÇP‰©ßÆPÞÎ8¾õ¢ÉhOå-u!l#ˆöö1³«RCtíüß\\ÌÊnÕÀ˜§,¹öV•ß¸BßV,‰!' => '',
+  '÷?—G#]À“°¦“ÆÍSµõw)¤Êi}á¬q\'”j
+x°UŒIunZÖË7FÉBº›õ' => '',
+  '>8ä2ls¹’"ÝíþXÂ¢¨„·HÅ¶Ò¸ÔBöô$ÉÅÊœÉ~' => '',
+  '3 ¹Ë¶7–E¨–Ð»M€f¿7Dè½r(@ï€¤r_òÒ°×v›û÷ï?sçö‚' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:37+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045120s][åžåçŽ‡ï¼š22.16req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.97kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003316s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1177',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ5¢¬H' => '~ý;¾7h"I,säªBT¡„Š¤j(%mŠktsBEù€¯I~B¨TcxÙoƒ@Î¯Q©žt¬%SiFÏ¦éC§á‡aHÆ½ÙãM4xûAW0öœü-.•Ò‹t­´=Ó¢ªÕÙ¡é¿Ãi‡ÀNŽ×»Æb¤;žüFà
+ÙGõç.™/Lº6ÌÅ!ÅÅ{„ßç±ñò ì¼®¼IÆÇ±™(áë4eIíÎ^àßèU·âƒÍ=±FÄ[',
+  '£¶_œ_Ä1£OôõïY(6Ç:LrcP' => 'Æíƒ',
+  '¹b8©ó‡Wí†öšÛ\\šÃ5à¿®Éfèõ‘ÍáñmèKä¯¸àw
+¨s' => '',
+  '~CÚþ_ÈêgU5úë´Œ/,¢×šÆ€»eJoî“0¨Ìnãùãðí_ñ)Èv‚²7Ý˜Õù¯Š0N·-Z4n_ÒÙïÖ-_»°/<ˆß´R÷M…2¢9Úôã,±Ïf–Æ™)îœ§R•›†~G¯E¼—SKõì50±„Öé}_Y!Á‘/b’_öÃGUc' => ')ÂZ¼¯_b5R‚9~-Á€™Y2¦†N½^CMÍ%œìÕgìïQ?BDÒ]QÆ÷-',
+  '|3ç—p7âÿ¯ÅÉRÊ_
+õÁ-7¨ÓPOW¯îôíú$ù˜m÷€uu6‚Nx}' => '',
+  '÷hü/Î¥WæÉÂ´ý,lRòþIÊf´œT¼z¿^qÈ	ø“?Ì‚7†–lïÔ@@¿‚"£×4¶Ê÷?ðUlÆvW/EÄZ”¤' => '«©häñ·Y4³rCPõ«“DuKù/n†%Æ¶àû5µóúúpYjÝmVE,5Øh>—jû £åµÁìÌQ{Z¦œ£u‘î÷Ñzq-y£Ã¸dKR„œ	ëQZhÑÿ,GèŽê`ö©ŠE
+GŠöˆa®Uô=ü‰cò|ˆä©ø¤3âßk¾ÏqÁ¶F%‰"(—ù{?É' . "\0" . '6	ù' . "\0" . 'ñÑ³¿~\',«Ày6I#>¸bGK¯êéjBžÎRÀÌ¡¬Y„‚gˆ…»®„×i¾Ï¶qv“õ]˜4ùu',
+  'àæ	½-QÖµy_§¦p*žùVh å-CìnˆÔvH¡47É.ÉÀ•1O·ðu>çµTÛ~:kÆù÷ï?$|ø¬' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:37+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.035052s][åžåçŽ‡ï¼š28.53req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.66kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002952s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1180',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“7²£@' => 'qúýyWu½®×žW°f?«o_š¼µXÝÂÆ®É·Ÿ™,yÌcÜ”',
+  '¸P@#sEwÞÉ‡' => '¦Îa[é@Xo¥îñüµ›…]± `_Ç¸Qï÷½76’¾e–ÜÔU(¾ã²Øgç \\ˆ…‘’czìÖ<±T„Š±Àßk.°Pãà#-]^:îè–t¨Éö	ØT5îó”¨d:”š˜óætG:ÛƒÈ ²¹]\\¹ÃTƒì»³­”X÷2< ûn¥®cÏ®ˆà´Ö\\ÝƒwSgiKMf±ý¿8SÑØœ»~êWÑ¹¡i†aòI´ë=Më4ä„¬n…ø%%sÿò333Š|TüU‡®1°?G¡ì¤GÑv”îi¥EúÉ¡ yò£–‡âÏŸsêK‘ŽíÞL™%ù…Ké' . "\0" . 'åZøŽ¥Ín )êKhõŽÌA˜[à©Ùýq\\b0b¬î1ßÊZ¿ØÊõ*™’> A…ÓÁe‹çªAtŸdkPd(ü8@n¡àú½›°ÓuÕ¶DÖüÔIëæ‘ÄTþ7ƒ4Ã,c¤¡*lX/—Rò¯T­÷Õ†‡[•
+% g²õpŸ£³sÔ­ïõUÎ3Qýè@´Z,ŸÇÉ›PiH4U@m´^‡7zá@ÐïŽO9*ƒé«¸ž‰ ¾Ìß¸læ$W›ö{…áëû^Ù—fÆzý~ˆäæ¢¸—©6¯Pÿdñ1"üVf%†7`N{·VxÀtaX„ß€ü–\'u1®h»÷C¢±>
+r°Ÿ',
+  '½Ò\\ð*ûJ•¢wÀöI:©çšsšfÙ…tC«]òEûV9Nöz¢½(`´Q_¾ œ¯ç/¢·{Àº€ë7ãç_ÛÇM#Ä¸xlº>†ä' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:37+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.044308s][åžåçŽ‡ï¼š22.57req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002917s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1194',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓ5¢«@' => '',
+  '±GGLÀØ–ÿê¥àŒÏµ¶°$–ž`Qj\\¦Ù³å—Æí·È$iˆÆ}˜@m/W¿«–7s FŽÒå¼Ç‹z9ËDs<ï˜ø™¯PD‰~@' => '',
+  'Ès{0(³½€ÓSwóq£ˆxU·mÕ¹g³U¨°¤T7^\'(qùê£Ûúù¥emÒ’wq«ÞdsÆKyÅ’£L]‡ÑdûZ7ýÖ¶Lï^iÕVuNÐ2|táTÁÞ–ít¢ò½]m³öÓxNÙH±bó²€ü¸Å½Ð»·ß	¨Ø}§ï_8û§×-_bfÃ¶Œ”ß˜,Ü×Bð„(˜F¿®ñ¥Z¹m’è¢¬ÇoSRÅ­ÖP®üük±Òø1Í’Î¬›€ÑŠ‚»;_½' => 'ö#Òep)
+†T"\\4tøã|û¬­í—¨ŸÇãØ–oý¹Ðè‚{nÄš~ÛÌ®\'z?²ëªioB£BgbPW{!ö­´#4‘½ý{´°„°ª¥G–·yÑŸ( âX/FÓ\'*Š3ö•Sï¼®`èm,¹ß¯í„s	
+¦–Fž:†MO5kËi·ƒxépÀÕOZÑ½zú>—ãý¼äVäùïrpRüŒ#›¡¼ÙÚë¬DDæ‡ú—ñŠG¶©ªx)nÃîI‚M^8HËð">cZÙ‡†¿b\'ËkTNzQu‘z•y 9J×Éûðv§œh<£c¡
+àçd²6í|<_ü¬^‡xtI™8yñˆK@òA`ï!åp”Ÿ.È91RÚR‹•n;yjëêÚ@ŽJy¾y¼à‰ƒù×ðäû¡bŽè¯ÕC—Ñ‘å /P›PT÷¯ùIc¸Ð{sæ{_˜vœ)Jü
+ÉSÿ’R^á±—´ù§¶–<cÎˆ	/:6/e7§c•Y3Ö†ƒ‚~)Nó7áJ-˜E›rUØhˆ¨¼°ÚKÏ;e[ƒmÁwøAÂû"ªÁÄ%·o¹Yq®½Fè)æØëMus»Á{ÊwÊWÝïX·FãÅ,ÿˆRo#åÓÎ.®=#«Øunˆ)Æ„SÞt¦FØ—•jÂ:³ŽióöÎ•·ÞØñ t;£zïðQ©Ks×µâê<Áau¹`ÐNäÿþ•˜' . "\0" . 'T',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:38+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.044771s][åžåçŽ‡ï¼š22.34req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004712s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1191',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓ5¢£P' => '',
+  'gÍW;7Á5¹æ;£ÂŽqôHŒTÐLR­(¬RZŠÆoºÏÝ‰ž×…¢Mbvªše²>YŠ_µ§¥™°óê*E²ÛŠÙrVìÏ_»à
+XÜ¤GZæ—Eï‰ž½1¡8)t“›„19‹_·¸oˆ³\'‡K*?þæ|d`Tº–ÑŒtZ¨¾UÃi6:Ø’>(_JY—‰‹8ÆXµkR¾þ%öHì»òúØÝƒtpêPï%¹j½¦žX-†C8½U€kD_äpkºù«àu>y‹ª$Œ þÈdbal$jô%a_U¤1wfDÖú‰í' => 'RfRÚÅÈ”±pA•?*@ª„*¥ZT*ó¯9-e;¶jÁqƒIòûÝ<Úh
+ªòÉücóK8—¤Ä½d}Ì8Ä±e­ ØÙîðäˆâlç<vþ.2ÊŸ®*`[…ƒ«óì£¢\'¡¸™Eha#$K¿)S\\#Ëa‡ßàÓ–Zl`.DøJ÷¹/zN‘±ü¬Î¸‰î¯tcVü6GÁ~bQ	Rb¥ý ÇüœãáµÉÜ¶tyºLN¤‘5)	–z	Úšz¿R¡KS\'zG™—¡/}–¡@Ž¹`ô_d»ØòÓK‚ºwôT8Œ¤‚V±H“Àc0hpóEqA<³Š—GéÎ†Æô5¼ú²7©t`z÷ Xc‚Ù{pþ×.¤C½r5.Ÿ<|OPÆ¯ä~dƒš` H=ÇG[—œ E=:åÌ#ú½Ï‚Q©ÃA£œ6a±ÛÎÁW÷I º\\JúÐ-ÂËkŒSBy3™HˆÇ_G§¬Bšªh™¸É«-Ò©½¾Ì=,»Û#6 "è¯õ?aÓiBUÆý‰†î¡aŒ¿t·Øžc±²†Æä­ƒes‡À³>X’' . "\0" . '[@c	Â(ï´eãƒ`±›C–dÒ´.»ÝµtŠ;¼¿å‡ÅKê"ØÚ9ðù§ M77
+Wq÷’~A9‰Ö—0ÑkÐÚœµ¶dÓÑÒznÛ}ø;‚Wì°ÞúIuÆß4Óüž ½Èù‹9Dè0Zª4ªÁç½ ¾u?¡ØÁtœº’#²BéÙ’E±4A"Ï!ü•YË ~5u L9çrHÁ”\\‚Üs|âeÙ¡2RÂ¿ÍY¿Kƒóüæ†që,Ì3¾¦qžD4çAàµ€MHTqÄ‡³†Àï0™IÜ\\ùVqV×yREûhê-”0>„7™®ò1g¤Úí¢,fW/LG;7Fýu)‚ò	¢Eb‡	žM9‹ƒÖn>É/!ø"’ND~£Ñî¤wæ~•öf~NoÖ0>ýžÚ*}¼²T‘ž5ò ìc×ôŒC\\«‰†
+È?™*‡iÜ=‰Ò‘^, Åª',
+  'Red“áÕõº' => '',
+  'wÍ±’kª\'ä7_x€æ:VÆsªñÂz9lÚ/½µœ”âÕ
+se¤Ú' => '*ûV¯sŸ3Çðå·^ïáŒëèá7“÷Äúÿþˆ*þZ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:38+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.035250s][åžåçŽ‡ï¼š28.37req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.72kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003310s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1175',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑµ¤' => '',
+  '¬GtÁHÍDÅŒÂ!Å¥hü¦kñLÖìÂóZ¤Pô¡IÌJ£LÖ\'KQÂ¡ö´`€4Ã' => 'º*n> ²Ãæ¶LRQ9°à,¤_ð¾(¤¢¦³å)éÆð°3¯zÃ$?¾ŸE‡©VfdK2Ï1‹â‚òì{’Ÿ™‰®/«cYÉ<',
+  'Å(€íwFO¶ëqUa±üÆNÂ´]¼´…
+' => '',
+  'B×³ÇYöB³¡bI°¬–}7Gk	Æx:Æí28…ŒîÇ"Äc‚$s¡ûðÊ»Ú¼ª"¤çÝg¿ÒY¸iý¸Ó„pú¶œg{Àbªšnõ}`Þú\'÷Ø]Ãqã_ºU_{Ã¨' => 'c½¤)nHdE¹¤Kð™EU7ƒRÉ«¢µCUƒùŒ¬.cÞš',
+  '…šÌÃòCtRáN%á“s\'aeà/_ï¹N7ú^È¥¾Ä
+fuþxÊÉÜ%ùmß±°ý¬Ì©ðlí‚:Ûû_2MÇ2:ÕG«z"‹5möà;Íƒey$	êõ\'#KÕ_j' => '',
+  ':"¥výØgšïÃ˜•_×:z€Y¸¯²/˜“ƒW˜œ ' => '',
+  'œaÇF{»‰DHÖ~Äð>³µpu†Á÷ŒðÒæà‰sø5·Sò#¤°ÁoK©R,–9óvm­ ÌqíFIÃ„éGXéŠhfâeí³ûÅïÀ0b
+ÿÔ,ù ×¸òw>°y‘õŠöJ^ÛÄÛÏÜÎÖW÷"•"zW1ðùuIƒõ‡•t©ÓY¹žàtÇÖfyÄ_^¼' => '',
+  'É¦³ZæšcÇ€¬€³u‚¿ÌQí—þã4¤Ÿq_xìrg¨½UŒ_7˜{w\\øWÕö>öØ¸?åÎul7PÒÇò"æÓT%`ÂH¢Tó÷ãç¡eŒD(À#gŽŸ
+{¡Ãa_U–×xÇ<Ä}YÞ˜©<­ÿÏì-º—<ñž1CÇp¨a_zI¶b¶¶ï¥eòÙC°e˜D7ZÌÏˆ‹pP»Ùr' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:38+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.035727s][åžåçŽ‡ï¼š27.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002936s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1196',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“GÚlP' => ']¼7Åè²U9’¼x–rrÝª³õ*r’ñ¸=¯$/(Ä$ØÜÄÝÇÐ9l íƒqWê»ßLìŒ' . "\0" . 'À~lÀÚ–ÏJp%×ÞYHš(¹iªRBÃÂˆ–ã‹E¢héÃªn"Qè/[Bœ©ž±ÑÊ,f’€ÃU¾~Tb˜¢d{/7ü\\wc	öåB;îƒ>cl£xŠIoð	H(çî†ï)®xE”·¸†ÃFñ‚[µŽÝÍDÿÒ(€ÑÏ(SC™ K0,Ÿ>†@½«x¼' . "\0" . '‡S~Gc]õýDE)ü¶Ð¯í_ !²2£*þhâsljšPO‘xj0N‰|c{Ñâkáç²î?äËz2lxXä^ß@‹ce\'¡û
+£|SÀÞèØHöÅùLRØ·¢Î("Õ#ùd\\ðX_…AO]V$ðÒ5‰7 ›³œÒ´èô(R±¥àl3g>qß–ŒGã|{‡ƒ·sÜ‹:yú[”WÛ{èê' . "\0" . 'Khjtêë£GÈäå2/ý{¤¤ã#?")™üIÞChkw·óvÞ¡ƒË9c»­2>I;7¡ûë;1·(õ4¼Ë"î}H‰‚4iç¼ÅÄÜóü³ôu]²:[ìÐ#›#xÎÖãt­# >Ë\\¶¾YgoÌ.%š=Ôª((#ÏIq¤My˜v¢T¿ÙÌÕõ·xd,aSO~Îîûþf{¡#‚´ª–y{½(¡úâïF×—³qåèTemÒõŠw-a=sMÕ§éz?7Âd“Ü·£Ÿ`½H_ÂäIäXHÅ¢hm#¿T‰P¯Ìö¯ˆX×r”¼{V©ëÑfã-~»Ž¸œVNë·“ìcú)0¾*7ÇÂ-3@#Y³¤Jž@0s' . "\0" . 'z9JAOˆÖ¶Œ©Ô×¶g•äŠíè
+§x¿/Òf.Ø‡øƒ›bCs·ø0b¤×–ócðÝðsà®~´Ü<aû~Š“Ý)ºGq›ëE¬Û2AÊÚY*1øbLN<0ü2wô©‹­d°v8çnÕw4Û	ïÖïí(*{NêÉ²h50m×’7õúp–ªô*•T†€¿«¡rƒ«Ò‰9*eØ~ûzi>¾vÑÊu2¡üðv™PJ÷žmÎCÞ' . "\0" . '?¼s¥pô®ª4ÂKÜ±(~uÁ,}N7ÆiÐU›¹­®¬ uÞølï9Þ™Ë8²hì€ÛH
+6
+M•tñ6bÈáƒ[¥ìƒžWûi–3b¨Û"×Øü|@p0œ5ÙB‰Ê¯½–¡÷¹WVçý6;‰óÎ;3Â`”“Ô	2nÕa)ÜŒŒ>6<k4ÂªVc Ý·Y‘¿Oé,_/º °fW"`ü-›"í°' . "\0" . '.;>©ò}ƒç¸Š÷ð÷˜u.–»M;"ÇEwo…º‡»®ühK„µ2¿{0œ}Sm±d5ùhÌÔ]×Ijåk0l”Þ©Ä~b>ROÂh>â½!ÎãØ¤f?Ô ”ÿþu’ûF',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:38+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.079426s][åžåçŽ‡ï¼š12.59req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003498s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1194',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“E²¤P' => '',
+  '9:gz}™»~Ù,Ùð÷Ï62Yg{3#æGI%ŸÚqÑ­Lö4;ž‘Mù¼,*È°kÇ2STç!5—ÓÕ!™›X:¹c´úHg7Bï´iÂ#ÄgW^ž6ôUaì‰Èê^RŸWŸhm>_†ˆÿ½å9nÓ¿93^
+2d8Ä²xøê¹(pæËZ‚^b<y†rZ™ÒW9Ï59B(ÿž¡_ùÐ‹™x”1_‹¨þéÍÈN¹4ìãeïdœ9YÂÏX%ª¼Õ¸ËÓDž)˜§J¦øSˆ|S2¿XT/»9¯ÀiÖW7U_:µô¢ó¯Ž²á”ó¡<a$‡•_û"çœœ¨7B‡ÓÌš¸ðT—ÕÃ÷˜¸²;ÿ5êñÌ\\…Kéêü@Æ`ïdNæV»' => 'j›N:HŠl~úAY÷‹í¤øåŒaäv¨@É1ÈÎéˆ¾ãéˆïçØú…—ÎQµQ²†/Äéµì³›†zÑÃ$nqwÀ”ŸXÆC|÷¯´/×·ùëä„(=Ì¬½HÈw@ikñÓýÚÌ' . "\0" . '‡}JÉp]Ž˜',
+  'fé' => 'ò÷	ù÷W¬ü«',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:38+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.035392s][åžåçŽ‡ï¼š28.26req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002992s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1191',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ5–¤P' => '',
+  'H¼Â"0g•]Ÿ––Þ’x$ˆ<Œ¡ä½ôi¼7Ù¼Ôvg]ý¹JNz†Û”×ñ:¿2W—]àÞîšY¦â›Z¨Sú3_A0©Z„ôò’ §Á0‚UOKžNVJÁ?…¸íThÂß^4ü(ÂÎóLæ˜]Bd-V7Ôw‡EDírê¼ñÔT¹™¤k–û¥fÞß-ÝØ:º¦GzÝ˜Ó_}}m%' => 'wý™ž„S1$‡ç¶YZF•
+x1ú—(ÛÂ<P¢‚ö0Î\\óyÂïµ${˜ÓÏ%VdQïüÂn¡?‘˜UñÈ›h%ÈyÝá	©¨' . "\0" . 'îjêB.â.a|PAGn=Q>±Á¤;Çò4Ò>Tk³éJeMþ¾4ÞiQ$ÓŠ%åôYoî	óˆÅE$*<b-‰IA–èKíŠb»}óoÏµTA¤,`Ó5¼$=äIºöÂÅZS	0pƒØg¯…RuÆ•±dŽM_úð´™Ï@Èft4Àß·)áõZêã×Qm«˜³x-Çèq¯*¹©ÒØÆàd›yùÝŒù–Î‡}—Mx¥{‹G#Ñ¹š²w¦ÏšújÓÞ>ãjtr4¹­Û@*â\'˜”	àöïù.)yë“ÝÐ5º™G£Èî­c81.œù7' . "\0" . '“~fNv@WÆcKIÑ|LÝõ6aò9RÑµtxY{6\\#¸ÖÜf!®£†êÞ”S8~‘•ÌÈƒ*¡È¯ÎiâŠpñ7×#hžÜ…ãr/Í¥p^}
+
+ä€…{MGV2t(Þt@4Ñ@]|pXV¸„L=$Coj.Í”Åkwç6] ©¹½“üg¼¢ãGˆ8¾ÎŽpŒGÑþï˜=¡µQ\'ÁWU	9/ˆyrRš»…Ûró2PÐì£—…\\ÛFz¦',
+  'xYø(ï©Q‰-Ò9·_¾î0I‘ÛiÍ9f4Wà' => 'S',
+  'Z¿Û!7–Ž1Hiüª–V;í€n' => '',
+  'U¥QÁõêê/w»$>†NÙkÐ¿ºzÙwÂ:«oy_Àï_áÈ±VÈé3Ãè;AÌ¿ÿ‡J' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:41+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.038523s][åžåçŽ‡ï¼š25.96req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003115s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1194',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“5¶«P' => '',
+  'ØŠê÷—	AqªÛÅ®k/@ŸhNSR¶s›®tþÛð?5ëx÷KilãvÏëGZnLB‚²?•õ´ãÔ³¡„ÝË§NPÉS¶§çÀnþœ¶' => '',
+  'ŠX˜XGÄ7¢á9ŠrÐ_`Æ®<Œ' => 'Ÿ~kZ®­ÛZ/úø£ú¾ìwêod¹jôšxV/lÒ:¨è*›X™êä²Bµõžò/	‘„øº´hr­Ã@Âi6ÇŠ‡€Ù†W¥é2Ôñ=1ŸE… %VXqV†ºÂƒÞhDÄÌ¾¡‰\'ûBbWŸ*A¬}m[\\}Fh<4˜n6goë¥úÎ3h_ç‰ë¹Ê‡|à”ŒøólO?£ûË¡éÚØý}¨È=ºÍÍ˜Î‹Z™[·£ï‰t.$fÜRp]Éï.F4þÌTûp³H–…w	AìÇ×$ôK!‡ß%)K=¥’òo˜ˆªë"…ÎìaÒ@•¿æFzmóóQ½<ÎÂwphíuÊìgÂ·FEV[ø÷«ÍÑs$¿ˆßè!É\\7˜ºÔ\\ÎÉñËN3¤P®',
+  '3?úªUØÒÍÈ' => 'ƒ£ç#kéÃW—î›fö) ?ÝÒ˜¶é“q¤.	3ÈŒám‡üœQ{–³˜Vüì§5ÔòÅàWtÛ³ÓÐ$M_AV' . "\0" . 'b@P6"2žõlÄª€hç¦ÊËéoƒÙ_Oz¤!”BººPý¯ccygöô¥û¶
+Gq“ò}‡ZH¢•Qa	kTà¢³VË¬l“ægÇÔ=ño@»›”¸gEß}ZÍà[÷I²ß[ÁÛKé*Î¯|;¼‚(áíÌÉB÷îUO Ï†ß½Ç@ŸXQª>-ýâ7=}½ÚŠn:ÜhC9þX\'QMÚ‰­¯Û7fÛXž…|¸§«}¬|µ”ö«ò?†§£›\'DÑñ#±¦¼¡ªÍâ‘ã”¯ÄÂZC7f@í"Œt¹_„=g¡(5l
+ªm¬^÷Ýp”Ážáº)£¢\\£ýîAªI ITt¨r.‰„ÐìuQó{úhÎþŠ' . "\0" . 'ÕcODN-6¼~7â¦æ8¨‹xÑóqzæÁ`y¹7"Î•%¶õ‘úÕJàQˆToÈÞ˜œsé$ÂI?H±<ñ˜÷Œßm9Íˆ$äp¬Êìù’¤¾xêÕNíå',
+  ')ÆÌlŒ›Å¹âyædF½#xõøŸ;{`CIJÊ)ºËú‹Ž4°¦njçö¼Æ]‡ìP>Á¼7Á“°äÎÌúë‰ÎæÊ4öØLx¼‹VÈŸ åÀ~˜' => '',
+  '¶<RþnÍÒÄó\'È¨BA•Ý¥BÑ7^ìjñýsYŒ%Á”(Âü‹±jÛ1–¾S»ËQˆ²(¦Àö˜æ]\'Œ|¯ŸXïÿýúþÌ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045920s][åžåçŽ‡ï¼š21.78req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003090s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1195',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“G²«H' => '',
+  'Jd²fÅQýò\\À' => '',
+  'hÿñfïm¢ÁÓšŒcò×¸”K/ÒÔÒÞkœ÷L‹*ÈVCÓëÃa‡œì	®u7ŒùHs<é‰¸3L$7' => 'àÏ]2^˜tm˜óCŠó×•××cŒ5Ui§EÚDu§"ßðwÚ§Ñ$O±œRûå¥fz/›*ËlàŠÃºwv~G@Óf \\Wø|ù¹Ûm˜pƒæî®i4@ÏÅÔœ!o7\\3ÃNC`ÚK2jçe1Ž:Y d/hìOj_ÜdI_à}P
+\'çMCðé2±áØZ`-Uò…(ŒƒFË÷¦äTôÇíü™÷ýÐÛÓ¡5Úf«F¤8³Þ,}¶±z',
+  '¾$ž-±òBÊ³¬“WÝîƒM¥Âkª½¸Ñî˜äWøÄç)cˆEBxß“ØÄás€ïïòf«¨×¢<>ÂmÅŒë„˜¾cDp>£2¥(È?Ø„|½t_ÀWI»Z˜Â¶–
+Cm˜?œú™ÃPJ•çvæ`-Þj)‰®D¬¸‡ú×üÚçªN^º­ØK}:MlÊÃEX…a8žÉ–¶³¿ó_O_¡þgøü‘gç™ôµDP2„e0-¶"Ø…wK^ýE<ŒÁqoÚEFÙØ9vp0®¦;ÞÌFdäömT…ÙÂo»÷a—Ý¢ER†îÅŸ¶RÞÍS˜oˆˆ"ê$1«„Ž:‘n¦°Sß' => '¼°>’fžËœ®' . "\0" . '.”0|iPöÒ©‹uîòê7Âc}d®ïžt>þ…Ev÷=fu	A2µºhéÙ®$ŽämÖ±-žÍ%¶ûJÏp·o»~sá	F?çÀÚ²ôû‡zóÁf°×áûÜÖ·h×ÍŠWd- •jÜv›Ìµ•$z%BK\\ÍöaãYãõ©¡\\nviÕ‹Ù®Mz4*X%åLÜ!Š€y»lcMIÔÅéë]Œ¿“Ñ—hô™{i‘eY¥ª¹…6VOO¥FEŠÃR;ØtôÜh®ÔøJ\'È¿ìÎCgÃ¿n°÷ëªãÔC!ö…~Sí,ðáuç>Íé;ËYe¬‰à8‹þš”>ÖËá¿ü£4ØÅé7êŒÅ¿‰þ	çgWi9{˜þ/õ°),\\öÁR“ySçu,Ž˜¸†î’„3ìl*¤Vn\'ÅÉxúyºL|ÓyÞ)¯·ŠôïÝl¿HwŸK\\VeÚ£tL@ŽPz³Âe—êq/ ­0;Ó øØñÙWI9ÃJlï5Ü;-!%ôüÆ~¤) ÿˆ\\Ù/€´Ò“8ž«hž—}ç³>,˜há¦íQÈoç¿·‡U',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.041733s][åžåçŽ‡ï¼š23.96req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.66kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003074s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1193',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÏµ¶£P' => '',
+  'd;àf%¼’v6H…%­CT’o˜yÛìÏà' => '',
+  'wÔ:æéÊ|t-„Dôûæ¡š1“¡›Ò2ÁÄð‹ñÜ5ÞÑP¥¨2ÏE¦\\¾Zÿ' => 'á˜xÛïåŠ@Az],¶¶/ÊïGàë#e})!çä)õßî,Äõ	5:Œ½6?›Š‘UñÏª‰B!Z¡ðBcójs$N3åoï¹¾]‰¾×Ql{³_›-Þñ(OxÛžå‡ÌI÷ÀPZÖì$QÉe2ªÐ÷lÜ\\Êé†²:ã',
+  '}•8ú‘¿Í¨œ¯;^Ó~$_¥“„ÍÕ½`s‹æy\'é`˜Ë¸õ,›ñhì¹S…ûÕ‰D˜)ÙÍµ} .)±Ç{#¤Ç iD”„´©¨/hRl¦pN°\\e€ªñ•NnP«µö*U' => '',
+  '2Œ__Bª`‚Ò_â”–Û”Zi9úL™úÖ}?h!å—†AÑÞœ"1uôPÝu×od½ýÐê	Ñ{;¤RÂàŠéÏAÇîn«tÇÐˆû~»»›U_˜¨*X¿*£´tõë•eth2¬Aioê1"ˆ”Ÿõî?\'“Òhi§ùÄÍŸ–|Ý˜çóçòzÌß…È0cÜ@Ô”oD‹FhW^\\œšr±%1ÐÈøøÁNZ£ŒWÈšïÀž*ž7:õ›„§ÕV¢ÅÝÕ÷cÇÞÉ54ŽL:Úë¯_f×çËô_‚ÈžÐÑì¨SÈ’ÓœŠ8dºj ¿Õ÷äñë9‰…«X¦ ‚Î½{V;¯¼>çÂ`Ù´Åp\\_ÓõB¦(Ä…ÖÛ<ô¬A\\Íé7iõÃ¹ÒJ¡úyÉ;fÞ/¼á¦¾tGÂ[HÐ.z`Ò,6ýŒ4ç‚º	dHb–?Ü¸ZINÛHÝ¾ó°Éÿþ/Hü—' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.056947s][åžåçŽ‡ï¼š17.56req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.47kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003091s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1205',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓÅƒ@' => '',
+  'Ë¥éÐ_Z°PšáR©€WWiŠ[Âåf,ø' => 'O»ðp|Qe™.3ŠÞÝ[cBq$ÒØ*7	g êÈ•;_Š?*ü20Y°œ\\¹Ü¡^CêJ[)€!/—3Z•Ç^\'/X¢å„dŒ_ø:P¡Õ.‚ò²Ô~½Ó›‹4ò³3e0{Dß†È§÷ˆ”çÒúµÌ',
+  'w,v@…(QÅøèÌ•éƒ×ÜÝÒ4¼_ñqÑy8ÒlÉ˜…‚r^6¥ ’”¶‚65PÅ4ÞÚðÔé/V<áÊ@¶˜	Qg¬ÎŠä²6w2¾ß§_µ6PÝG' => 'aÆnóÀÆ"÷ž\\ôÝÞ]ñ!Ú3(ñ@mÓ~ˆ=óB¾Í­¦û 4Rˆ´pÌWºMÃ¢ö5Âóg,Ja\'Ü>BKìÃ{ÇiöÕÝ è{‘uw;ÒË,ßåÌY¾îÐÁH]Øá¹í{‘|žRANŠâOKœRŠïw. §éžQ£ @¥~?A)|¥KÅä ?ÒC|Š3˜ŸŸl~Å',
+  'çŽÄAX´Ç„hØ¨âÖO‡mÄ°¬«ýT8Ôú,:h½è#u³“4°¶_Yaª˜Vƒ\'/êÉ“\\fÇŽ÷}d|ëö\\\'®I¨Ñ·£Ÿ4¦p­àI°ê°6ï^wTø]¯(ƒI;K†aÓÇ–<L{mŽ*ÔC*_' => 
+  array (
+    'nÈ/Ö×åþA?xÅ—ý‰‡_vULÎè‚Åw±¿Ü’ŸÃ‚ŒßÈm.ãŒ—8fƒ ¶Tˆjç´ª£Ûøes—‘Ÿ³¤ü³jêÉ^u*°‘m¡Å$®6¦C‹¸C’° Pjw)ÄQ\'v«û$.jJ#…YZ—¬HÓáÚpg(…)' => '',
+  ),
+  '* LÜ˜”D®GÑT@Q]y¾in__%OæÜš™Màý®¶b¶gåì€c°öãÂ5å3AÚžÈ¼#S_oÏ5 J„%AèƒoÂµê’µ"‚³¬ßˆÁÊ>ZÕž–aœÐYRO½WÚ/ÙtÝFÛvä×„¦4G¿†ü}Ö)ŽéæÓ ' => '¢œŸýdÖy»ÏÝ3Hñ\\A×Zw0ÀÏrlÌ^N4UÀãÅ0G¡—rhx—ÐïûJg³4=‘ B’‡äƒP³ï„OQ‚áÑ¥ò{	ê¬³Î?øÓ—Ü^' . "\0" . 'ÿTÃÀ£¿B¨dhb¼Ýf
+3Rÿ?¬3LX¹íDžrèÐ°hS\\}‘c)£×T.U„hyÔž±Ž{R',
+  '‹m¹AÈ¤-' => '',
+  'È0Ëv¨PöøŒƒd®ÕTBúCDÂ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.034938s][åžåçŽ‡ï¼š28.62req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003079s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1205',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÏÅƒ@' => 'cžG/ÇØIïôÞ[©Ì›Ú¾’«Ád-¾ÚQ‘%B¹üú@û‰—á[Œ9X¬³2Êvj†ÌÂžÌ£´±ñ–0fœ4ç}–’¼Þ·¹Øü2w¢÷–_Esê¯Qù
+úX£á„z=ç^NÀ³ÓPßJüëiÎ|‰g)ÞúçˆÕ-­³$Eì¥‚Ì¥oËÚND6ØS!O
+jÏAfWâ1¨Ù–A€¡×Œ>´ZLÐý¦~Â¿.7<¦U’Æ›;Ï»!',
+  'FÌKte' => 'ñ dÒµèø$Üe…¿%†¡Ç¯MsWh\'Tò¼¾û7w@^2ñ©¶S¶“ßP:zÇÒïÙMíümz%v*TG=Ép_ËýÃ*›ŒëÙ9ŽÎ¥è­Ÿ=°Hb‰ŒÏ­¨K£¬žD	™yòùÐVHÈÁøa²ïu×€»ÇÊ½¢ÏØ‰†',
+  'ïØ~5J	\'³ÿüÒþv_ïôníña¦ÄÉœnq7êæ¿unXR3î7RmW¼!_¸dÏ|GÂ«¹í–úØ”»U¼FÏ¿aì›0i60Ñ‘c@”—Ø`Â¹k_‹6gx8‹r ,€û·¬ˆ	Y ês5PG”áÅø†Ë‹žäfÀûžWñ,Ákëê5‹æþ	:û™Šõ–DóŠ™\'± ~†üç"»PÇ³êŸ¨âVMúÔZµlæTÅªs¤8†ªÉª×F*6ç0:77õa_@s-‚§	±Ý…åÒÒ,p–•È²EÄõ„Rz•ÌË}ŽíŽ«ló¾DhYÒO¶ÃB«@R²' => '',
+  '\\Òcbš:Põ’†É~“¸°hR5îÇaÜ
+_òr›å' => 
+  array (
+    '°°qvi¬;Ï$Ò¾w©‘ÅgÝúÑ‹•h¿ßNâ8À³…<¦Ó†w©cëëÅ•qMù!ÆœIˆj S—^¢ÍøROók½å–â	ýØö¤R›Ò˜wU¬Î%ª‡3wæk;Î\\|ÏÄþm,>/´ê5ÂxÉ¬#8”YI¦¼}Ll.únà³5ºrß:Ô¸Çbî°ÎŒžÀa­3(R0«¥4÷•Öï[ÛäÑuQXy_' => '',
+  ),
+  '_o6•©r¿wBC_ŠêÌ' => 'ò;Qºã> dÑfµ¡®ëÙ—(›§è¸yv¼7ák¡‹¼',
+  'mfàö»¬€Q%L6•’¾¿ìÜŠËˆ¤K<ñ²£æ·´YìBûNÓwiêö¦e˜‘$DgÅâ´†ÌµÔ,~†#£_ÓîéF¸9N$žŸ‡Ù3' => 'âKµŸnv–N´È„éèâ ›ö U¯³ø,òcœ	—',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:42+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.039921s][åžåçŽ‡ï¼š25.05req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003061s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1195',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ”7¶£@' => 'ýþ>@½Wt-*Öl{9³~â)£»äÌvŒx',
+  '²0—)Mþ²™buò£N×«ÎE6]KtËM1:¯UŽ$/ž¥`f€ò½\\ŸŒd<nË
+É>blfãîc_®í‹3â_Ô5ìw»ÚØ‰"v²ë' => 'x<\\ò0
+G`”O¥IwIµù•ßGÃîŽÉUu›©[¥Ü60rÜ¬TÚ‰Ù7ªµ¬îFÎrTF«ÀäÚW|_qÒU©ß}Uq“VÑLõ¥@¿	ÿ×UióÀÄ›:l_ŠXÄùÏ¹¶A|0hF’À%•šï¶=¤yw óÉÕÖ)lµIgtžïæÚ:Í
+P÷í:M f¬9Ìh]Uå Åj:w|¤PÃœÿµ_“"Ä/.#ÝIt' . "\0" . 'ôVyµÎÔz¬\\lõÞT§\'ú
+u©·ô“<Ï	ÝÉRdd´§Á¶(–‡œ£È1=;_a2HYéXø‡êªÉ3P»–jìJ028Fì—}ðÉ²u¶juÔúé¿2žø–Ú\\õßÂÄÛ',
+  '¨0”Š›\\Úp‘“Ì©ÈlÔTìÏFA¦X’ÀpË¾†Ëad{}ò~,S¼Dƒ:vÆûŽ
+©yGVì„S¿Gì­ÇEy£Ú‚' => '±ƒó¤*½Z“öŸZ«t†6 8µo8µMhdPµ=7J¾Z,`¾N"‰ˆ´L|R{^Gd¡Gßt2ó»Þìj”ù‹lV#“)):a¨ØÊ·ú“„Ù#' . "\0" . 'Pm†É@Š·›ò7²HÑˆ›R_y=ª·¡UÏ÷o¶»^X¾3C}ønZ :¹ÄÒî~îÏó5ì^øU$L²…7Ê|Ô>]¼±zÝU´f‹ÈPàv×#ƒÙÑ¥èÃ¼¦ch‘ªƒaÔûœÁ7Eêˆ™Ð',
+  'oV\'‰E-RÜ{ã¹‚OibÐ§áÈ‡œ¶L6Å6·-ì`:\\J…ùÉ@šQ%Kªózx¯µ<ÝnÐT’³Î?ç	M-‰×q‹Óúu£Ž9¿_Üu1)G¸÷ïì´¯eWºU¨{XÂZâ²i0r*ëf<æšä„Ož÷Ø_äRûžV½EÝ|ÄÈOùS¨× 5]oG`‚˜TÞ€˜“ÀÐ¡6GÀòQ÷zh^áWeë¯œ”<ï%;nff>2%Eï³ä-U€$w9`ãã' => '',
+  '­2IÑF‚×lÀ þýh_ýî' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:43+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.053621s][åžåçŽ‡ï¼š18.65req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003070s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1206',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ’E–ƒP' => '',
+  'Ë•¥8å2_ZpHšˆ‰Ñ©	>¡14¿.ä—Ÿ‘ÏB\\Ãq·«‰þžGOÚ£mëË²wE×ÖXHÉ¾¾›—BpR
+/	‚¹õ‹²
+®½lqÆrD4Ä~f~šQÄ†¤0P' => '‰È0ÑvÕß_weqöõvØzmBÙFöd£V‘_ÌgƒÐ×Ç°`eAB>ÙÕ=(:Pg`•zW#yÆƒÓÈcC!Q4?GèE8\\<ˆoC¢M±÷A–ÃLD*ãþZb{ÝŒ…W^¹Á~ÒÍ·ÑÆ;²ŠãÉ™F’]¼÷œ­>æð ´»™.€ƒxýŽà(¬œ~EãÜì½­*Îð±$ôüvpÜMuŸú§^Œûd(ó€i
+ŒqëéÁŒ¡?É¡ƒ*u1b{’„¤‡½ÄeE¸0N‡\\%¡g”øÆ~³§lÙgêFD‡2:ÏX…7Þæ¶®¬«ŽóâŠ²ÅÑõŒ²Å.:ãNÿTñ2ì¼K{Ú½g’µV×’PD‰ºŸ6Ò`',
+  '›v×úç­«ò¼;¹¶g"Öþ¯JïÊHo ÃÀ©KTÜƒ0ÞŒaÑdJØÑ«Ç/ø–Î°ëgÒÂì±¿ªcwÜJnÄöÕìÊü²ŽÊw¶Ew’<!niãÄØÕì	' => 
+  array (
+    '³gÃê	ƒnË¢ÉO|	>¥øø4÷A\'‚Æ°FKJß±;‹¡3¾F[ÒÔÌ‘B ¿Ã¡¨yÔ5Óž\\ž Í¥ÝŸ®^f*­ñüy‹¶ÒãÌ3é5ºçL
+4Øñfžj{¼5ª”ãå#‹-2›Ú¸è{§7pd¢/*ô¡8âŠ| EL†h(Âÿ¹™÷†õÙ¤Ðúrù»™¡Î1fdlt1òÅ“…£ÁÏô°ã>:¼#¥
+Êir(Ãû÷â®Ï?Ã•MAïH3BüÜ‹ü‡ËÒpÒz[ :’DÒÃšélFƒÉ®0³Vg­' => '',
+  ),
+  '¿¥Æ?aú¦ŸÐ,Þ?_1e­ÈðÁÜ_Àœd	§­“"
+éö•P?7S¢#\\MU”ã<#e£gEÔ„ÒíÄÓãî¸^˜ø{k/w\\:Ï±¨wUB˜_úz²zùÒì¬®°•¯ø€ïê®$»2k«ïèâ<°]Q]ý¤	;Ø•”ÿßK­_?r§ýÄË6ÿe˜›,Ó%7É¨Ãy`
+‚ÓÏ' => '',
+  '±ÆF' => 'ÌjN|÷ñ¤DÄ3øŽT(mOùdªŽá*ÁšC£_`ûJä§Pø¯	É—¤ÄËš´~U<¡xmÊ
+e/ñŸ9 ÇÇY= ',
+  'ÄÂüÙ÷_ÊwÀ¯_¡Ïâ7Z®]®#¯zmí’}®é‡t,Ò;Á¬›S5H?Ò*ÒÊEÜ$7³>2jreIÛÛ_÷µÿªU' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:43+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.044788s][åžåçŽ‡ï¼š22.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004353s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1207',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÔE’ƒ@' => '',
+  '*si\'¥ˆ#_HF%
+Y³“¸Åy©º°zªP7Å¨²•Y‚¸8†trÍª³õ*r‚öØ' => '¯x$/HÄÄ™Ü|¹¡±ØVÊâ®ä5žw¿™Ø/' . "\0" . 'ƒLÀØ–ÏRp%×ÞYHšH,±)*“|Ã¬Zò’På¥¯Ùr™Dhõ3ö=¨¬Ïæ2²‹bl:ì',
+  '\'–W§‰Šb©e`àX¬\\/U·É°÷“5Ô¿·÷î‹‰šÏÇ¹Éå”_Bûœ_¾_èHwuëó_bpa' => 'c%ÛD|½?ªdM4Í—ÀÛîùùÍ¿OC„8Tm' . "\0" . '~Ñ×X½;ç<
+37³~ZÚ}ù9²\']ÁQ…Ô’tS‘³ñâ"3 ¦š¡o^p´£d¡c× SB^ò)m¦9KT|b¨à=j4ÖgÑ×ñŸ~õPò´˜m¬aH¢T%0Åã±óA©4é¾kR¸ïwh»†t-' . "\0" . 'ëú*O*ÛR£k aÛ±# û›‡Š|K¤Wlšõ’=(æ¤fÏ»e³=:9Ù˜»÷Kð@r*1ow¶Ÿpì9;ËýƒÈÒ¢MÔ>‘Zçö×äàm‡õIð‰cz 4<á#³Æ!¢q\'bUE†ª\\Ž²Öe±ÿœ³AéHîåúÐ] DHI%†×³}“c~Oá‚‘¹=”V[ßBÖø	¬¨ocq¾%Ù:Ü›7aÅîLO×§U0*Õ·¼²k‹§iÆ;êÙâÊ`xõÒ' . "\0" . 'ô',
+  '‚`†WvW¾Õv—ˆ%ÔD²"î‹éNÑÛw·e>Ÿ]÷CžÜÆOÈô	NM‚©S™JÔ6©r$ñüã~h|qPÞ"\\\\wQ¶gÎv¢æíÔ§z¡_lö' => '}*˜KT\\Ô®hÔÍóÉ#2<FÚ¨ ;ó/dÂx®<¬IÔFŠéyz~•WŽïÓ²M®Kº0—/:F3WÃ“•cg¦êCv??‘íÊ2zÕH^ZìmwYh.¢oý”—/Oä12¹d\'så–NWmÒ6Ï\'ftö-ªC;ë©…ò¾7þ‘?#Ãµ_î–¨•ž|¤Ô‚veÈœ¾ÿ¬àMûJ«å”|ž¬?µ¡€”åú• å[ºYj9=Ðc“³ hŽ3ƒƒö–…ƒÙ= áGèö·ºî«1tZb,ŸD!>Õ-Z6ˆ÷ Š°‹lê¥‹œl—Û}[8PgåSk%á"3[Ewü7\\¥yYgdâ—g# †’ôùÅ’œ`ùfÚ,,o^ò!~üójÖßžÙ0ž7±ÇÍ¡¤ðhUóË­Q¬I«ðBöùN“`­Ø6~ÔK<8ÇÛ¢…$äŠpÎ¯iDÁÎ¨°f-*”Mé÷ê›,!©ÂžIšwóM3êDE€|œý@ÙëÈl¥wÏc2 ~™G,Éï¢Ísã=~ÍZ’±º|±#«N=9÷©OA{.wô	ÿEÖ”‹üˆæ€WÞ€¾%îŒà5|ÜæÃ.Ãó×’½é“\'lØïNRNóhÔ ðý?’ø’',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:10:43+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047641s][åžåçŽ‡ï¼š20.99req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.47kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003108s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1205',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒÅƒ@' => 'O³äüò<rÑ>m[;ÈþÝ[mA¿HfðU­a…àJú4ˆuH7ø>ÈPäÂ!„av€E(\\w±au›,šuËGD\\ßœÀQz”ø‚’',
+  'á¿Ÿ¥a^ÂÂè;÷1Oµ1TO¶•XŽóêIgù`Ò¸…ñhÙäè5
+W_†ÈêQú2Õ´“ÙúÓã WÀ©5çÏ™óòÓ—Øª¾Î§õ:1qa¬7ø<ý7CšcX¾_Q‰o³ØOC÷DU°6_JŠ7ŸÊ1Fe_qA«;va1Q¥‰õìÜ¶Ã¸56' => '%ÎY*d¹t2¯—Lúiìðå(1ÉyD«×dH0Ÿwüy’èâ',
+  'âþR¿\\b9$üæÒª¢e9«¢¨¨Øk3Šß8b¤X' => '',
+  'z¡ò¬ÒG<f>ioµ’VZÀ¸†u˜`‘@V-' => '',
+  '<YÑÑ`Œ–ËKZÈÔZ§©³C¯‚óE¦†%õÆ "›8}%æ¯—^U8Ö_·±°•¿b»9 ÀB¬ß¾áhŠ‹ˆi‡²š¥¢ fï38E€3ß' => '%þ´‚²(',
+  'ät3ÝGR™ÚÿÖ¬Z¢¸’' => '',
+  'ÏÇ' => '$»PØŠF°å1zÅ\\bðÞkÖLu,I²pFBÔ<	¦ë5¢K7˜ÉÕ‡*uÂñ±õqcmÌµÓ qØ[þï.ËkÕI\'Á|!EÔ@¤FqU»aæÖMÛ¹jòÞc|Ý´v|¤›ej	M0éIôÖñ;çà÷.7»Žø©í—ÀD,¾ÖˆÙ¡üƒÃmìuw‘«³/w™â‘ãÜSóãËº\'X•óò>ßÒ)1F{Z¸¿/ó5`s²ƒ³' . "\0" . '’Þ-ñ}[|Ò0Å};øŽÓX°§¤õ¸éÕƒæ‘ðà?ÓïÂä½' . "\0" . '{ÒqÂ-$²£‚HÝŠû€ëyb	ñŠ°›ƒL†ò{^F¹rÂ}È?À¢?KàîÞùì…¿#/ÆOÜ~š¤b—ƒ¿kmµ
+ÿvpZÌ·Ó:>¹¯øóþ¦Ø¶Ú=N(nQ`²ø‰xhEOýVoÅ*\\ƒ¢Jb¬w\'©y6Š;ê¡½\'¤yXž^n Š:Õº‡‡š|‡…ZS#ú\\š5o¡0‘³JÁÈÞCyù÷eŸÂ½[_‹\\ÕHùã6’üø”Jh®w/âV%†åÝYØWÂ=äí­eý[ÔØ«­†Õð3…]g',
+  'ÆÁº¦ÅI†ó»Œ' => '>9ë|“9‡_aïev‹Ó%mùdÑAŒÓÆö•§í',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:13:37+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.056111s][åžåçŽ‡ï¼š17.82req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003983s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004446s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:18:00+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.057370s][åžåçŽ‡ï¼š17.43req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003895s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T09:23:46+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.058329s][åžåçŽ‡ï¼š17.14req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003912s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003508s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:15:51+08:00 ] 192.168.1.101 POST /apii/getindex/get_user_money?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_user_money?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š0.214712s][åžåçŽ‡ï¼š4.66req/s] [å†…å­˜æ¶ˆè€—ï¼š2,724.13kb] [æ–‡ä»¶åŠ è½½ï¼š65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000226s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004675s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_user_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003821s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_user_money[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003434s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.016427s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 10:15:51'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.077535s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users_money` [ RunTime:0.031927s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users_money` WHERE  `uid` = '3' LIMIT 1 [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[ 2018-10-15T10:15:51+08:00 ] 192.168.1.101 POST /apii/getindex/get_rl_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_rl_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š0.219746s][åžåçŽ‡ï¼š4.55req/s] [å†…å­˜æ¶ˆè€—ï¼š2,719.71kb] [æ–‡ä»¶åŠ è½½ï¼š65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000115s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004581s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_rl_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004134s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_rl_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000888s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.016733s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.015049s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 10:15:51'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.077739s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rl` [ RunTime:0.017445s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rl` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2018-10-15T10:15:52+08:00 ] 192.168.1.101 POST /apii/getindex/get_new_loan_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649
+[ info ] 192.168.1.104/apii/getindex/get_new_loan_info?phone=18398608857&token=1efed29cccbfda051431932ab3a286d7cfcf9649 [è¿è¡Œæ—¶é—´ï¼š0.178089s][åžåçŽ‡ï¼š5.62req/s] [å†…å­˜æ¶ˆè€—ï¼š2,738.70kb] [æ–‡ä»¶åŠ è½½ï¼š66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002989s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apii',
+    1 => 'getindex',
+    2 => 'get_new_loan_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'host' => '192.168.1.104',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.11.0',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18398608857',
+  'token' => '1efed29cccbfda051431932ab3a286d7cfcf9649',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002508s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\apii\controller\Getindex->get_new_loan_info[ E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Getindex.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_users` [ RunTime:0.011520s ]
+[ sql ] [ SQL ] SELECT `token_time_out` FROM `fa_users` WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649'  AND `phone` = '18398608857' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] UPDATE `fa_users`  SET `token_time_out`='2018-10-22 10:15:52'  WHERE  `token` = '1efed29cccbfda051431932ab3a286d7cfcf9649' [ RunTime:0.081727s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_users` WHERE  `phone` = '18398608857' LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_apiconfig` [ RunTime:0.011131s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_apiconfig` WHERE  `alias` = 'loan_set' LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_loan_table` [ RunTime:0.009808s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_loan_table` WHERE  `uid` = 3 ORDER BY `create_at` DESC LIMIT 1 [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2018-10-15T10:26:09+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.093787s][åžåçŽ‡ï¼š10.66req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005864s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:10+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.037198s][åžåçŽ‡ï¼š26.88req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003761s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:12+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.055069s][åžåçŽ‡ï¼š18.16req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005497s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:12+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.045144s][åžåçŽ‡ï¼š22.15req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003440s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:12+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.035207s][åžåçŽ‡ï¼š28.40req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003084s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:13+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.035859s][åžåçŽ‡ï¼š27.89req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003096s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:13+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.037288s][åžåçŽ‡ï¼š26.82req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003150s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:13+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.035246s][åžåçŽ‡ï¼š28.37req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003200s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:14+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.034670s][åžåçŽ‡ï¼š28.84req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003097s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:14+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.035625s][åžåçŽ‡ï¼š28.07req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.95kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003213s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:26:55+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.054177s][åžåçŽ‡ï¼š18.46req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.13kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000211s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005008s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:28:36+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.057644s][åžåçŽ‡ï¼š17.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.13kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003423s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T10:37:06+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.093583s][åžåçŽ‡ï¼š10.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005879s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004352s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T13:59:23+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.077732s][åžåçŽ‡ï¼š12.86req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.13kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000087s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006286s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T14:10:16+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.124119s][åžåçŽ‡ï¼š8.06req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004010s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.011756s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T14:10:57+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.042716s][åžåçŽ‡ï¼š23.41req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003041s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002611s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T14:11:50+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.046513s][åžåçŽ‡ï¼š21.50req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.13kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003165s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T14:11:52+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.040295s][åžåçŽ‡ï¼š24.82req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.13kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003184s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T14:11:55+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.040663s][åžåçŽ‡ï¼š24.59req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.13kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003289s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T15:36:28+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.822209s][åžåçŽ‡ï¼š1.22req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000337s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.037434s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.044701s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T15:47:31+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.809444s][åžåçŽ‡ï¼š1.24req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.82kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.029631s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA; __51cke__=; __guid=111872281.1145414408046204800.1539583950603.4358; __count=1; __huid=11K0aKcSFHlHRA0CUfRih0/s4kiv1dDwqh04jyZPM/H7A%3D; __tins__18759442=%7B%22sid%22%3A%201539583918684%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201539585754094%7D; __51laig__=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T15:54:04+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š8.553685s][åžåçŽ‡ï¼š0.12req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.82kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.935449s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; io=TH_d8nenoO1O-ayoAAAA; __51cke__=; __guid=111872281.1145414408046204800.1539583950603.4358; __count=1; __huid=11K0aKcSFHlHRA0CUfRih0/s4kiv1dDwqh04jyZPM/H7A%3D; __tins__18759442=%7B%22sid%22%3A%201539583918684%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201539585754094%7D; __51laig__=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T16:07:42+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.057987s][åžåçŽ‡ï¼š17.25req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.45kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004382s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; __guid=111872281.1145414408046204800.1539583950603.4358; __count=1; __huid=11K0aKcSFHlHRA0CUfRih0/s4kiv1dDwqh04jyZPM/H7A%3D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T16:58:28+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] localhost/favicon.ico [è¿è¡Œæ—¶é—´ï¼š1.178957s][åžåçŽ‡ï¼š0.85req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.45kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000116s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.026422s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6756.400 QQBrowser/10.3.2415.400',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_4e5bdf78b2b9fcb88736fc67709f2806=1536927713,1537021512,1538063312,1538880214; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1538069569,1538227991,1538968334; _ga=GA1.1.1388111336.1539147199; debugMode=1; renderMode=0; device=0; __guid=111872281.1145414408046204800.1539583950603.4358; __count=1; __huid=11K0aKcSFHlHRA0CUfRih0/s4kiv1dDwqh04jyZPM/H7A%3D; __tins__18759442=%7B%22sid%22%3A%201539590865718%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201539592665718%7D; __51cke__=; __51laig__=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-15T22:14:20+08:00 ] 127.0.0.1 GET http://input.shouji.sogou.com/jsp/personalcenter/pcgettime.jsp?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c&St=1&Ut=1
+[ info ] input.shouji.sogou.comhttp://input.shouji.sogou.com/jsp/personalcenter/pcgettime.jsp?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c&St=1&Ut=1 [è¿è¡Œæ—¶é—´ï¼š0.079481s][åžåçŽ‡ï¼š12.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,472.75kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000119s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009496s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jsp',
+    1 => 'personalcenter',
+    2 => 'pcgettime.jsp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'input.shouji.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+  'St' => '1',
+  'Ut' => '1',
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,7 @@
+[ 2018-10-11T00:02:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.007005s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-11T00:02:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_sjk' [ RunTime:0.001769s ]
+[ 2018-10-11T00:02:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_user_sjk' [ RunTime:0.002027s ]
+[ 2018-10-11T00:03:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.006909s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-10-11T00:03:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'apiconfig' [ RunTime:0.001438s ]
+[ 2018-10-11T00:03:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_apiconfig' [ RunTime:0.001430s ]
+[ 2018-10-11T00:03:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_apiconfig' ORDER BY ORDINAL_POSITION [ RunTime:0.019916s ]

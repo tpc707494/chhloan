@@ -1,0 +1,1109 @@
+---------------------------------------------------------------
+[ 2018-10-13T21:21:12+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.044782s][åžåçŽ‡ï¼š22.33req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.14kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000174s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003177s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '712',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒI¢k@' => '',
+  ']' => '”ˆ;
+êßI',
+  '' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:12+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=D2F8C387F2AE83A46487BC43E581070B&v=9.1.0.2589&r=0000_sogou_pinyin_90c [è¿è¡Œæ—¶é—´ï¼š0.178014s][åžåçŽ‡ï¼š5.62req/s] [å†…å­˜æ¶ˆè€—ï¼š1,633.78kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003010s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'D2F8C387F2AE83A46487BC43E581070B',
+  'v' => '9.1.0.2589',
+  'r' => '0000_sogou_pinyin_90c',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005672s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:13+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047025s][åžåçŽ‡ï¼š21.27req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.41kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002979s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '715',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ’É¶k@' => '',
+  ';ªÞW¸úƒ‡<EKùúNõtæ4YÊ¶ØÙZV¦P/‹MÒésÖcöÈƒìeFiãQŽ\\/£fV³ÄbRS8gì¹ØßíPÎàjÈï,¹å(ýhó2ìí¹ÚÔw€ÈÞÁäiÒÃNÀ†Œ³#\']ç^pÖjË\'M~§5¥ŒTvøIù8pÈMê7÷ó‡}' => 'UÛ',
+  'Wü<©F‡­|DÒí¤²èí#Â<ìÍºZ•Ý€*½¾“:>Do1¿¦ýØ}<i¬¦$ø
+_¢ôÒ`Œcßë9øöˆLæ¹ãÄQˆ¿A U¾"%°Èn©@yËUˆÃŒRÙ' => '3úQ˜¾(ÌÌèu•fÀR.çëk¥$9Àä
+tƒL°MVfÈÄÎ9ºa±õfÁ6ÏºqB¿®{Y‰`\\Imýî|5„©úg, ºD«#›T¥ZYÙÞc,ŸÓÚF=8æ«À½ª‰§C6®~Äy„ôß9¶ÜvèN_ÈOîüv?Û]ßÀN\\,G3ÀHžÒQ—ž‹ìûlÄª¸üÕÓœ¿n?Wáx•(Óyy”Ÿÿ	Z]²y[ÑæÝ8}ÖH·¬Ðõ¨È`\\~°`ÕŸSÅ¿ÿ²â)',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:17+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.042709s][åžåçŽ‡ï¼š23.41req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.22kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002117s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '712',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒG¢lJ' => '',
+  '¤NiåXç_HÅ0' => '',
+  'Y¢("mv)èn§öþA¨|ÁìÔ»ùhˆänºÈpëƒý§€øY¯ã½-ï0_§æ“¼ó™0ÇrÓã¥ê­w<\\8ÀÐªô_êJÈÉÙøœ÷hWIeÎËWª¼ü¤‡4¥Íšiú´à{’GOâPÿ\'ùyÝ"x¨ó31{”#ÁúÖüYÆóÉG¯Äáµqâ†¥-x±%DúóžÖ›IhòYóŽJ?Ú·•î?8:_Uÿav3½ïÃCÇa˜w¶Ö’»-Só:ÉØšMôï€×Ýª›Ás7C¼«Íê^êUœ@x\\
+Ží7)ˆL}¸Ç1ÖâA;÷«E‹_xkd£•N2\\žiËÑÇÑüïwÀ-Ü' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.048407s][åžåçŽ‡ï¼š20.66req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002154s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '715',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐÇ¢k@' => '¯h^0xôþXŒ^áP[8×-åß¼”g—làƒÍµ§“Š´¡¬£úÓð¹aù)Å•',
+  '²ì!	œ—' => 'ô<co8g% ²œ#lFÈlÚ¿¬§(ÈÓÈ¿äðGîèÖ³™lj‹e™Ú…Pp—Ô©á¹vˆª";é5©q' . "\0" . 'uˆ—x$eÕ—ÃAöÒß²7ÅWn]Å3t¦' . "\0" . '¹7>ÔKcb›V#Ç<>f¦˜b ›¾Ôšî¡n³¸œ—Ö;/U¬;ê3½sÆžÛðõæ£¥Î‡9ð3¤•Â5G>~_eÆâ«ÙH6ú<aY öÖ¼JÓTØ{)˜e€³ãtVÝÿA í_«°™¦öbòG-¡Õ ©1' . "\0" . '5½$ŒÖ»¸¥‡-ãR´MîýÈ6£ö=©q,ÚªrýÑN¯iÌôô“òŽµ‹j„H9M‚Å³ö•Ní€p_›DxîWC§KOÛ3”KGW>`ÑÎ^jÊ¾a¹èkÄçfokr±ˆ¢öT,~põR.53I\\h_  “4Ì©ê´ýN×_¶êçJ‹/ç^ðš—†WfW7Þûïý˜ÞWÓUaÄà÷L!¦KXÏäŽ ÃRÔ‰§û-Ùf §ÐVo¹Ï×âàø’÷ÉLKóÃ± $',
+  'o%´c§
+ƒÅ°¢E•Cúõë-K¡•ëÉ	•(L–s@_ºÂep–Bõ7jü³üõ' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.052414s][åžåçŽ‡ï¼š19.08req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002118s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '724',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÏG¢l@' => '',
+  'œ\\³êl¹‹P³å‡ä˜8›˜ûCóëBúüŒ¸qÇÓ®' => '',
+  'zF<^t@Û–Ï0¸“{k,$M_V¥ùÈ÷Gÿ€˜t#®x%R<_UµºÑVÿ_Î°{þÌ
+²ê' => '',
+  'ð0' => '0TmAJÔíªz8ÕšŒAi	òæ;ÊòðŒÍOLóa¢yMÆUû”jñ‘æ„«™±;ˆå“ôãš>b¤ÉÃø¤þŸk|ò5¢†ë}ùòmàÀ\'›‡^ï±úÓø$›*î71Ö…˜™QD	×š²`Ÿm6-Õ‘w;ª±sžÙì”kúb-/`¶ú•Ì†sªr8Y¢I`8Ÿ‡úÔ/ÈjÛ0ÁU¶®·u“/±àÜî2Py«Š',
+  '¢áÝJ^yV¬¿¢0ï>ýayt\'Ý£Ï‘,,ï·%›qï1-ZµÇj¯Ln•Gj/6`¨Fël§Ý¿wÝ¶òZ­Îrì¯¶9~?}8j4ÓMïôÒulæ_EªwÑõíû«(läjÕøwK¾Ò(lcqcéLz´Bdü†€\'ÎûL®@Ö6öù´Ûà>žƒ‰‰7…ªZž7¡U€~"~ò­Ó2þú÷FTƒ)ŠÓT·­ØqZ6‡ß{C¹Q’ŽZÅà;Ê@ø|ì' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.043273s][åžåçŽ‡ï¼š23.11req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.16kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002100s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '724',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐÉ¢k0' => '',
+  '„0\'º“<k“©l¢æóò‡éQ_5‘_ÜeŒÜL·«tÞóŠ¾´f¥Âd9b,gç¦_au™…@oF{ÿ' => 'Þ‹¶XUÁ‡Ø±¹¿‡{²¯ÍÐä.ÁEkX‚”^5Ô' . "\0" . 'A¯OLÈtUŠùãûp).9Q[k·}ûJÛŽ’áš3y-”:›´ihÕJ ½ãÏŒ*~!•äßZû‹«ˆ¦k5Óƒ[7°w!³Q³tÆÒ”Æ6k»®ÇGA”¢ïYè	ÞY†©¬Ñ™]]Ð:©AÎ;ä=•]É£õ«ÑvÙÜ2»A˜XÀFäts§Î@ˆàãÅE~U$ÅçÌÖŒèx<¾¸‹Óz®¼~ë½7mã¯iR§­Lzóà‘rº>Kâµ¤Ä;ˆ”ZÍ˜´qR¹õ‘ë"V¢MOƒ}À¡”°öÔ¦Êû—±Ù™WLSS‘ Ç//v®ƒ¤A;¼‹±õøø—!#“’î
+×Eû­ÂÝÅ #•:ùþ’¾=#n|nCÒÅøØÒÒªeÆùXYƒ´ÑiÒö¶|ñ^Ynx•jÙIŽÛ±½¢_…_Ãþ´«—ºà›å^Vr‹¾Ã„³aõ¡"B|:£ñ¿®>§è@¾å*r²`PÄá–|éÊÈž4´ÎõevÍ	÷åÐÞßG±
+74ÜK!‡¥n*>úbˆ®Oj¬?µ@Lz¼].·Õôò4g¯3óäcãþ6í“) ©k©ý7,]ˆ—@­½ÿßÆJz/ŸYþÄš—ØÍgBs}0¹;p76N¸éæ	0?˜º”‘-$®ÃfL½KïÆ«q§JÝ]³¯™õêš' . "\0" . 'ežÑïm#žä‹û¯îÊZÆ?Â-',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:18+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.051674s][åžåçŽ‡ï¼š19.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002099s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '725',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÐÉ¢k0' => '',
+  'xC‰9Æ¤"×*tLÂó_Ôˆåk' => '',
+  '	¿b¡_”¶¡gËC{ªqŠûN*]?Î€Tµ¶"»
+Åká…¯œìe!È‰²µÆ¥È<,_>}OúL¤›>11÷Ïzts' => '',
+  'èˆmÝÆ_dõÎi' => '›3%LÎç¥²' . "\0" . '‹ÑC‚ˆ9äõëÑLXúÒîJi2]Ñ:¡>€,x 6¸‘_Áò»ï¢·QÖ´¾íûTªÓ[ã$·ÂóÊN½—Îh$
+?Ž-üAh$iªR¸04€]¢©Ëqó,;kå‡çèðì' . "\0" . ';ç!\\>gÙh. Ã`€~è60Ð¥JMèƒªÞv?ìÚ7{È—x\'uO' . "\0" . 'UÞ©¸ê¹q:åH¬¼?*ÉÓRË²­þ¸¸eøÃñó›uáN~Â"ÝýdÐ4uü1÷Ï˜ôºJœ Þ”§½¦]ÿ¥I°ÙF%Æ®Ÿp†Ã¨‰c?²Ù•½þ|·Ç° ¨cåÄ 1\\ß_#‡ï¬ZÊ9B”÷×Pñw9®÷áì.l–ïóšaüUæN0­‚v\\dd`«¢½Øÿâð•y',
+  'Iû' => 'ª\']Å9¥íßÛ÷VTM÷÷ÌÓÄ±‰|ƒo‘¿Xéõf¬a}ú´UIt¼Å©Õæze×\\‰‰‘{}Š<ÎN¡iæ~ÈjþxÛÐ`}Ö‘)‡Ùca¶^ÔÊcmºÎ%¤•WÁŽ¡~žºº!*–]röýÈd%˜œÿ©R÷xp2Ÿá­Ì$“sX÷¸{Þ%ô`ç¢>Ö.·C½3ÍGa—Ç$¸1åØÅ¦ºü‚^1ò',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:19+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.042806s][åžåçŽ‡ï¼š23.36req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002129s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '711',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÁËÂr@' => 'Ýô3Ê¿\'—ž™39øñ×M˜œ_ûöDLòs:í#oÏß¥µHÈ¦©"¿ü€…) t¡ù€ÖÎ±-Þ[Ü–*Üä è6î¢½Y6Šq\\×åyñH«Ñì›­½åù' . "\0" . '8ˆ"2Ð!äÜ]®|uš»äqòü¨îóHŒLõ{¢`æ®¼Œ„ÃþÐ¹ZÎÿøe¸år8o°U€r=¥Íì\'ÓOl
+¤2_î‡~])Ñt÷§ Ä°¢ªYcù÷Ø»`ðµãôhËª­†*í›œ4ZÈt§Qx³§A=Çè e"i†‰¤(Ôy:ü”õõ	¯M1‰©½AàæPG{K¾£˜’‡ó4k8º{á›Å\'†u\\·‹µ(¬aÛh[u¦Kèÿ:õ#é£êH­†\\!ˆÉN‡W¿âì°ù¥RÉîÃ,¾¡9ÖüîsÉûl½mêe¥c†_AÖBÓåA…4¼X8•3IÊK\'Zt²[Í|ªj¾\\#OúJU¢ýÊ×ÄîGÞ.·¶øÖÅÉ4»HZ°_ÆšßwCÑ1m2bü6rtZ••PßŒJõ“*tÜ€M‹_Lÿzé ÉÏ¨’{ÞR|‡ìÒK8[Ð<gáù±!-|›÷ ÖwæˆhlÞ/S' . "\0" . '†mL=üùkGŸÿþSQ(ø',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:20+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045698s][åžåçŽ‡ï¼š21.88req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003027s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '726',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒG¢C@' => 'I>	ç6u„ybÞÂˆ9}öÛÕÌO|?€lëÍõŠwFçR[X)šÕúh¾k>ñ>rpc®NÚWM†;¾ìdsD ',
+  '!ÖpêÞ¡Ôf_ÓcB' => '',
+  '0e×Õ\'' => '×Mê*Hj`÷æ¸ƒ‰#ÈgÓà-!',
+  'ÙƒC±óT¢‡Wuæ¡ÐIŽl%¬8Q´{fÈ§ëpt¤Ó-¥ÎbÖ¹ ßº®¯ë®­‰—y¢Ñ†¤%†³cÔ¶úé0ß¿V_pu`×BPí"r´¹o¥ ~¬ÄÓà÷_³´z|ž»Øàézš‹diqR‡ŒÙ^¦nst|Á*Rô3tk1\\
+
+a\\Ècl‰k-<}·m‡«¿t`‘oŸQ…Tr™z2Sà*ÇÒg½ú¼J„õ¡‚£¿Ji¡¾$žŽÅ²@k—Û˜¡V³ˆ~édÖ\\Y$”1]ž“o	Ç	¶¤L«âKÕÓ`pûúlÜ†Š,€÷Úî3ég/äž¡«’?ßg³Ï7·*þ\\œ\'mÃ£L;%†±}ÕäQZ' => '%Š-äeÿ®í ‹´©Î0W4ßI¦	-æ/}™¡eÝUÕæjêŒ™7u¾Ž~wt³¦¯£[“²­‚uäÕ	tÄ
+UÄpVÙÜ´IBN?äÆ¥\'˜±qªŠ~ƒUÓêS¾Ñÿõ-‘ˆkc~¾AV§kaT·¸}ìà† Ü°øSU¹Þ=’/ßºâù»ü·?ïL"¢±—åº°èÊ{·ÏØûáæ
+ù’ìîbÈ°ßq•ÍÙ òpÃÙ!šzÍËÍæ‹¯B]cÔý@:/.',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:20+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046241s][åžåçŽ‡ï¼š21.63req/s] [å†…å­˜æ¶ˆè€—ï¼š1,473.59kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002842s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '727',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒÇ¢k@' => '',
+  'äø©ö1tViÃ:8¦k/dÖdÏùôïÙÔŽQËøÈóIy)…è#¼Ý<¤â¦lã·|Œð†°Å|Ô÷GßØ(ó™»M õÈ>ŸHiùŒð\\‡Íi¯9bg÷Ê¹_¸z÷™ÇQçe%Ø²' => '$ÑëxáÆMChL=^îø›²Ãtœ»‹Z,',
+  '_òÿ%½ïßS~º6÷³˜½om‚õQ©þ¥æÔ\'±|5_k"$R¡äÔï*÷ŒÌ
+ùÃUbï„ëÖü^n<à' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:20+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.053198s][åžåçŽ‡ï¼š18.80req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.91kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002099s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '724',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÁG¢C@' => 'ˆÞvJŒ$º„áôÿ=ŒNwÛï9Ã0ÔÑ_êÅ«]z÷š¸Ñ¾àå€û–3M®Ò­G–bêsÓÅÝû*ÓösÔX9ŽH÷JË}©JNÄ­lUV<å°°tÿ²-ÊëBy¦ü…\'Ãï|­½\'²L0‚7”-"Ù:—Ê3MäV£»é<jaßWÛk(ƒK0ˆužš·¸ý¤N’9d¾	> ÃÞOí i}j0J!„‘ÌD×/ÍnÑrˆ?’’€Ÿ,êr!HHwWy;#±¦•¯Ýˆ9aQìlµ—ï8ç;Ë',
+  'êÏ%
+<	1y,fðÑ$ª¡Oå†¸RKÖ„|9ì)Ét?/¼¬a^`0{ƒ_Íóø^¿žÄzÊ”_ÜšMÏ3ñGlq„m?@4ãé‘×ÊÓØ›IöuãÜ(eÂ÷˜…ñºn<êE_ÑW_%C¼BÆŽ¨dò3BÌµ‡®?<Â[^O„ªú\'mXQ¦dÙM†ª#‹Ôîi\'} .´¾EYy´×ä«".ü' => 'üàoG>.láaÜïê,ßÞhßG|',
+  'tšèß¿·B†üñYÛ1ø_Ú' => '',
+  'hrnê!¿EÅ7¯Õ5ÐÂ¨ÛGròß×nº•Í¨¸Ôü§Y·vw’' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:21:20+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.036471s][åžåçŽ‡ï¼š27.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.16kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002096s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '728',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ’I’‚0' => '',
+  '‹Ê¶×Ï< «º«º”eÂT-zì‡Þ¥u‡lp2‹YZÏ::_—Wp"ÄÍIÏcƒKÉÕ_%‹IŸWª©QjÜÝˆAYIDŽÛ$Ì;ÉÕ*âaKNðÄ)Ée¤<0Yœ˜Ð' => 'îW ã€|¥îÀo?º×£É,OEaV`Ûò¥Ÿlá6UˆBMäF½:^~ã9‡Ïwˆá’¼õ­0Zåå Q' . "\0" . 'OÃ›	×ìgRõd{z@6MüBÂù®ÐÈ>ÍnfÇÑ„ü J*ã=kqÁ
+ßïeÐÿqƒ_1Ó
+ª¾|#ºB%J€÷¨ç%.ò¾vÅTYÐï=ìï¤|tÏ%—qsÞ›óki¶1ƒw5Ð1l¿¯;uËË\'æ*Ã„ê	ß¯Ïs®Jâ‹ˆµB;Çp­
+',
+  'žáíþJeE¾ì¾%U¸¡¹È÷(é!Fã¿{$ˆº²ÐÁxYÏþ]_í(©N¬ÕÖÙ¥5\'Éˆ˜vÛn7/Z\'œ$Û…Ø8RP¿î¼iÃ$~vªš' => '',
+  'Ä€ÀoÉOÀ]ô:–07Õ‡³Ú«5d:A](x÷ª<‰Ë~¹_íg÷W' => 'Øú–Æ¡1Üb¢vqÜÂU¶¤çCÕH!™e[Ó¨ÍÍ»Š÷5~xÉ-•º¶ø½½®±g±RjŸÿ¡â
+U²ñÒÛîøˆ=jÎ”Ý.¯ÛL' . "\0" . '“íAÍ9c–»Þ(™Õ})¬7›Ë¾ÃMâ{¬¶5‹¶5½àg„Ÿ=ÝÌc(°ûPÜâÀ­)À~¥ŒnÁƒù–ïºÌÙÉa§–Å!º)f-TûÀÕ¤À}›è™l³RÈQÏã>Í„csJ¯]žf³Ò0²èƒÄ©j"Øik v?üÞ^/Â',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:00+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.054282s][åžåçŽ‡ï¼š18.42req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.16kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002952s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1037',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ7²£@' => '’',
+  'Sž:Â¢O—ØMýË?‡›"$Â·zP z]$ÉöÂxû]NHÝ#›×ˆbÿ§º8ºút×úºa5d¬†1¯ïO‹hI(Üüú¹™1“#Nž/ßû_O˜¯a\\Ê:Õ08:R^åCgô«mÎìé¾¦OEÃÙÐ×ftŸ¤F†`u¼|—‡‡Š¸(¼}Þ·"jñ%]¬wÂxã2èÎºÖ½Ö6Rg·õµ«Ç‰½ìUÀÚ¹_(YØ5-¼ˆÝU½iˆN¬ÇÝû*6Ü¥$V¡FU—¢ç?Œ»gðÝ)êRÖóŽWkYÈÚÅò³:2RÀ»xqÞrv¹š‘gr¢àq¹–àì¤FSºäåa|œ-\\½ü!“½lT(‘bµJ£œŒLñì¸UÐè_' => '',
+  '„3ö\';o»·;n…$g„n‰4Í!£¦r€Îvíwtp•1Úñø(¤¡z”‹°n2òGÞºcfsfdÌ6Pùl%ÚVzY¾ÜTÿ­Ío_!ú^"ÜaM33p~Mj*½Z_èˆ@·_BÑ®J×°ÂßP[XqgO‹3)^8ï;Q™#%Ôb¦ƒ’ÄW™q™ §›G
+ÚßàÌá†ƒK‘è^ó6“· ÂÇáf„ÚÚmúì7Ÿ³Åc½ëï-€ÓX¹#õª% NÕnÀÆài¹ù´Ê2€¸Ëú…˜(µOG)
+Oeà
+D»‘ïÊLmY²<õŽ#daÌ¯¶ü?ý‚K™6éy©YÈe°èMÃ²¥2 ëA°·$•ÙÚsð`#–¥,Ð´nB9ŸAàÆaLù”ƒèÐ^Þ›’»üoða*®TP4­äš Ñj¡KýJNôqv¬.‘´¤r‹ðÉçÓ–Á £-Þ^že¾ì/*MÖÔÚß¼“AÌÅø{¥iCÍ¦Eì´úš±ez“†Ú¢?2Å“¾
+›$’Ö%#Çº‰˜ÀÕelk™ÛZý|:ß—mÛe>Õ8Èï2ÂÙ">¹éolZÿþýyµ€' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:00+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.041808s][åžåçŽ‡ï¼š23.92req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002086s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1036',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑ7²£@' => 'ýþô«êJ¢^¶räüÈ“î”ONnûÏ³îá²NÌ€5iN™¢ÛÑ»¢8e,ê n',
+  'ÓL7' => '',
+  '˜¼Rx' => '	|xF³¿L“î$1?ãƒJèS¯ƒ°%Þ8ôÚwÂÿÞG ‘ÃtÐŽßp£½D“h²Æf(k%õ/Jq Èx²¦À¢;¾MY¤^«suIŒT¯dÙbRË\\±o£o#zì=¯€µËÉ~ögÓÌã{è
+IÔu7ÇLº…a4ÛèLR›BuŠ‚¾
+Öx¬«ïÄÒšF¢%»×°³Ûì† «Ð¨ö\\øFæM{¦ÔÊ0YÎÑÌ³SVÖiBƒb«)•éøÓµw†ÓËH„?ACß“}‚	;k€çÖ€Š¬´ö­º‘àŠ¢ý±
+§r—£Tu£D¿E.Ö2ýDÊHã¹
+ 5fº¿‘oP—vlªpw­’
+s™ø¢6xêCEã{xæÕ~£—È¼B¥÷½zøMsMu-J—Qàòâ{/_÷ûÇ½±¹ÞµÊìvì\\á¶kwöÆzöª:Á¥ÀHW_(¡Ä²Wh%µÙìÇš‰¤’Ã5é¯ ‰ŠQT\'N ögKŽh^ùíÝ=¤Utßho»Éø…]Jíœ‹>ßÑ®Û7' . "\0" . 'XUâG¸!õø}S;4Øuqç¥ÏØÔž®{\':{ÏÎñÀF5Hn°ÍUñVßlú°;qb™øp¿›³é3Ä©@|\'¬æuxÛâ¯²­LF?±D' . "\0" . 'a%vÞ¬"',
+  'Nã“šc¬ÓÛŸ­¤>¯J®«Œu‚˜“­Ø`ŽÃ!æ½—àÕÉ#¿¿“P	X÷Ž>É$Ô^>Ì_¨$×É«†Þ>{ÎÃ½Î£ù±gßÕ_1\\¼Õ§ÜfÔYÊƒ‰c8„Ù–v"¹eüôŽ(~ÄÆ«_U›úZ_›‰oUïm/#ÕkUh/9ixKÌvêY«ô%(p¯u_µAD¹ˆ/}æ	›Ø<ùS_åL' => '',
+  '\'íCäÌs/´Þìµ?{FÞ™:†¥ýçÊ½iÛóƒ2*ºÏ®$y¦¯¾Rðúäß‡{' => '',
+  '•ÍÔ–(ë°1p|DÃ_,o—mµEá$QŽm¢žþ}räßjþŠâ(ò×!UàV½QÓñn“|Û±ý¡\'^D Ôë´­' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:00+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046097s][åžåçŽ‡ï¼š21.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002570s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1048',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“5²¤P' => '',
+  '¢•›|ni›íˆ¼Ù†ßâR¸‘Þ¨Ä×þ' => '',
+  'ó0íÔt¯#B±ÏÒ~cÙq:Pz87T¤µd¤-C‘%XÉÎ³7OÁ_' => '',
+  'î‡Çñ;êæ ©Üýœ¬l1ºkSUê®f>¦x#Ô>O®¹ûc?ÌŠ×ƒFåJÅ‘XCŠ{O<1¡³ù§Uÿ!8¯ú¨
+0¥ÿæA-q' => 
+  array (
+    'Ä·çä¸<¿Õrß¤¼·Üu1*kèØï¤™ÝWÀ±î‹m2fÑ¥c¨â1›ús}*kò×ˆÌG2Gq!€ê6? Z,òàÿîMK°›Ÿ–?ÜMh:Zc»ŸÄ÷Îœði\\/rè·äÞO`qöÔE;' => '',
+  ),
+  'ã:JÕ
+írê_V¤•%FË8„x9šÈ' => '¦ŸkEÉs²€•ïÈ]Û•}Œ—béayYÑw=Ê‡ïŠDÅ Gg…¹mÙEFóh' . "\0" . 'NE°KCg”yrònñìè¡B²¨¹ëãÊµ›Sne¼†qRdÔyÃHj>fP\\Ç£è‹ù•OÂþ%K~bßÈÎZïÂ²X8±Ô—éNŠÞ°{ìÀ fð^j°O' . "\0" . 'Z—XCâCCrßŠcÂ½ˆ,±ˆ' . "\0" . 'ÇÅºß×Hö|I†é }v5»ä%Àz¤µìBß‘ÎN€}Ð”ÚüÃr9G6Ÿ„|g$ÅÜýM•Û®Á—òu¢$›¶xßŸ´À:ëO¸Mët
+–¢ÉÌ-×£KNÜ¦¼äçÞ`ùÙÓ›c4RŽþ®pj¹·@­?]ùP½ Ó*põZyÅfp­\'G=i*Ýµ‘Uç$\\‰øZ5*bÖ/åžb–
+žH\'4\\*ãþ®í‹Æ4‹sv^ÇãÎÓ;5›ÇÙÓ1‰o\'Î¿Ô»Ô"‹	áù«{°P,#¥?˜…§ÑXìLâÐê"˜Ç†û-(ÿX×øá÷dŒSQÁ)½VÎn8«ê²¦o=W#b;CÐ ê×	|°	ÚMÞ¿ÿÃ¡',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:01+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.040521s][åžåçŽ‡ï¼š24.68req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002097s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1063',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ”7¢DP' => 'Jyå´X:ÙJ {œþÿrª©fžW±v;ª_ž¼¥XÜÂÆÎÉ·ŸYò˜Ç¸	MîÙLÌUÝùÄÔ¹lÃ¶ûÒ¹fz	FÊ’$ä' . "\0" . 'åfº]¥Ì3’ñÙ- y$Ë)Ä"@fáÞcê,Ö…„ñ
+ŽÇý]-ìŒ»À8vÀÊ~àÖÚHòQXr}µ¨Jñ58úb}GÞØÖÖÜWëÈðÒ¯‹NëíèeØp•q',
+  'íSÛ´A¯¯½-œùÞŽWv×ª¾t' => '',
+  'OŸ9ã‹£_IºÎY1ˆ©ÓŠÜÛÛ¨È°²m\\Üêµã:ó<Ýî®¸' => '',
+  'AQÆZ>ýüc~A#s§e' => '®w_f¸Û‚!†åÞTÕ!ò ”S‰‹8ïØC˜	È¼ˆ@7]IV¾M¿´{8ÿxJqM^tØøõÛ°wâöÅ¹DS¶ÿ`Ëä\\GŸœÏyõŸ\'åG§Ts·Q {ë<;ÃÅé-Ñá«hÉGå8HÑ¢,jk×;V¾4r$jgí—ïO`’Äí\'>A¢3b-ñ[ù¼QÃeP2 3ÔÌÜÚLƒÀÓû=-jr™`({’ÌÂ<ïc«ê¿íºûèÌ\'ƒß¾ïRÎ' . "\0" . 'û­°wWn²G²ß¥ªÒÞ#)S†»ÆºÁ^ùŠQ»dwWaE¯Ìu:¿Ò0‰A.Úvt°’!guÕí©pš87Äo{%g_M”#¼°mÉ¾žI>X@õr˜_h<hŸÃÐŠãèVÃ‡ípƒP.rèÎŽÃ ”Ià6zæ4hŒa¿±ŠG‘Ý¼	×#edó‚' . "\0" . '–Ò%jg?äzË/º ]ð\\¯\'Êñòœl}4|%¿Vk¯æXO î¡CÁ’	r£íÙJÒ¿Ü¡ôÃÅªˆ	È£Æ¥x‘c¯¦jL8=¿ÑÔ-)Ìô…ºFÄ',
+  'NX
+Šl	_Øñ4í²l€âóDÄk,«È1ÍQJ!<K_7¯SlÐW9‚_`ýÈBi §¬æ¥' => '',
+  '94–_íˆ†y1¿w6Èž®yÅë å‡î}(‡ÍÉ#PÏ‘cWKýèš#2ƒø¿8n“' => 'Sÿ›u>º/ßP·—ìÿ!–¿ £¨\\ËVº=k`ÝJ°¶±4°ãàY×À¼u–ªÚú	yJÿþ' . "\0" . 'úéÉ0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:01+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.049962s][åžåçŽ‡ï¼š20.02req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002098s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1060',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒG¢l@' => 'yv·b…]³g¿Yò˜Ë€„',
+  'ÿ²•b¿d®êŒ‚U×²Û¾£ó¯é' => '',
+  ']4ê‡$oŽ¥@¦ÛUºÝyF2ÞçÈJÉr
+±6³p÷5õ_ìí_ânÔ' => 'O·[Ø	öcÖ±}nR‚ÞGk#	T>ä®µ¨Jñ5Û`Þ<DTÆà¾—…—½ß\'ùôá¹k »‘wÒ’®*âò˜úm»ÈÆ°òt1Ò	%;Ý/`ÙWo©ª¶›O„Ÿ/no¥ŽÎÕûXÛ¹lUF¤˜w K¯îÙø«ŸÊcnzÖ×4LÍ3ð›œs‘zq` ú3i‹œNWÀÔ­ÎjèC±2þA,vI¥™±Ý~1{3"YÙîà7ÅŽÖ¿ìr:Nžƒã~ŒŸs
+j?*«œ¡³“V|[¯ª†ðiT•ñÅP02É¸˜0Nþ@f[DîeÙ¦•ËÈ‘xª{ü*¥Ò•Qß\'Ýª±j”
+º=¯ºÔHÁäjœP´­õ™%Â _¯Þ§vxEÌ"Ôkx^Âu\'œÑ¿RÏÅº}0ó',
+  'JH°:ÂßëÀøJÛ5Ä‘ØWŸ—cFÌ_äe3ð«"Ï­1ýãÐŒ™“ý:ö†Î>wD_2d„ã' => 'þlG_zaÁ  Yh>^§ýáxÝž!ÂDûÐR1Ð(ý[`‡K',
+  '3˜hãÈçX,D•—j…pú†žœ×Ø³_5XÏ´áÔiUŽG0p‹±\\BœËLÓZÚú\'õ
+Ò@¹Êìh^LjQ5#6r4¼eU¾`àìäe´Ú÷d¿¹ƒ·õiü
+öZI_”ßm”ÏÄ1¸‚#¼G˜' => '‘¸|J—)ùëÔã*“È-=´[sôÔEùR‰ ·9éÙÙº²JeÛè¦‚[Ñ\\DLšJIðì(EÎ Œ\'—	 ÀD´n—ü~Á;JØÃÚ—/öBALÖVØ5ãJœ #;]Â"±Ì´)X¾÷—dSr±~[‰ÊH"î\'†ÆÊü=º6téë¹fÒßÁ®Æ4ùz»R¯e¦Þ¨ÛèiÝ¯»FPˆºÃpCmf3µ¸’­Q–¬™°ªÌñ!‰>' . "\0" . 'ææŠóSbw;	³Þj2G¬›ìxõ€Nâ«
+Ò(¥{FBdÀ`ü;éÛƒû(Vº0 ç²s™4]Ë/E‹QM',
+  '˜¢>fÞ·˜XéŽ4BË£SjÄŠ÷€‰’' => 'Ü¢µ‚…ï P6þé}Ù¾£Èz€³Xž¬ñ¶>i™¶•uÎù@e[Ò[NV|q{}Èœ^Ëbh¦íi@ÇUaÇ*¥ÏçMo™îÌê±Ñ¼ÇJ²6Z0˜"þøã!ÅÍ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:01+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.043527s][åžåçŽ‡ï¼š22.97req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.97kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002107s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1063',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒE’ƒ@' => '',
+  't™Aô®èÚˆÄ‘ø' => '',
+  'W¹A%Š­Àvª<P¼álè' => 'ú„.¶~ThW‡ŽîY†©scæR´‚nM•í<|ŽŠi=2ùšu Ýk3^g4]ç¶$¥à:)ÏtŠnbçDƒËDåàMCc* uúÅÄÉyL(õ1ÁÈÛŽœu,ö9ŠÓ×Ð*AÒ.{•0¾–8„*k@Úuó=×ãÔÂÞØ/xsf#¼‘¦¤ïœjiÎ\'aìÖcå}
+†¹‚9ÿ7ÆBêŽU	 ?hôìñÖm)dA*ÝM–ñKþY',
+  '·‡›—ÊÒ$á«æ4¯•`à»¾?ÿ¥ÊÕŽl4g)Ù	ëUÃ€¹0îû†k€_šrC_ýq%ìËé_y)·þüâ' => '',
+  'uUš—âŽlGàjªËçèq/iVÑÔi?Ã _Õ¤1Éü›¿†ÐÇÒíÑ “’•Q?ûëÖ{ÐÇê×K”8BZÇ)¬h,„]s‰Œ)½™ápq³º/ÑÔ¤Ò6' => 'zft´1cláˆÃIcO’—*NÌNn‘‡•õÀ†Ñ?Üú OÒÈÞÇÚò«Q¶Ó™hò@SkE­î³ÙM…ã',
+  '0Y×vkÒ”)]' => 'Êxíu`Ä3ûuùT/Ý9÷N',
+  '¤™öÇûã“G,aÚ§b¼6<~þRdš\\á´l‰Ð‡†“¦Ò/,û5Sï¡öLéžÄåïÉßË_}ËŸþ"M„%^¸˜à_û¼ê˜Ü^\\' => '7XèÜ3¡*êU3»Ô/TÀ•Ì™5„)•øX;žÙ-"‹)s<GØÆ%ÊŽ8áj',
+  'èöZÚ81Ü’ÎüÙ_œã¤è`üu‡’©çû]7o_GØ>„Û5vÂßúKy—Æ¬‚¼çµJ¾c…ÛÊFñ?zH|1SuCùÀ¿gXÂ£ÒÁ)ÄÙoêa*"N…Ò}7³êÑvÎ×Š	À–¦›Æ$d<èÅš×X-Q°—ÜoG¦`zóù€”ödÕKí›DûV/‹PXìµÚkyôŽg§í‡ù€™û¯òl¼THGfx]#)§‘EKºÌ¶çMçñ…_iÕg•ÃÌqx›cX4Ñ_É-Ç]¬u‘nñ\'b•ê²rKY|xahÍe‘
+?È¡b%Om)<Rö_ç¡ÙFC§á½_\'O’ñ‘YÇ\\äô¶ šÛ4¾ûçÚÜlƒªoÀÑÒ5Ýÿ¯˜ÀÇ»' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:01+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046405s][åžåçŽ‡ï¼š21.55req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003017s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1062',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑ5’„P' => 'O»ÈprQe™.3HÞÝ[cBq$Ñøª4°ØŠj<M3"ù¡.´ÌÏ	=!ž1Q°jÆwZºšhÊúË¼¹ŒÏý·¥.V³s;˜-÷O³Žh®»wÔ]ìp˜™ñ>Âr»ÈÍ«´Uã²¢
+[­.×îòÙFåÇ¯©F\\UsØ.ìŸÊzëÉ£;*ÕGZróÊÈ*%¹cb¾?¹}™Ša3Ð$YÞÁ^Ýäót¸S ç
+h4ìZA*X;Fp M­Gý/EèÊpg’HÃàqÒWl…¸C2îçÝâì…•¬º½ÞE[jÚ_;AõÙhèÑ-ó•JõVXOðA\'4ñÖ',
+  'ÇíŽ)áN>þéN÷ÀÚÃY‰îöx£Rú²6?€¼_>3ÃØÖ^?\\’^ÑÔªXô0_SuŽ0Q­kiÕæEá¡“~É;¢I' => '',
+  '2ˆŒ|#@ÃYvùÝ¸ÈnŒzWštó‹Ç²’ï}yKdo@2Á‹—©}M®±)u¬þö]»Aó™ïôÌÙŒn¶k' => 'ë¬=o¾Ðö)@}ÿêØNÛV*×	â8*®*…3äça‘Íîç•QUwn4% ¹N«wŒ|QN3bç¿`ç§žÜ4§ïŒ™$N.’Ç®b×g;R|H¥ËSŒ	c”º',
+  '®Ì<Ü' => '‰£ÜÃî8aœ_¾‰WAÞA²ÐÙDÆ×GHQ(ãÃúÏMµ~ Lœµü
+ÐdÚ¥|ƒÒïf³’#-,qƒ)MlÉ…YµÊ˜®ËØ¤)vw·í;àQõêÛÿ÷÷wa“ŠÀØ	½SU4iìÄx_Öx.Ç¯Î6ùÎ¹{m7Âä‹R)ê7dT  õ5¡f¯\'v«RÏfH­’Uw^¬Ô¢	§ÏúYµœi‰õÂ´ç€ïá2àéŒXK^˜âˆé˜@x¥Þ *úþ¼M®D×’[c~±¢¿Í{·/ÍˆãöigûÚÛ’å%Ÿ£JýJ6î^Å#‡°G¡Ñt7×:0NÈz>c×ò½›\'Y;oSû§™v‘y…"i¾«ˆDåÏ|FÆv!þjIá‰|“,æ,ÖÙÈeÐ ’' . "\0" . 'Î.¨€§<' . "\0" . 'Ýâqj:ßòmûïHfrÈÜBëvB' . "\0" . 'RU!
+…ÂÏ)ÛqT"a©›ô³í/QúˆÂ…ŸXƒ~nEF¢²þ' . "\0" . '¤Çn',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:03+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.053210s][åžåçŽ‡ï¼š18.79req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002137s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1050',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓ5¢«@' => '',
+  'v†<]_' => '™ýU!öƒrN`9}9~¶^»·ôUÔì|ÄÊ#ìt—A8z¯_ôkv5E|ŸéMß8ò-FÆ{ÿwáOä®ú†ºr{°·æ¹HjmaÝ nuå’óz¾ÖÂÒtSy%/‰¨·òãŽ—N[SmÛô]±®~<ê*¡Çl.l‰ÿÊ.IVÃÖ€ÈåK¦d¶…À,½ó”¯=ÚIol¢I”(C;‰Š%]ßIÿ¤zó40ç\\w
+p5íÓTÔï‡×Ú•_OG	††~é!oÞŸ.fçŸ=qýäÂMv,‡gªì`ÎÊLÃl²ï¹»…$(\')Ò¢â7g(°å·é	Gr·3öm…ßê˜¦NöãfÈ«™ûG|)5Öv(È.G6Y“=Póßîº{Ç`ÉüvÇFõ%º¯vê¦ŽÑÍû¸zp±~
+é¸õ”g',
+  'çò%R	°ÄKô	…_K®Ù_ß8‡RÎÎk¡ˆsZÖœÙÝ^H¥9‰' => 'T˜a#yqêÉ­E¨B×«Ê¢ê¡=HŸƒ4Dôµ F3/ª2B<ût4c^ëDh?E«*"Ök!"0O:±ø×íÄ‘»nªÜ}nð­¬À„ÏAZ!ÊÞˆrY½:à¸ÿöÑE#2	Åž½„n•´—Øˆ© QO™pèö½^þB†W`_Ãº¦™š§-\\óë"Ý\'»™•,… zi\'É' . "\0" . 'ÎF•µCÄ/Á—‚szFŒà#g”<qŠÎùvÞ',
+  '#Më–@1êŸ)?æ<¢Íj‰ª!Ø¦T¼SDl›JIz' => '',
+  '/wŒpÈQö’ÈŠ§‰€À
+Þfä¿x_q\\óp|:éò' => ':ŠºÆ«fþxk1”@È?2óZþV¿úðÿâÖVsLöÖm$|qL.H7#¾éûØtØžð1’T«ëù.Ç9•áÆ{â²¬¨Ú¬úÅÍ¥¨£V~,ðgŒEL¹Ý§v¥ñKô64à´ÜØG˜Kÿ9;™KÜ»ŒÎT³Æyg„ƒw<šV@ÃCrë³»Ñ€½£UxýöÚcÅŸlÆÎùÖÅ‘*ÒÖÒo»-¹5¥~ñßa¡mPó§Qö©7·B¥#t †|:¤A…ë6(`üq¶¾`?\'4¦Ü¥rÑ•K}Ó’ù÷,âÀ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:04+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.043687s][åžåçŽ‡ï¼š22.89req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.16kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002137s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1049',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓ5¶¤P' => 'P]P†ˆ÷ø 68ÆÙw#žóÖU4V¦»²Â8S!±R´SšíAKf3}~»€ÒW1æýƒ}¹’M5úîtˆ}?ØbX‘FVX”ô‰.n*uú[Ž¦„(I°Q-%çæÎ,*ýoe’ClHx™L¿j„d¡BÍÅKyÂÑ/’ÝÓ¦ üÂdQ~ÀnAôÍé9Ô\\vöa¦â7vd8!ü!óÇºÅxo¤Ì.šXœÊm%¦ù¯yß‚«æÏ0È®ðU™³Rý0åÞˆ—˜ò¶¿[3ÉÀ)´sPHyîÑVs½x “ŒS ò±P…ÚÙáÇÀúÀÓKÒÍöš­lw¾ÜÜçË–g!èy46dÐLjÖ)jÆ
+"m ¥ºB¸_‹ÌõXas÷9%¸ŒfH¯4Ý¸ÁÀ:kÙJV©C0Íg¼$ÎÃ¡iÖTÉ7cQd“O¾[QvWï¹f½”ÃšD\'êÖ-W$y¬Ž¹¿Üš£»Ìn\\n;n÷˜.@{‘¤÷ 0ÿTŒý¯¢×dùb‹£AX78¹)ü:õwúäŽ” 4V¸z®v2§öfdÂ#±òw`âvØB]ßbßIÇÛŠÄ_XÕ[G¢¢L2œJýmmáN?B@µ¤¤†×Éy[AÞ_x”–ÉÀŸ8G"¯„@Ã›îí°‡5|fD¥—¾±`QŒÎÂ¢1íÛÝ_€€‰V|ÉÌØ[bÔÉÉ‡²A¥eû9¹ŸsžŸÔŒÐBÍj¾:šd,ÄiPÜý\'©¾„X3#6ø
+eÃŒmÄ[À#™±r! Jópû·¬7Š‚l	ËRøEŸ=J‡B¤J3%' . "\0" . 'BÄP¶äj×|Døû\'yS%«UCÐ¥õ…è.5ŽbU¼§@°pôÍÂ=0ÓZ¨BvFà*‘¿o_È±`±' . "\0" . '•t¤èíP3„õÁL]}[$|qtgspœCZ’ÓÏvR’…ÈJ}ø|ªy‚]bLùç \'ºQp¨‹èˆ©øÄ0üÉû÷È‚»r',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:04+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.051717s][åžåçŽ‡ï¼š19.34req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002119s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1063',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÒ×¶C@' => '',
+  '\'ÌŸé³ß¯ÏâG,ŠÄ{ržò½ú<Ñ¹6_öB*‹Þà-T\\dÔ¢*	ù­ÀVÞØå³åÇ²¿¶ûíæ#j¯Ê)UÞX%QM%ÀÁÇÙ¤R¬"Ûb(Ëó3×`o_^ÌI‚©êü^dzÖ}Ù-·|câ' => 'Xná;m/ôå\'çl=n7ÃØå‚†gáJÚ>ôù¡\'Ž°Áa<Í õ˜¤ü\\…‘ãÊ´€HÞxCÿ2¿liSŒÈ^^Ð–„Ÿ¢{±ílXOô_m†J`d7äŽU}àú¶pw¿Z¹ëôe<)ac7¥8ñ°÷N–Y_©(ÍK÷Ž†ìÛ<
+yd7Q•];G¬8ý®G™Œ|ç·7é4Yo©kÆÀRþêCTº?3MÌNM¼\'P‚JkÊ—ƒeu™nLðrRí',
+  'ê\\"`Ð‘Y¨üðc	
+Dø‘Gèâô4*û' => 'ÝO¡DþÂ(·îižë’¯¨ÌªR%‡‰©<#—íWÄwÛ‘q™ÜöŸù™þ¿VœÚ~{ð8‘c¥S-~‹=eÛ|K' . "\0" . '6c³šÙËiW±IUGO«ÒßñÞœFn"áâZÞXôEBÕîŒ§‹#àƒt/Ÿ^ôåÈàa*¶ÖY­¢*?òÂa',
+  'üî]_øA7®Huy”|Y¨msŒ°ˆ¡Ó˜ZÊÛj‡4w‰ÝwyAo>«²s4NûUUHÔ1²9Ê
+ÉÚËcÖy‚­G‚VÛù' => 'ä‰ÒýYâ8	›O¢ÎLžÞ£n7)Í·Æ´„7…FÜð‹Ã]Àª?Ýèvbj#<a°Ê®Ý×1˜O—î3ƒ®á%*8÷4ºÉÇÿÜRQÇš`¶4ä`(Þs ‘êbWd€‰j[ä\'¿c!tkxÄB9^/ØR·^ƒª¶æ ¹ö¯Ó{úH¶\\ûïÕ-×±ë|5²Cùbñò<I«Žeâø"ÚÂq a:S úöb¤’ã47©…8hSšÏ­€ÇÂ\\T¨8ÐšŠV;|r›{bçÄŽJMöŒÚ%´5¦×)œ‰ü÷fŒ¤Ä¢Ug>$TúËžžÛJ.ÿ“ ¹GÐï¬ÉN”øÎ>lø5rL¬jº¿pÌDÔž¡÷9:qÀ~²À¾s|"ÄX~?é7‡Yß¶F©*ÉÃvÀµ˜µé~÷š~¸7ÁëïR«H¥0œûâOëŽ]·¹PHŠõ4A^¥M¶P²Yó—Ô(ˆü¼³‰”„\'Ë.Ðƒké?ÁzÂ',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:04+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046973s][åžåçŽ‡ï¼š21.29req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.97kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003013s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1064',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÓGÖl@' => 'ç«EQÍ÷¨.Leò×bõ
+œSà<3UŠÀg½”¡v´ÐœAåšé',
+  'ïšä´¥lþš®erú)`ŠZã)ê8ÚC¦Seë•#Šø/*Eå4f“²	ÿ' => '',
+  'ÏIÛÊ„Ò‚ù_}ÇÝn68cI?_â\\\'F5º’ëÛ8Xš¨<µé®Ñâ‡ûêô`i' => '',
+  'x¼Ÿê¶¿jÁ4{nˆ±íË¯ãuß}AVAÎÕ‰hÍ>œŒ½w¥¾É—ˆûßg$žÚÛ÷ð]°ÅlÊÓÌõÆIÈØJÉ†¸ôŽžÃ«óÚ—æ({3Y°?zJxˆUqƒ„ëŒY;ßÜáºŸíÁn^q75§ÜÚ¥4þÿ|š9ÜfÍ;¦“â3¼Æ÷âŠ)§9ö3¾QG×Ècoâw,tŽgÌp)©¸_±:ýyeÏp“›øF™äýâÃoŠ„øûb?ùÌº¯l{j­–ÓÔ!?n²©¹¶	Ÿ9Ä¸-vÍä¯ááEH‚4ª¡¹G–É»Ç™ol:-¾G_iúáÿü³k4ß‹\\]\'q' => 't/,{aãÌ7"ú±' . "\0" . 'Ö³Ê:ìLëÐÆ‰”“‹2Ì›»',
+  'Ä6' => 'V›µÆ!BnŽ¶îµd¯`¦ÿÒ_mó#Ò~×Ì«:À,Ìždg…Q†§­5‘W‰ÎßŒÕ$d˜]j0Åt‹94§"§9ê¸q',
+  '6¾øTÈ­ph9£ÎùÕG¤îSØåòÍòþl«-Xòd²0BPTû' => 'êÝÞ*8ŸøÉô©ú›ªË™ÚzLlt(K8ÀÍ{ã*Åì¤Ý`\'û(}×vW¡_úS¥Ç€°r©ç,¸fÂoþçoxôáÅ[¶~®/Ó0*ÉbJ„±Ë?7Uyk×j¸Ê\\ZGð¶DÚíù¸Ÿ8§zEEP±7ÒÁÁ¸PèÛ#xSÙuÃ',
+  'îÅî?V@:éVà‡Oèù_ìÛš÷/_çœAÐ®ÜlØ_' => '',
+  '¸Í¤Q*UÐ_#ý«Ý
+æ9R¢·êÕïÜÞu??M*ÊØØDÞ½£U*‹¸' => 'Lã¸>;ÍÕýµ|È#MÒë“îñÜ[ÎåŽ6}«„…ÿýµËz”±QVÚªò«wöÓ‡iõA?„ô>ÑƒúÞÇä',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:04+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.055131s][åžåçŽ‡ï¼š18.14req/s] [å†…å­˜æ¶ˆè€—ï¼š1,474.72kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002091s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1062',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÑE‚£@' => '',
+  '·t¢ NfªaGaE@uú¡' => '¦,éþÝ®˜É`V[˜âDV~ž#U.ªyÜG¨™ÁÂ/vv—v¶´ºl¶™uP@³‰ÑŒñW~>^¡—lV%	€¦³A~àQïÆÜ ÃÚvçªŸ.ü*«r°2g6óoû}“8ÒºÿåÞÔÉñÏ|Iäï €5üÌ
+½rz/gžÉïô¹Ø¬LÛøï9MÖí_ò-ŒÈ!Eª´}”Ã·k•ë¼<ÏFÏ?òú«T0õIT‰ø%QJÃêAô',
+  '6¼¬å"l#wÆ/ïT“ØÏ\\ŒÏ2;ÞÓÃóEç{¹¬òÎPÌIV°_eY$^ðžã¬J¾‡_‘
+WÈZÅÌU÷’<ÕÈ8' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:05+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045910s][åžåçŽ‡ï¼š21.78req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003009s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1048',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÎG¢kP' => '‚\\ \\ÖI°¡‰†:H†GS^‡õ·aRÝt‚ÉªÀÉCÚA†U|æ3E€õ¸å†R{Q½H÷6ŠËÌøâ„¹3}öûÕ,/âx‹"ñƒ´-ŸïÕàŒÏµ¶°$V9°h5þ …61Õ3ÃB#²tOâó9ªö=½Om¸•cHYÃ' . "\0" . '5bZÝÜBM«´Á¸ï²¯”3z oÅÏz>ø\'«õóTz%*·ªÐsZ—Ö8I=®ûµ»‹ç…äœ’!Ö',
+  '}Å°ñ¤1' => 
+  array (
+    ')m¾Ô4-S¤"ÙÇIéƒÓÀ”k!†ˆwY´Û­:%µ;;¶ ‚D' => '',
+  ),
+  '‰C‚Äw¼-_SøVbl_Z6÷r$¯Ììy´5Wd¼Ð×òˆ¼TRb±åû,VíFã‹jÈ' => '»µSÞ‡ëÞ‰ûé@œùÍÊmÞ3É´¡ •@PñDU¡ùN¶Øœï¡¹WQ=mÁ{xŠ>FÇ Ž®Ü¨×\\·Šó¢Î UXpü 6¡û‘ÒŽ#>‰›ëLEöèÑï‹:ixÆˆÛmGOêŠ¦èÎÛË”ùúÇü¢g·pô„Î•œ=×ÒíÇÆm2ª“¼ó/¬:æô5¹a‹ß}æë²|›õMOD¾<u%•E’Y
+’±c.e5Ç-”á99‡å=o',
+  '>àŸHwû®¿œE¢„' => '',
+  'ŠJ÷þL@¯‚Cô}Y°N7ó^lb/Zh†Ñ>ËüDû8˜)ø$^t‚9T5)m›eaxaø°8J2ÞÇSÚ`ðp_Ï>:ÛÉ
+î{' => 'ºý·ÜåDÕ*•aäišæ5½‰®Xý”AåÉ(gý3©­“ÔŠÑtøÜ‚ÀèšÜK\\=Ä',
+  'NÃ1nÌ³ÛeÆ~"tõ:Ì_‚€Y<;,hW>7·þ×XŽjÑH(­ÌLM4`ù\'~“Y|cßôÕÜÄþR†ûQ…­Ië•j9â…ÍSÅÓá7-ô;@â}Þ(jµ»LäåÃ6Ñ´Á‡“›uÄ¾ÏßÁwéµµñÆKŸÛ“rÉ­!uàEjghSûï?š“¿' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:05+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.047185s][åžåçŽ‡ï¼š21.19req/s] [å†…å­˜æ¶ˆè€—ï¼š1,475.53kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003219s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1066',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ“×¶CP' => '',
+  'ùªõ¶¦P_eÖ5' => '',
+  'ÃT™Á
+ZZlÂÎóØ#°Ék¬@’³W·^žJ%“¸H©¾Ž†ðæ_pwêû¾þ_ƒE–:¥zhIVüÍøÅF:Òço†´UÌ˜‘É7nÜý0š!{…˜~>\'Æôº,°	MxniF­¡ÂŒ06²`4Ý¦XàâSŠ–!™¿|õ½ÚHŠÛæ;ôÐš–r%€ªKÉEìiÁbËé‰‚Ï' => '',
+  '}J¯r|qf³"±âÕaJòVSî|¼\'i5$«‘Xü4ò(õï¬°b5@‚¯>”œ“_÷ÕI5Ø@4¨M¨¸›ôœÅr°{ªå°@|' => 'ÿI_‚ÿ,ûHêôÿÉ=;žek¯‘çi7gŒøþ
+Z¥µÙSViçë]¡»ä6Êó…cÌ@É¦Ê9—ß”c.h5¯yÒ{œåBRÑÂýŒS×?»¾™OÌOZñ{Ž
+[#;öâ;G1ßWºcë€É=÷ªåv\\¢è¥óTþ',
+  'tBÇK¤OÒ	l>Ð¢Ö—¯Ø¹‘' => '.®Ð‹¯cº/¬]†ýdã÷ô#\'xÆ_¤~CÎ…ö3bŠÇ”ˆMÞ¸ÿÂM½Ïu«Faa“âõæØw8„y"•z ÿ”‡l·8cd›#¿3ß²}Ù‡Â~,lßšQÕ?¼ÿ}|½pÆçd¶«a^Cí‡¢Ð½­åˆ¶%*Šqóˆ`/ôx£¯¢Kó°ò«Qõ:³j-ÑúH~Å×}á›CÐŠh/KZ­>½®róIÚ…H	,»Âc%•©OH°µ±3o~à(é»3šÝH†üònÅm',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:05+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045533s][åžåçŽ‡ï¼š21.96req/s] [å†…å­˜æ¶ˆè€—ï¼š1,476.28kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003010s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1049',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÔÇÚk@' => '',
+  'Î' => 'ypçbv
+‹úžõA)R.ë$Ø²	rÈUÝŽ£šæÔ©lÂ¦}3¹fº	ÅµÊp
+t2ÝªÒùÌ3Àzüš•"‘åÀ4—á›û3užCËÌøh"Üžý~½L}ŸQp¶å½œñ¹6‘Ä
+–GCªP|q½P3¦¯
+Â}(š›èìuÍré45ñ‘×_Êárc:‘êðK›)Ø }ÎüyÕÃ¤E?ž?»ßìÙ_R—ÝÑÅd–ìíùr°Ù°`.•|öªf£YÄžþÍnI—M¨c¹Ú/ŒÚâQÜÞobbé0WlM›Ùfn$¤¶œúØX}µ$ž
+BÁi«t(v¨…ñúÙ_Óà{Èƒàq­Ò¨î˜Á‚Û¾“F}ñê9Èu©	;H ÞÒk´)˜A¦,ÁëA¶ß™•öDiNœd¾¡ÄZ‚îµiCd‰µ˜UÀjëºÔTõyOãëïCØˆ¥¶Ô]?X©µI ÞhËi.®eØY|=ùM˜“‚¸Cx,—¡?†ÓVe/ûŒ‹²Ë¡‹uÙâq%²f±Â7%Ÿ”fjÌ;ñÁäÉ¢l ¥-ªv¨º¼œOûY$Q¬®Àø˜ß•½-ÎcYKº{ø­oòÊžFÛ	ù#1AKUeqó›ƒ™ÂþÇH.ÇÖ­¼aÆJ1Øç¼ªÂÉmLÒ¬óe1R™t~î šãí¡“%
+>r54 6Rwøîø' . "\0" . 'Ó–7—ÙwÙ®ix ‰/”X}´ÕÙ­^n©5
+W^îºJ›Í#v×Â:sƒBr ìy¦¯#%§ŽÉ§ñ­oNä»e031áÆ½ÞXíŠ“ÄD…öúnÒÉÙTÂÈñywÏ=%ï¼éGÐÖø',
+  'Xœ¤Ýh¾déÛKõ±
+¶ðENê>Ô' => '',
+  'ãÁÜ§Ž¼AÔ¨VP®òHì9*£÷¾F\'!gð‡T•Žnrù”‘Z>Ç1¯¶ÿ¾E¹Ç<25XÞQ¥_‚À‘ŸÍLÙ¯ó²¤wÿ¦3DË/êÑDï;”VsëÌ¾Á0>(Ö‹!dÒ7WÊ|w' => '',
+  'vÇšL^/íßK9½’' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:06+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.046206s][åžåçŽ‡ï¼š21.64req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003013s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1062',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœÔ5¶¤@' => '',
+  'î¼†Î2üº|<~Fœ…º‡ãiW;CžÇ_Æg~–Ç²Ç÷ÖXHË,¹ªªP bú>ÛÚº/­ÒL­PÈ¼U™aâ' => '',
+  '¾·ÛÙ7Í˜Ä÷‘wNî#SÚóyÜQ
+jÍ"\'ŒË6ÔxÃûsð¬Â§4Dö´Ä¿ñÄ9BÓ“µ9nV¿' => '',
+  'MO";!Õß:¡±æ5Ð?‹ïÚ\\' => ' ·FÕô˜XÉsDeWd‰‚ÃÝšÀ­Œ§ð@›ÛdFWs¿£¤W—^,lOÄW³ñY®Ûú†Ä”ô3‘À)g!ÏPLó1NŽ«ó?}vr½:;0åê…çÙwZ—9ã',
+  'OIÚ,UYŸ}Ì"–UiÂMCqey*ë˜üO3Uë·²UŽák_°Ë|™Íléß2";M;Gp®MèKN!²uQyøpœ!4Xù¥Šh^DoÉ0’DÐ™5?_¹œSo¤F)zj¥ú9©Øpx_á/8ñ­)Îûy;ŠÿyL,ÌÁ"4zhçTV¸’Ú*bm3†û¼éâR|qS·‰”"Ø\'æùeÀÙcÏoRD8çÅ¼G\'g¶·‰9TøíTÂ	ã{§_…émj™' => '3äˆ[Ïšï÷KN®`Lfcð§DhÝ,c½1Öœcyø´"$ÕòÝÈ6æ)@•®T…¿1Š’Œ½ÂMõAHRZ¦7I6^±=Ãxà#ž‰¥¬so­»ˆd¿­¥¿¥,xyt©æ3—¼¹¹ÛNâá#˜#ÈtÜ§™"˜£(½ïÐ6¬céõ£‡Ï' . "\0" . '™†Á®ŠYþpW)ñƒÊn¸Ô¯þwnYþ‡>ªô|éÜÓ­îû´ô»½.4Þ’Ç‰ƒ  ¥‰PR$§ßÓ™éŒóú(‹JÝ­o‹kÌ•ý-¯¨¤j¦g‡r´V¾Ý6M[©®³FO.†À7ü§bÓ*£“øDæ‡`…\'*þÎ¦²{ ¶ÁÝ¾vë(\\uoã`\'nÇèB®{ž/VêE´Åéfò{e' . "\0" . 'G·ìK›ï»“€mJ}~ª;' . "\0" . 'ŽuGÅ6NZÂl’~¾tV{KÅ[<¯.¶Ê½‡Óœôta¯bC‚vPÃ²[ö_È­d*;‰ßJE{òP×_ýò¹‹«’dFå¾÷åÿ[H>
+màVÌz{qLßÞ,åevv{P‡þÜ~í^ú¶¦HCª}qý‚<ÖFmK?Á\\n0@u¡/ý‡ÞÊsÒ1ïÆ lu“}ýš½Ê¼',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-13T21:26:06+08:00 ] 127.0.0.1 POST http://www.sogou.com/imewis/msugg?ifc=4&em=4
+[ info ] www.sogou.comhttp://www.sogou.com/imewis/msugg?ifc=4&em=4 [è¿è¡Œæ—¶é—´ï¼š0.045857s][åžåçŽ‡ï¼š21.81req/s] [å†…å­˜æ¶ˆè€—ï¼š1,477.03kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003011s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'imewis',
+    1 => 'msugg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SogouPSI',
+  'host' => 'www.sogou.com',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '1062',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'ifc' => '4',
+  'em' => '4',
+  'xœ‘7¶£@' => '',
+  'tCúD“ãéw{é©ÐŸ$ Z¶b„~äi?wÊ¦wöûÏ{Ý“KÀåß1Ç¬xd¡É¤ÆÓ‰Â?c^}ª¦æRÓvcÀe†À0§Ù7~¾Šd:SÌðž°à\\"pÊˆ†Qîm?(ÏçË#áNìÙoW' => '#°e0€ÎË{=8£s©^Dé3?*Ò`¥®9õ-#Hõ”‘ÿüW„‰›;¤½7Ÿ˜¸L%ˆŽ¬G›B:Þ#(:Å~!Âü’·Ø!W7s’xáü Â•Y®zRÐ|×iÓã¿n²Ç[ÈôbSÂÛn#²cÂOFndE',
+  '
+ò±v…Thb¼ôívºE1à' => '|÷\\‚zÕ¨áÞœsFÙJ¤®ßþøbó4f–F¼¥XµpÃ[N‰jùvri>M;Dá\'‹Îëä½ˆ®Œ `%(c^Hÿ„IÌÒ}€1l.ôM6?·|ïÔp£—ÑZ,ç¿œ¶"\'\'Á@§¼C9 ¦–ÞŸrÎ²Œj·$Çàž“Î #[Ý#¹¿ÀHfºÊI4zmˆ;{‡Ûe=ø¯¡…aÉ\\±–' . "\0" . 'T’©îÊÛ»³Ö´Ýtyw@À\\:]aÔ/ÿOû“¶oÚP.á1ôÖ f—~P]…`Y‚èGÏ¿…¤¾‚2½œÒÆgÅ',
+  'Ëÿe–ô~¼Àm{„o¶pç°|‚¦âkˆÆã6÷¸' => 'à^¸i¦Ý¶á‘jÒ¬ºý‹üvÓÅµò×¨=ì›îÊ³¾5WµSöŠ¥ÊÒyjÙÌß¥(UAòPÕ¬ïÏØÏ3gæ[kùTìù€Wíd¼kp	žœ<¸Kù0ù›R0{ë6–ær_m~ª¬?Å6‡ïsWäyÜþYAZáûË·úT¹ªD$¹A6ßÛ¨pgÜ¤¢‡ß’ûO”Ûiã/u4½wŸ‰žÉ´¬Cò?TÑ4©í?‚? ôCæÚƒé# gZ‘JÏ÷pj½W7š‘Kœ¤^5ÍÔj
+™½l÷×X—?¡N‰A|hIÃ)	®³èOñøž„=¾0õæ^æ‰×Ø¿÷¼gŒ†^ÅmoB>Ï™$þ,Y÷»ŒòÜ~â€øÐc TÉYÚ×®´£ÎU¨ÛûH`™¡YˆPDž`w¹ßË÷ãs[QPÎ>BL"S¢¾ÐµH¤¨Hß6F"÷\\•>¡ó§±…êÕoœUÌr~ÖQf»î~¢jî¯M×Û×”^èzV}”„>Ö‚GYÌuäµ¸Ã
+Nÿ7÷)Ò×]a“0G‹ÒmÙ>ö:°U',
+  'QsÆîµ†ELZ_€“—7ùÉÜ§ê$àðÖÑzlT¸ñìòM' => 'D2´¬ iá·c´Ã_«Ä¹·¢—M¾Î´Ó:õö×çÈ/',
+)
+[ info ] [ LOG ] INIT File
