@@ -492,10 +492,11 @@ class Getindex extends Common
             }
         }
         if (trim($shangjin) == "null" || empty($shangjin) || $shangjin == "不悬赏"){
-            $shangjin = "";
+            $shangjin = "0";
         }else{
             $user_money = new UserMoney();
-            $user_money_result = $user_money->where(['uid', $this->user_result->id])->find();
+            $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
+
             if ($user_money_result->cashout_money > $shangjin){
 
             }else{
@@ -529,4 +530,5 @@ class Getindex extends Common
 
         return $this->ajaxRuturn(1000, "", [$result_data]);
     }
+
 }

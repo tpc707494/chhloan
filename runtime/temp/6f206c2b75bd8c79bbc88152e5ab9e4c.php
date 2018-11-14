@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:91:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\showcash\cashin.html";i:1542170408;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
 
     <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-    <link rel="stylesheet" href="__CDN__/assets/aui/css/aui.css"/>
-    <script type="text/javascript" src="__CDN__/assets/aui/script/aui-toast.js" ></script>
-    <script type="text/javascript" src="__CDN__/assets/aui/script/aui-dialog.js" ></script>
+    <link rel="stylesheet" href="/assets/aui/css/aui.css"/>
+    <script type="text/javascript" src="/assets/aui/script/aui-toast.js" ></script>
+    <script type="text/javascript" src="/assets/aui/script/aui-dialog.js" ></script>
 </head>
 <body>
 
@@ -192,8 +193,8 @@
         </div>
     </div>
     </div>
-    <script src="__CDN__/assets/weui/dist/example/zepto.min.js"></script>
-    <script type="text/javascript" src="__CDN__/assets/aui/script/aui-tab.js" ></script>
+    <script src="/assets/weui/dist/example/zepto.min.js"></script>
+    <script type="text/javascript" src="/assets/aui/script/aui-tab.js" ></script>
     <script type="text/javascript">
         apiready = function() {
             api.parseTapmode();
@@ -215,7 +216,7 @@
                 });
             }
         });
-        page_type = {$page_title};
+        page_type = <?php echo $page_title; ?>;
         tab.setActive(page_type);
         toast.loading({
             title:"加载中",
@@ -230,8 +231,8 @@
                 type: "get",
                 url: "cashin.html",
                 data: {
-                    phone:{$phone},
-                    token:'{$token}',
+                    phone:<?php echo $phone; ?>,
+                    token:'<?php echo $token; ?>',
                     type:index
                 },
                 success: function (data) {

@@ -3,6 +3,7 @@ namespace app\apii\controller;
 
 
 use app\admin\model\CashIn;
+use app\admin\model\Cashout;
 use app\admin\model\Goods;
 use app\admin\model\user\base\LaonShangjin;
 use app\admin\model\UserLoanModel;
@@ -39,14 +40,18 @@ class Paytest extends Common
     public function index(){
         $title = input("post.title");
         if (empty($title)){
-            $title = input("post.title");
+            $title = input("get.title");
         }
 
         $loanid = input("post.loanid");
         if (empty($loanid)){
-            $title = input("post.loanid");
+            $loanid = input("get.loanid");
         }
 
+        $type_cashout = input("post.cashout_type");
+        if (empty($type_cashout)){
+            $type_cashout = input("get.cashout_type");
+        }
 
 
         $this->view->assign('title', "账户提现");
@@ -59,12 +64,18 @@ class Paytest extends Common
             "支付宝",
             "银行卡"
         ]));
-        if (empty($loanid)){
+        $loan = new UserLoanModel();
+        $loan_result = $loan->where(['id'=>$loanid])->find();
+        if (empty($loan_result)){
+            cookie('loanid', "-", array('expire'=>3600,'prefix'=>'cashout_'));
             $cashout_type = [
-                "余额","招标保证金", "先息后本"
+                "余额"
             ];
         }else{
-
+            cookie('loanid', $loanid, array('expire'=>3600,'prefix'=>'cashout_'));
+            $cashout_type = [
+                "悬赏","招标保证金", "先息后本"
+            ];
         }
         $this->view->assign('jsonmenulist', json_encode($cashout_type));
         $this->view->assign('phone', $this->phone);
@@ -81,86 +92,27 @@ class Paytest extends Common
         if (empty($data)){
             $data = input("get.data");
         }
-        if (!empty($data)){
-            $money_array = Array();
-            $data_list = explode(",", $data);
-            $goods = new Goods();
-            $goods_result = $goods->whereIn('id', $data_list)->select();
-            $menulist = "";
-            $money = 0;
-            $y_money = input("post.shangjin");
-            if (empty($y_money)){
-                $y_money = input("get.shangjin");
-            }
-//            return $this->ajaxRuturn(200, "", $goods_result);
-            foreach ($goods_result as $item=>$value){
-                if ($value->id!=200){
-                    $config_pay[$item] = ['id'=>$value->id, "money"=>$value->money];
-                }else{
-                    $config_pay[$item] = ['id'=>$value->id, "money"=>$y_money];
-                }
-
-                $menulist = $menulist.$value->alias.'->';
-                if (!empty($value->money)){
-                    $money = $money + $value->money;
-                }
-            }
-            if (empty($y_money)){
-                $y_money = input("get.shangjin");
-            }
-            if (empty($y_money) || $y_money == "不悬赏" || !in_array(200, $data_list)){
-
-            }else{
-                $money = $money + $y_money;
-            }
-            $this->das_money = $money;
-            $menulist = rtrim($menulist, "->");
-            $view_data = [
-                [
-                    "title"=>"提现账户",
-                    "account"=>[
-                        "微信",
-                        "支付宝",
-                        "账户余额"
-                    ]
-                ],
-                [
-                    "title"=>"提现类型",
-                    "account"=>[
-                        $menulist
-                    ]
-                ],
-            ];
-                $this->view->assign('type', "1");
-            $this->view->assign('money', $money);
-            $this->view->assign('menulist', $view_data);
-            $this->view->assign('money_list', json_encode($config_pay));
-            $this->view->assign('menulist1', json_encode($view_data));
-
-
-        }else{
-            $view_data = [
-                [
-                    "title"=>"提现账户",
-                    "account"=>[
-                        "微信",
-                        "支付宝",
-                        "账户余额"
-                    ]
-                ],
-                [
-                    "title"=>"提现类型",
-                    "account"=>[
-                        "余额","招标保证金", "先息后本","悬赏"
-                    ]
+        $view_data = [
+            [
+                "title"=>"提现账户",
+                "account"=>[
+                    "微信",
+                    "支付宝",
+                    "账户余额"
                 ]
-            ];
-            $this->view->assign('type', "0");
-            $this->view->assign('money', "0");
-            $this->view->assign('menulist', $view_data);
-            $this->view->assign('money_list', json_encode($config_pay));
-            $this->view->assign('menulist1', json_encode($view_data));
-        }
+            ],
+            [
+                "title"=>"提现类型",
+                "account"=>[
+                    "余额","招标保证金", "先息后本"
+                ]
+            ]
+        ];
+        $this->view->assign('type', "0");
+        $this->view->assign('money', "0");
+        $this->view->assign('menulist', $view_data);
+        $this->view->assign('money_list', json_encode($config_pay));
+        $this->view->assign('menulist1', json_encode($view_data));
         $this->view->assign('phone', $this->phone);
         $user_money = new UserMoney();
         $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
@@ -168,6 +120,98 @@ class Paytest extends Common
 
         return $this->view->fetch();
     }
+    public function cashout_btn()
+    {
+
+//        return $this->ajaxRuturn("-1000", "错误,请稍后再试", input("get."));
+        $price = input("get.price");
+        $istype = input("get.istype");
+        $type = input("get.type");
+        $sql_price = $price + 1;
+        $type_input = 0;
+        $user_money = new UserMoney();
+        $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
+
+        $loanid = $_COOKIE['cashout_loanid'];
+
+        switch ($type){
+            case "余额":
+                $type_input = 300;
+                $sql_price = $user_money_result->cashout_money;
+                if ($price  >  $sql_price){
+                    return $this->ajaxRuturn("-1000", "金额不足,请提现正确的金额");
+                }else{
+                    $data = [
+                        'cashout_money' => $sql_price - $price,
+                    ];
+                    $user_money->update($data, ['id'=>$user_money_result->id]);
+                }
+                break;
+            case "悬赏":
+//                $type_input = 200;
+                $loan = new UserLoanModel();
+                $loan_result = $loan->where(['id'=>$loanid])->find();
+                if (empty($loan_result)){
+                    return $this->ajaxRuturn("-1000", "错误,请稍后再试");
+                }else{
+                    $sql_price = $loan_result->shangjin;
+                }
+                $type_input = $loan_result->create_at . "|" . "悬赏提现";
+                if ($price  >  $sql_price){
+                    return $this->ajaxRuturn("-1000", "金额不足,请提现正确的金额");
+                }else{
+                    $data = [
+                        'shangjin' => $sql_price - $price,
+                    ];
+                    $loan->update($data, ['id'=>$loan_result->id]);
+                }
+                break;
+            case "招标保证金":
+                $type_input = 1;
+                $sql_price = $user_money_result->baozheng_money;
+                if ($price  >  $sql_price){
+                    return $this->ajaxRuturn("-1000", "金额不足,请提现正确的金额");
+                }else{
+                    $data = [
+                        'baozheng_money' => $sql_price - $price,
+                    ];
+                    $user_money->update($data, ['id'=>$user_money_result->id]);
+                }
+                break;
+            case "先息后本":
+                $type_input = 100;
+                $sql_price = $user_money_result->after_money;
+                if ($price  >  $sql_price){
+                    return $this->ajaxRuturn("-1000", "金额不足,请提现正确的金额");
+                }else{
+                    $data = [
+                        'after_money' => $sql_price - $price,
+                    ];
+                    $user_money->update($data, ['id'=>$user_money_result->id]);
+                }
+                break;
+        }
+
+        $free = $price * 0.3;
+        $cashout_data = [
+            'uid' => $this->user_result->id,
+            'caseout'=> $price,
+            'free' => $free,
+            'real_value' => $price - $free,
+            'cashout_account_type' => $istype,
+            'cashout_account' => "",
+            'caseout_status' => "1",
+            'create_time' => date("Y-m-d h:i:s"),
+            'verify_time' => '',
+            'transfer_time' => "",
+            'cashout_type' => $type_input,
+        ];
+        $cashout = new Cashout();
+        $cashout_result = $cashout->save($cashout_data);
+        return $this->ajaxRuturn("1000", "提现成功,等待审核", $cashout_data);
+
+    }
+
 
     public function getmoney(){
         $type = input("get.type");
@@ -177,27 +221,31 @@ class Paytest extends Common
 
         $goods = new Goods();
         $goods_result = $goods->where(['alias'=>$type])->select();
-        return ([$user_money_result, $goods_result]);
+
+        $loanid = $_COOKIE['cashout_loanid'];
+        $loan = new UserLoanModel();
+        $loan_result = $loan->where(['id'=>$loanid])->find();
+
+        return ([$user_money_result, $goods_result, $loan_result]);
     }
 
     public function pay(){
         $price = $_POST["price"];
         $istype = $_POST["istype"];
-        $loanid = input("post.loanid");
         $cashin_type = $_POST["cashin_type"];
-        $type = input("post.type");
-        $sad = "";
+
+        $type = $_POST["type"];
+        if (empty($type)){
+            $type = "300";
+        }
+
         if ($istype == 0){
             return $this->ajaxRuturn("-1000", "参数错误,请重新进入");
         }
 
 
 
-        $orderuid = $this->user_result->username;       //此处传入您网站用户的用户名，方便在平台后台查看是谁付的款，强烈建议加上。可忽略。
-
-        //校验传入的表单，确保价格为正常价格（整数，1位小数，2位小数都可以），支付渠道只能是1或者2，orderuid长度不要超过33个中英文字。
-
-        //此处就在您服务器生成新订单，并把创建的订单号传入到下面的orderid中。
+        $orderuid = $this->user_result->username;
         $goodsname = str_replace("->", "|", $cashin_type);
         $this->code = date("YmdHms");
         $uid = "11196";//"此处填写平台的uid";
@@ -220,165 +268,61 @@ class Paytest extends Common
 
         $data["cashin_account_type"] = $istype;
         $data["cashin"] = $price;
-        $data["cashin_type"] = $cashin_type;
-        //return $this->ajaxRuturn("1000", $loanid."", $data);
+        $data["cashin_type"] = $type;
 
-        if ($istype == 3){
-            $user_money = new UserMoney();
-            $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
-            if ($price > $user_money_result->cashout_money){
+
+        switch ( $this->setloaninfo($istype , $data) ){
+            case 1:
                 return $this->ajaxRuturn("-1000", "账户余额不足");
-            }
-        }
-
-
-        if ($type == 1){
-            if ($istype == 3){
-                $this->account_yue($_POST["money_list"], $data["cashin_account_type"]);
-            }else{
-                $this->setloaninfo($_POST["money_list"], $data["cashin_account_type"]);
-            }
-        }else{
-            $this->set_money($data);
+                break;
         }
         return $this->ajaxRuturn("1000", "", $returndata);
     }
 
 
-    public function setloaninfo($list, $account){
+    public function setloaninfo($istype, $data){
+        $user_goods = new Goods();
+        $user_goods_return = $user_goods->where(['id'=>$data["cashin_type"]])->find();
 
-        foreach ($list as $key=>$value){
-            $cashin = new CashIn();
-            $data = [
-                'uid' => $this->user_result->id,
-                'cashin_account_type'=>$account,
-                'cashin'=>$value['money'],
-                'pay_code'=>$this->code ,
-                'created_at'=>date("Y-m-d H:i:s"),
-                'cashin_staut'=>'0',
-                'cashin_type'=>$value['id'],
-            ];
-            $cashin->save($data);
-        }
-    }
-
-    public function account_yue($list, $account){
-
-        $price = 0;
-        foreach ($list as $key=>$value){
-            $price = $price + $value['money'];
-        }
-        $user_money = new UserMoney();
-        $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
-        if ($price > $user_money_result->cashout_money){
-            return $this->ajaxRuturn("-1000", "账户余额不足");
-        }else{
-            $user_money_result->cashout_money = $user_money_result->cashout_money - $price;
-            $user_money->update($user_money_result);
-        }
-        $user_money = new UserMoney();
-        $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
-
-        $uaer_money_data = Array();
-        foreach ($list as $key=>$value){
-            switch ($value['id']){
-                case 1:
-                    $uaer_money_data['baozheng_money'] = $user_money_result->baozheng_money + $value['money'];
-                    break;
-                case 100:
-                    $uaer_money_data['after_money'] = $user_money_result->after_money + $value['money'];
-                    break;
-                case 200:
-//                    $uaer_money_data['shangjin'] = $user_money_result->baozheng_money + $value['money'];
-                    break;
-            }
-        }
-
-        foreach ($list as $key=>$value){
-            $cashin = new CashIn();
-            $data = [
-                'uid' => $this->user_result->id,
-                'cashin_account_type'=>$account,
-                'cashin'=>$value['money'],
-                'pay_code'=>$this->code ,
-                'created_at'=>date("Y-m-d H:i:s"),
-                'cashin_staut'=>'1',
-                'cashin_type'=>$value['id'],
-            ];
-            $cashin->save($data);
-        }
-    }
-
-
-
-    public function set_money($data1,$loanid){
-        if ($data1['cashin_account_type'] == 3){
-            $this->neiaccount($data1,$loanid);
-        }else{
-            $goods = new Goods();
-            $goods_result = $goods->where(['alias'=>$data1['cashin_type']])->find();
-
-            $cashin = new CashIn();
-            $data = [
-                'uid' => $this->user_result->id,
-                'cashin_account_type'=>$data1['cashin_account_type'],
-                'cashin'=>$data1['cashin'],
-                'pay_code'=>$this->code ,
-                'created_at'=>date("Y-m-d H:i:s"),
-                'cashin_staut'=>'0',
-                'cashin_type'=>$goods_result->id,
-            ];
-            $cashin->save($data);
-        }
-    }
-
-    public function neiaccount($data1, $loanid){
-        $goods = new Goods();
-        $goods_result = $goods->where(['alias'=>$data1['cashin_type']])->find();
-        $user_money = new UserMoney();
-        $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
-
-        switch ($goods_result->type){
+        switch ($istype){
             case 1:
-                if ($user_money_result->cashout_money >= $goods_result->money){
-                    $data = [
-                        'baozheng_money' => $user_money_result->baozheng_money + $goods_result->money,
-                        'cashout_money' => $user_money_result->cashout_money - $goods_result->money,
-                    ];
-                    $user_money->update($data, ['uid'=>$this->user_result->id]);
-                }else{
-                    return $this->ajaxRuturn("4004","余额不足");
+            case 2:
+                break;
+            case 3:
+                $user_money = new UserMoney();
+                $user_money_result = $user_money->where(['uid'=>$this->user_result->id])->find();
+                if ($data["cashin"] > $user_money_result->cashout_money){
+                    return 1;
                 }
-                break;
-            case 100:
-                if ($user_money_result->cashout_money >= $data1['cashin']){
-
-                    $loan_table = new UserLoanModel();
-                    $loan_table_result = $loan_table->where(['id'=>$loanid])->find();
-                    $loan_table->update([
-                        'shangjin'=>($loan_table_result->shangjin+ $data1['cashin'])
-                    ]);
-                }else{
-                    return $this->ajaxRuturn("4004","余额不足");
+                switch ($user_goods_return->type){
+                    case 1:
+                        $data1 = [
+                            'cashout_money' => $user_money_result->cashout_money - $user_goods_return->money,
+                            'baozheng_money' => $user_goods_return->money
+                        ];
+                        $user_money->update($data1 , ['id'=>$user_money_result->id]);
+                        break;
+                    case 100:
+                        $data1 = [
+                            'cashout_money' => $user_money_result->cashout_money - $user_goods_return->money,
+                            'after_money' => $user_goods_return->money
+                        ];
+                        $user_money->update($data1 , ['id'=>$user_money_result->id]);
+                        break;
                 }
-
-                break;
-            case 200:
-
-                if ($user_money_result->cashout_money >= $goods_result->money){
-                    $data = [
-                        'baozheng_money' => $user_money_result->baozheng_money + $goods_result->money,
-                        'cashout_money' => $user_money_result->cashout_money - $goods_result->money,
-                    ];
-                    $user_money->update($data, ['uid'=>$this->user_result->id]);
-                }else{
-                    return $this->ajaxRuturn("4004","余额不足");
-                }
-                break;
-            case 300:
-                break;
-            default:
                 break;
         }
+        $cashin = new CashIn();
+        $data1 = [
+            'uid' => $this->user_result->id,
+            'cashin_account_type'=>$istype,
+            'cashin'=>$data["cashin"],
+            'pay_code'=>$this->code ,
+            'created_at'=>date("Y-m-d H:i:s"),
+            'cashin_staut'=>'1',
+            'cashin_type'=>$user_goods_return->id,
+        ];
+        $cashin->save($data1);
     }
+
 }

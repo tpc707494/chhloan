@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2018-11-07T00:59:41+08:00 ] 127.0.0.1 GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b
+[ info ] config.pinyin.sogou.comhttp://config.pinyin.sogou.com/api/toolbox/geturl.php?h=E19E323CEB44991911ADC1390D8F0954&v=8.8.0.1956&r=0000_sogou_pinyin_88b [运行时间：1.631603s][吞吐率：0.61req/s] [内存消耗：1,633.27kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.049239s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.086239s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'toolbox',
+    2 => 'geturl.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'SOGOU_UPDATER',
+  'host' => 'config.pinyin.sogou.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'h' => 'E19E323CEB44991911ADC1390D8F0954',
+  'v' => '8.8.0.1956',
+  'r' => '0000_sogou_pinyin_88b',
+)
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.121934s ]
+[ info ] [ LOG ] INIT File

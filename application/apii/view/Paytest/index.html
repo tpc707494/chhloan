@@ -113,12 +113,13 @@
 <script>
 
     $(document).ready(function(){
+
+        var toast = new auiToast();
         $(function(){
             var $iosActionsheet = $('#iosActionsheet');
             var $iosMask = $('#iosMask');
             var $das = {$account};
             var $das1 = {$jsonmenulist};
-            console.log($das.length);
             var $weui_cell = $('.weui-cell');
             var index = 0;
             $weui_cell.on("touchend", function () {
@@ -141,7 +142,7 @@
                         $(".weui-actionsheet__title-text").text("选择提现类型");
                         for ($i=0;$i<$das1.length;$i++)
                         {
-                            var asd = "<div class=\"weui-actionsheet__cell\" id='popup_list'>"+$das1[$i]+"</div>";
+                            var asd = '<div class="weui-actionsheet__cell type" id="popup_list">'+$das1[$i]+"</div>";
                             $(".weui-actionsheet__menu").append(asd)
                         }
                         break;
@@ -174,24 +175,64 @@
             $('#iosActionsheetCancel').on('touchend', hideActionSheet);
             var toast = new auiToast();
             $(".ui-btn-lg1").on('touchend',function () {
-                // toast.fail({
-                //     title:"请选择体现账户或者提现类型",
-                //     duration:2000
-                // });
+                if ($(".ui-btn-lg1").attr("disabled")  == "false"){
+                    return;
+                }
+                console.log($(".ui-btn-lg1").attr("disabled"))
+                $(".ui-btn-lg1").attr('disabled',"false");
                 console.log($(".weui-cell").children(".weui-cell__ft").text())
                 if ($(".weui-cell").children(".weui-cell__ft").text().indexOf("请选择")!=-1){
                     toast.fail({
                         title:"请选择体现账户或者提现类型",
                         duration:2000
                     });
+                    $(".ui-btn-lg1").attr('disabled',"true");
+                    return;
                 }
-                if ($(".input_value").text()){
 
+                istype = 0;
+                if ($(".lists_0").children(".weui-cell__ft").text() == "微信") {
+                    istype = 2;
+                }else if ( $(".lists_0").children(".weui-cell__ft").text() == "支付宝"){
+                    istype = 1;
+                }else if ( $(".lists_0").children(".weui-cell__ft").text() == "账户余额"){
+                    istype = 3;
                 }
+                $.ajax({
+                    type: "GET",
+                    url: "cashout_btn.html",
+                    data: {
+                        istype:istype,
+                        phone:{$phone},
+                        price:$(".input_value").val(),
+                        type:$(".lists_1").children(".weui-cell__ft").text(),
+                    },
+                    // dataType: "json",
+                    success: function(data){
+                        console.log(data);
+                        if (data.status > 0){
+                            toast.success({
+                                title:data.msg,
+                                duration:2000
+                            });
+                            setTimeout( function(){
+                                location.reload();
+                                // $(".ui-btn-lg1").attr('disabled',"true");
+                            }, 2 * 1000 );
+                        }else{
+                            toast.fail({
+                                title:data.msg,
+                                duration:2000
+                            });
+                            $(".ui-btn-lg1").attr('disabled',"true");
+                        }
+                    }
+                });
             });
         });
 
         function getmoney(type,index){
+            
             $.ajax({
                 type: "GET",
                 url: "getmoney.html",
@@ -201,31 +242,46 @@
                 },
                 // dataType: "json",
                 success: function(data){
-                    console.log(index);
+                    console.log(data);
+                    $(".input_value").val("");
                     switch (index){
                         case "余额":
-                            $(".all_value").text(data.cashout_money);
-                            $(".input_value").on("oninput onpropertychange", function () {
-                                if($(this).value>30)$(this).value=30
+                            $(".all_value").text(data[0].cashout_money);
+
+                            $(".input_value").bind("input propertychange", function () {
+                                if (eval($(this).val()) > eval(data[0].cashout_money)){
+                                    $(this).val(data[0].cashout_money)
+                                }
                             });
                             break;
                         case "招标保证金":
-                            $(".all_value").text(data.baozheng_money);
+                            $(".all_value").text(data[0].baozheng_money);
+                            $(".input_value").val(data[0].baozheng_money);
                             break;
                         case "先息后本":
-                            $(".all_value").text(data.after_money);
+                            $(".all_value").text(data[0].after_money);
+                            $(".input_value").val(data[0].after_money);
+                            break;
+                        case "悬赏":
+                            $(".all_value").text(data[2].shangjin);
+                            $(".input_value").bind("input propertychange", function () {
+                                if (eval($(this).val()) > eval(data[2].shangjin)){
+                                    $(this).val(data[2].shangjin)
+                                }
+                            });
                             break;
                     }
                 }
             });
         }
-        $(".input_value").on("onkeyup", function () {
+        $(".input_value").bind("keyup", function () {
             obj = $(this);
-            obj.value = obj.value.replace(/[^\d.]/g,""); //清除"数字"和"."以外的字符
-            obj.value = obj.value.replace(/^\./g,""); //验证第一个字符是数字
-            obj.value = obj.value.replace(/\.{2,}/g,"."); //只保留第一个, 清除多余的
-            obj.value = obj.value.replace(".","$#$").replace(/\./g,"").replace("$#$",".");
-            obj.value = obj.value.replace(/^(\-)*(\d+)\.(\d\d).*$/,'$1$2.$3'); //只能输入两个小数
+            console.log(obj.val())
+            obj.val(obj.val().replace(/[^\d.]/g,"")); //清除"数字"和"."以外的字符
+            obj.val(obj.val().replace(/^\./g,"")); //验证第一个字符是数字
+            obj.val(obj.val().replace(/\.{2,}/g,".")); //只保留第一个, 清除多余的
+            obj.val(obj.val().replace(".","$#$").replace(/\./g,"").replace("$#$","."));
+            obj.val(obj.val().replace(/^(\-)*(\d+)\.(\d\d).*$/,'$1$2.$3')); //只能输入两个小数
         });
     });
 

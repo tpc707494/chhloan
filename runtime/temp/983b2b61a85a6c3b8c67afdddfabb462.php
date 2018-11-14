@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:95:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\paytest\cashin_view.html";i:1541472512;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:95:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\paytest\cashin_view.html";i:1542112420;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -154,7 +154,7 @@
         $weui_cell.on("touchend", function () {
             index = $(this).index();
             $(".weui-actionsheet__menu").empty();
-            if (index>=2) return;
+            if (index >=2 ) return;
             index1(index);
 
         });
@@ -169,6 +169,9 @@
                 case 0:
                     $(".weui-actionsheet__title-text").text("选择充值账户");
                     break;
+                case 1:
+                    $(".weui-actionsheet__title-text").text("选择充值类型");
+                    break;
             }
 
             $iosActionsheet.addClass('weui-actionsheet_toggle');
@@ -182,41 +185,41 @@
             }
 
         });
-    //
-    //     function getmoney(type){
-    //         $.ajax({
-    //             type: "GET",
-    //             url: "getmoney.html",
-    //             data: {
-    //                 type:type,
-    //                 phone:<?php echo $phone; ?>
-    //             },
-    //             success: function(data){
-    //                 console.log(data);
-    //                 $("#input_value").addClass("hide_block");
-    //                 $("#select_value").addClass("hide_block");
-    //                 $(".weui-input").val("");
-    //                 $(".weui-select").empty();
-    //                 if ( data[1].length > 1 ){
-    //                     $("#select_value").removeClass("hide_block");
-    //
-    //                     for (i = 0; i < data[1].length;i++){
-    //                         var str = data[1][i].goods;
-    //                         var sad = str.indexOf("(");
-    //                         if (sad!=-1){
-    //                             str = str.substring(0, sad);
-    //                         }
-    //                         var asd = "<option value="+i+" data-value="+data[1][i].money+">"+ str +"</option>";
-    //                         $(".weui-select").append(asd);
-    //                     }
-    //                 }else{
-    //                     $("#input_value").removeClass("hide_block");
-    //                 }
-    //                 $(".all_value").text(data[0].cashout_money);
-    //             }
-    //         });
-    //     }
-    //
+
+        function getmoney(type){
+            $.ajax({
+                type: "GET",
+                url: "getmoney.html",
+                data: {
+                    type:type,
+                    phone:<?php echo $phone; ?>
+                },
+                success: function(data){
+                    console.log(data);
+                    $("#input_value").addClass("hide_block");
+                    $("#select_value").addClass("hide_block");
+                    $(".weui-input").val("");
+                    $(".weui-select").empty();
+                    if ( data[1].length > 1 ){
+                        $("#select_value").removeClass("hide_block");
+
+                        for (i = 0; i < data[1].length;i++){
+                            var str = data[1][i].goods;
+                            var sad = str.indexOf("(");
+                            if (sad!=-1){
+                                str = str.substring(0, sad);
+                            }
+                            var asd = "<option value="+i+" data-value="+data[1][i].id+" data-money="+data[1][i].money+">"+ str +"</option>";
+                            $(".weui-select").append(asd);
+                        }
+                    }else{
+                        $("#input_value").removeClass("hide_block");
+                    }
+                    $(".all_value").text(data[0].cashout_money);
+                }
+            });
+        }
+
         function hideActionSheet() {
             $iosActionsheet.removeClass('weui-actionsheet_toggle');
             $iosMask.fadeOut(200);
@@ -225,135 +228,102 @@
 
         var toast = new auiToast();
         var dialog = new auiDialog({});
-        // $(".ui-btn-lg1").on('touchend',function () {
-        //     if ($(".weui-cell").children(".weui-cell__ft").text().indexOf("请选择")!=-1){
-        //         toast.fail({
-        //             title:"请选择体现账户或者提现类型",
-        //             duration:2000
-        //         });
-        //         return;
-        //     }
-        //     var regPos = /^[0-9]+.?[0-9]*$/;
-        //     if ( !$("#select_value").hasClass('hide_block') && $(".weui-select").get(0).selectedIndex<0){
-        //         toast.fail({
-        //             title:"请输入选择充值金额",
-        //             duration:2000
-        //         });
-        //         return;
-        //     }
-        //     if (!$("#input_value").hasClass('hide_block') && !regPos.test($(".weui-input").val())){
-        //         toast.fail({
-        //             title:"请输入正确的充值金额",
-        //             duration:2000
-        //         });
-        //         return;
-        //     }
-        //     var price = '0';
-        //     if (!$("#input_value").hasClass('hide_block')) {
-        //         price = $(".weui-input").val();
-        //     }else{
-        //         price = $("#select_value").find("option:checked").attr("data-value");
-        //     }
-        //     dialog.alert({
-        //         title:"提示",
-        //         msg:'为避免风控本次充值会随机上下浮动5个点、请按照浮动后的充值,避免支付失败',
-        //         buttons:['取消','确定']
-        //     },function(ret){
-        //         if(ret.buttonIndex!=2){
-        //             return;
-        //         }else {
-        //             if ($type == 1){
-        //                 istype = 0;
-        //
-        //                 if ($(".lists_0").children(".weui-cell__ft").text() == "微信") {
-        //                     istype = 2;
-        //                 }else if ( $(".lists_0").children(".weui-cell__ft").text() == "支付宝"){
-        //                     istype = 1;
-        //                 }else if ( $(".lists_0").children(".weui-cell__ft").text() == "账户余额"){
-        //                     istype = 3;
-        //                 }
-        //
-        //                 $.post(
-        //                     "pay.html",
-        //                     {
-        //                         istype :  istype,
-        //                         phone:<?php echo $phone; ?>,
-        //                         price : price,
-        //                         cashin_type:$(".lists_1").children(".weui-cell__ft").text(),
-        //                         money_list:money_list
-        //                     },
-        //                     function(data){
-        //                         console.log(data);
-        //                         if (data.status > 0){
-        //                             $("#goodsname").val(data.data.goodsname);
-        //                             $("#istype").val(data.data.istype);
-        //                             $('#key').val(data.data.key);
-        //                             $('#notify_url').val(data.data.notify_url);
-        //                             $('#orderid').val(data.data.orderid);
-        //                             $('#orderuid').val(data.data.orderuid);
-        //                             $('#price').val(data.data.price);
-        //                             $('#return_url').val(data.data.return_url);
-        //                             $('#uid').val(data.data.uid);
-        //                             // $('#submitdemo1').click();
-        //                             // $("#formpay").css("display", "");
-        //                             // $(".ui-btn-lg1").hide();
-        //                         } else {
-        //                             toast.fail({
-        //                                 title:data.msg,
-        //                                 duration:2000
-        //                             });
-        //                         }
-        //                     }, "json"
-        //                 );
-        //             }else{
-        //
-        //                 istype = 0;
-        //
-        //                 if ($(".lists_0").children(".weui-cell__ft").text() == "微信") {
-        //                     istype = 2;
-        //                 }else if ( $(".lists_0").children(".weui-cell__ft").text() == "支付宝"){
-        //                     istype = 1;
-        //                 }else if ( $(".lists_0").children(".weui-cell__ft").text() == "账户余额"){
-        //                     istype = 3;
-        //                 }
-        //
-        //                 $.post(
-        //                     "pay.html",
-        //                     {
-        //                         price : price,
-        //                         istype :  istype,
-        //                         phone:<?php echo $phone; ?>,
-        //                         cashin_type:$(".lists_1").children(".weui-cell__ft").text()
-        //                     },
-        //                     function(data){
-        //                         console.log(data);
-        //                         if (data.status > 0){
-        //                             $("#goodsname").val(data.data.goodsname);
-        //                             $("#istype").val(data.data.istype);
-        //                             $('#key').val(data.data.key);
-        //                             $('#notify_url').val(data.data.notify_url);
-        //                             $('#orderid').val(data.data.orderid);
-        //                             $('#orderuid').val(data.data.orderuid);
-        //                             $('#price').val(data.data.price);
-        //                             $('#return_url').val(data.data.return_url);
-        //                             $('#uid').val(data.data.uid);
-        //                             // $('#submitdemo1').click();
-        //                             // $("#formpay").css("display", "");
-        //                             // $(".ui-btn-lg1").hide();
-        //                         } else {
-        //                             toast.fail({
-        //                                 title:data.msg,
-        //                                 duration:2000
-        //                             });
-        //                         }
-        //                     }, "json"
-        //                 );
-        //             }
-        //
-        //         }
-        //     })
-        //
-        // });
+        $(".ui-btn-lg1").on('touchend',function () {
+
+
+            if ($(".weui-cell").children(".weui-cell__ft").text().indexOf("请选择")!=-1){
+                toast.fail({
+                    title:"请选择体现账户或者提现类型",
+                    duration:2000
+                });
+                return;
+            }
+            var regPos = /^[0-9]+.?[0-9]*$/;
+            if ( !$("#select_value").hasClass('hide_block') && $(".weui-select").get(0).selectedIndex<0){
+                toast.fail({
+                    title:"请输入选择充值金额",
+                    duration:2000
+                });
+                return;
+            }
+            if (!$("#input_value").hasClass('hide_block') && !regPos.test($(".weui-input").val())){
+                toast.fail({
+                    title:"请输入正确的充值金额",
+                    duration:2000
+                });
+                return;
+            }
+            var price = '0';
+            if (!$("#input_value").hasClass('hide_block')) {
+                price = $(".weui-input").val();
+            }else{
+                price = $("#select_value").find("option:checked").attr("data-money");
+            }
+            dialog.alert({
+                title:"提示",
+                msg:'为避免风控本次充值会随机上下浮动5个点、请按照浮动后的充值,避免支付失败',
+                buttons:['取消','确定']
+            },function(ret){
+                if(ret.buttonIndex!=2){
+                    return;
+                }else {
+
+                    istype = 0;
+
+                    if ($(".lists_0").children(".weui-cell__ft").text() == "微信") {
+                        istype = 2;
+                    }else if ( $(".lists_0").children(".weui-cell__ft").text() == "支付宝"){
+                        istype = 1;
+                    }else if ( $(".lists_0").children(".weui-cell__ft").text() == "账户余额"){
+                        istype = 3;
+                    }
+
+                    $.post(
+                        "pay.html",
+                        {
+                            price : price,
+                            istype :  istype,
+                            phone:<?php echo $phone; ?>,
+                            cashin_type:$(".lists_1").children(".weui-cell__ft").text(),
+                            type:$(".weui-select").find('option:checked').data("value")
+                        },
+                        function(data){
+                            console.log(data);
+                            if (data.status > 0){
+                                if (istype == 3){
+                                    toast.success({
+                                        title:"充值成功",
+                                        duration:2000
+                                    });
+                                    setTimeout( function(){
+                                        location.reload();
+                                    }, 2 * 1000 );
+                                    return;
+                                }
+                                $("#goodsname").val(data.data.goodsname);
+                                $("#istype").val(data.data.istype);
+                                $('#key').val(data.data.key);
+                                $('#notify_url').val(data.data.notify_url);
+                                $('#orderid').val(data.data.orderid);
+                                $('#orderuid').val(data.data.orderuid);
+                                $('#price').val(data.data.price);
+                                $('#return_url').val(data.data.return_url);
+                                $('#uid').val(data.data.uid);
+                                $('#submitdemo1').click();
+                                // $("#formpay").css("display", "");
+                                // $(".ui-btn-lg1").hide();
+                            } else {
+                                toast.fail({
+                                    title:data.msg,
+                                    duration:2000
+                                });
+                            }
+                        }, "json"
+                    );
+                }
+            })
+
+        });
     //
     //
     });
