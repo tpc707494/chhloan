@@ -777,5 +777,29 @@ class Setindex extends Common
             }
         }
     }
+    function hehuoren()
+    {
+        $hehuoren = new HeHuoRen();
+        $hehuoren_result = $hehuoren->where(["uid"=>$this->user_result->id])->find();
+        $money = new UserMoney();
+        $money_result = $money->where(["uid"=>$this->user_result->id])->find();
+        if (!empty($money_result)){
+            if ($money_result->baozheng_money < 199){
+                return $this->ajaxRuturn(-1000, "保证金不足");
+            }
+        }else{
+            return $this->ajaxRuturn(-1000, "保证金不足");
+        }
+        if (!empty($hehuoren_result)){
 
+        }else{
+            $date = [
+                'uid' => $this->user_result->id,
+                "create_at" => date("Y-m-d H:i:s")
+            ];
+            $hehuoren->save($date);
+        }
+
+        return $this->ajaxRuturn(1000, "恭喜你加入合伙人计划");
+    }
 }

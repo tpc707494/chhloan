@@ -90,6 +90,7 @@ class Knowpay extends Common
                     $config_pay[$item] = ['id'=>$value->id, "account"=>[$value->money], 'title'=> $value->goods];
                 }else{
                     $config_pay[$item] = ['id'=>$value->id, "account"=>[$y_money], 'title'=> $value->goods];
+                    $money = $money + $y_money;
                 }
 
                 $menulist = $menulist.$value->alias.'->';
@@ -97,7 +98,6 @@ class Knowpay extends Common
                     $money = $money + $value->money;
                 }
             }
-            $money = $money + $y_money;
             cookie('parm',json_encode($config_pay),array('expire'=>300,'prefix'=>'pay_'));
 
             $this->page_title = "账户充值";

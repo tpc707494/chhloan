@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:93:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\paytest\errorview.html";i:1541138016;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:93:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\paytest\errorview.html";i:1542165976;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -241,50 +241,52 @@
 
         <div class="info">
             <div>
-                <h2>[8]&nbsp;<abbr title="think\exception\ErrorException">ErrorException</abbr> in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Knowpay.php line 195">Knowpay.php line 195</a></h2>
+                <h2>[0]&nbsp;<abbr title="InvalidArgumentException">InvalidArgumentException</abbr> in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\Model.php line 624">Model.php line 624</a></h2>
             </div>
-            <div><h1>Trying to get property 'id' of non-object</h1></div>
+            <div><h1>类的属性不存在:app\admin\model\Cashout-&gt;cashin_type</h1></div>
         </div>
 
     </div>
     <div class="source-code">
-            <pre class="prettyprint lang-php"><ol start="186"><li class="line-186"><code>                }
-</code></li><li class="line-187"><code>                break;
-</code></li><li class="line-188"><code>            case 3:
-</code></li><li class="line-189"><code>                if ($price &gt; $user_money_result-&gt;cashout_money){
-</code></li><li class="line-190"><code>                    return $this-&gt;ajaxRuturn(-100, &quot;账户余额不足&quot;);
-</code></li><li class="line-191"><code>                }
-</code></li><li class="line-192"><code>                foreach($json_d as $key=&gt;$value){
-</code></li><li class="line-193"><code>                    $user_money = new UserMoney();
-</code></li><li class="line-194"><code>                    $goods = new Goods();
-</code></li><li class="line-195"><code>                    $goods_result = $goods-&gt;where(['id'=&gt;$value-&gt;title-&gt;id])-&gt;find();
-</code></li><li class="line-196"><code>                    switch ($goods_result-&gt;alias){
-</code></li><li class="line-197"><code>                        case &quot;招标保证金&quot;:
-</code></li><li class="line-198"><code>                            $data = [
-</code></li><li class="line-199"><code>                                'baozheng_money' =&gt; $user_money_result-&gt;baozheng_money + $value-&gt;account[0],
-</code></li><li class="line-200"><code>                                'cashout_money' =&gt; $user_money_result-&gt;cashout_money - $value-&gt;account[0]
-</code></li><li class="line-201"><code>                            ];
-</code></li><li class="line-202"><code>                            $user_money-&gt;update($data, ['uid'=&gt;$this-&gt;user_result-&gt;id]);
-</code></li><li class="line-203"><code>                            break;
-</code></li><li class="line-204"><code>                        case &quot;先息后本&quot;:
+            <pre class="prettyprint lang-php"><ol start="615"><li class="line-615"><code>        } elseif ($notFound) {
+</code></li><li class="line-616"><code>            $relation = Loader::parseName($name, 1, false);
+</code></li><li class="line-617"><code>            if (method_exists($this, $relation)) {
+</code></li><li class="line-618"><code>                $modelRelation = $this-&gt;$relation();
+</code></li><li class="line-619"><code>                // 不存在该字段 获取关联数据
+</code></li><li class="line-620"><code>                $value = $this-&gt;getRelationData($modelRelation);
+</code></li><li class="line-621"><code>                // 保存关联对象值
+</code></li><li class="line-622"><code>                $this-&gt;relation[$name] = $value;
+</code></li><li class="line-623"><code>            } else {
+</code></li><li class="line-624"><code>                throw new InvalidArgumentException('property not exists:' . $this-&gt;class . '-&gt;' . $name);
+</code></li><li class="line-625"><code>            }
+</code></li><li class="line-626"><code>        }
+</code></li><li class="line-627"><code>        return $value;
+</code></li><li class="line-628"><code>    }
+</code></li><li class="line-629"><code>
+</code></li><li class="line-630"><code>    /**
+</code></li><li class="line-631"><code>     * 获取关联模型数据
+</code></li><li class="line-632"><code>     * @access public
+</code></li><li class="line-633"><code>     * @param Relation        $modelRelation 模型关联对象
 </code></li></ol></pre>
     </div>
     <div class="trace">
         <h2>Call Stack</h2>
         <ol>
-            <li>in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Knowpay.php line 195">Knowpay.php line 195</a></li>
+            <li>in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\Model.php line 624">Model.php line 624</a></li>
             <li>
-                at <abbr title="think\Error">Error</abbr>::appError(8, '<a class="toggle" title="Trying to get property 'id' of non-object">Trying to get proper...</a>', '<a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Knowpay.php">E:\install\server\xm...</a>', 195, ['istype' => '3', 'pay_loan_id' => '45', 'user_loan' => <em>object</em>(<abbr title="app\admin\model\UserLoanModel">UserLoanModel</abbr>), ...]) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Knowpay.php line 195">Knowpay.php line 195</a>                </li>
+                at <abbr title="think\Model">Model</abbr>->getAttr('cashin_type') in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\Model.php line 2214">Model.php line 2214</a>                </li>
             <li>
-                at <abbr title="app\apii\controller\Knowpay">Knowpay</abbr>->pay()                </li>
+                at <abbr title="think\Model">Model</abbr>->__get('cashin_type') in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\application\apii\controller\Showcash.php line 88">Showcash.php line 88</a>                </li>
             <li>
-                at <abbr title="ReflectionMethod">ReflectionMethod</abbr>->invokeArgs(<em>object</em>(<abbr title="app\apii\controller\Knowpay">Knowpay</abbr>), []) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 343">App.php line 343</a>                </li>
+                at <abbr title="app\apii\controller\Showcash">Showcash</abbr>->cashin()                </li>
             <li>
-                at <abbr title="think\App">App</abbr>::invokeMethod([<em>object</em>(<abbr title="app\apii\controller\Knowpay">Knowpay</abbr>), 'pay'], []) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 606">App.php line 606</a>                </li>
+                at <abbr title="ReflectionMethod">ReflectionMethod</abbr>->invokeArgs(<em>object</em>(<abbr title="app\apii\controller\Showcash">Showcash</abbr>), []) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 343">App.php line 343</a>                </li>
             <li>
-                at <abbr title="think\App">App</abbr>::module(['apii', 'Knowpay', 'pay'], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...], <em>true</em>) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 456">App.php line 456</a>                </li>
+                at <abbr title="think\App">App</abbr>::invokeMethod([<em>object</em>(<abbr title="app\apii\controller\Showcash">Showcash</abbr>), 'cashin'], []) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 606">App.php line 606</a>                </li>
             <li>
-                at <abbr title="think\App">App</abbr>::exec(['type' => 'module', 'module' => ['apii', 'Knowpay', 'pay']], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...]) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 139">App.php line 139</a>                </li>
+                at <abbr title="think\App">App</abbr>::module(['apii', 'Showcash', 'cashin'], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...], <em>true</em>) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 456">App.php line 456</a>                </li>
+            <li>
+                at <abbr title="think\App">App</abbr>::exec(['type' => 'module', 'module' => ['apii', 'Showcash', 'cashin']], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...]) in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\library\think\App.php line 139">App.php line 139</a>                </li>
             <li>
                 at <abbr title="think\App">App</abbr>::run() in <a class="toggle" title="E:\install\server\xmapp721\htdocs\fask\thinkphp\start.php line 19">start.php line 19</a>                </li>
             <li>
@@ -297,24 +299,29 @@
 <div class="exception-var">
     <h2>Environment Variables</h2>
     <div>
-        <div class="clearfix">
-            <div class="col-md-3"><strong>GET Data</strong></div>
-            <div class="col-md-9"><small>empty</small></div>
-        </div>
-    </div>
-    <div>
-        <h3 class="subheading">POST Data</h3>
+        <h3 class="subheading">GET Data</h3>
         <div>
-            <div class="clearfix">
-                <div class="col-md-3"><strong>istype</strong></div>
-                <div class="col-md-9"><small>
-                    3                    </small></div>
-            </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>phone</strong></div>
                 <div class="col-md-9"><small>
                     18398608857                    </small></div>
             </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>token</strong></div>
+                <div class="col-md-9"><small>
+                    f4afab2d8ab76ee8ec89f736ba768b6605eb2612                    </small></div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>type</strong></div>
+                <div class="col-md-9"><small>
+                    2                    </small></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="clearfix">
+            <div class="col-md-3"><strong>POST Data</strong></div>
+            <div class="col-md-9"><small>empty</small></div>
         </div>
     </div>
     <div>
@@ -337,29 +344,19 @@
                     GA1.1.1315841170.1540630862                    </small></div>
             </div>
             <div class="clearfix">
-                <div class="col-md-3"><strong>__51cke__</strong></div>
+                <div class="col-md-3"><strong>device</strong></div>
                 <div class="col-md-9"><small>
-                </small></div>
+                    0                    </small></div>
             </div>
             <div class="clearfix">
-                <div class="col-md-3"><strong>__tins__18759442</strong></div>
+                <div class="col-md-3"><strong>renderMode</strong></div>
                 <div class="col-md-9"><small>
-                    {&quot;sid&quot;: 1541133071536, &quot;vd&quot;: 2, &quot;expires&quot;: 1541134878363}                    </small></div>
+                    0                    </small></div>
             </div>
             <div class="clearfix">
-                <div class="col-md-3"><strong>__51laig__</strong></div>
+                <div class="col-md-3"><strong>cashout_loanid</strong></div>
                 <div class="col-md-9"><small>
-                    2                    </small></div>
-            </div>
-            <div class="clearfix">
-                <div class="col-md-3"><strong>pay_loan_id</strong></div>
-                <div class="col-md-9"><small>
-                    45                    </small></div>
-            </div>
-            <div class="clearfix">
-                <div class="col-md-3"><strong>pay_parm</strong></div>
-                <div class="col-md-9"><small>
-                    [{&quot;id&quot;:1,&quot;account&quot;:[&quot;59&quot;],&quot;title&quot;:&quot;\u4fdd\u8bc1\u91d159\u6807&quot;},{&quot;id&quot;:100,&quot;account&quot;:[&quot;50&quot;],&quot;title&quot;:&quot;\u5148\u606f\u540e\u672c50\u4fdd\u8bc1\u91d1(3000\u4ee5\u4e0b)&quot;},{&quot;id&quot;:200,&quot;account&quot;:[&quot;1&quot;],&quot;title&quot;:&quot;\u60ac\u8d4f&quot;}]                    </small></div>
+                    -                    </small></div>
             </div>
         </div>
     </div>
@@ -375,7 +372,7 @@
             <div class="clearfix">
                 <div class="col-md-3"><strong>REDIRECT_PATH_INFO</strong></div>
                 <div class="col-md-9"><small>
-                    apii/Knowpay/pay.html                    </small></div>
+                    apii/Showcash/cashin.html                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>REDIRECT_MIBDIRS</strong></div>
@@ -453,19 +450,9 @@
                     keep-alive                    </small></div>
             </div>
             <div class="clearfix">
-                <div class="col-md-3"><strong>CONTENT_LENGTH</strong></div>
-                <div class="col-md-9"><small>
-                    26                    </small></div>
-            </div>
-            <div class="clearfix">
                 <div class="col-md-3"><strong>HTTP_ACCEPT</strong></div>
                 <div class="col-md-9"><small>
-                    application/json                    </small></div>
-            </div>
-            <div class="clearfix">
-                <div class="col-md-3"><strong>HTTP_ORIGIN</strong></div>
-                <div class="col-md-9"><small>
-                    http://localhost                    </small></div>
+                    */*                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>HTTP_X_REQUESTED_WITH</strong></div>
@@ -478,14 +465,9 @@
                     Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Mobile Safari/537.36                    </small></div>
             </div>
             <div class="clearfix">
-                <div class="col-md-3"><strong>CONTENT_TYPE</strong></div>
-                <div class="col-md-9"><small>
-                    application/x-www-form-urlencoded                    </small></div>
-            </div>
-            <div class="clearfix">
                 <div class="col-md-3"><strong>HTTP_REFERER</strong></div>
                 <div class="col-md-9"><small>
-                    http://localhost/apii/Knowpay/cashin?phone=18398608857&amp;token=fb10a07adf42d104068e11e14e6faaa187ea4d1f&amp;qixian=15%E5%A4%A9&amp;huankuan=%E5%85%88%E6%81%AF%E5%90%8E%E6%9C%AC&amp;allloan=100&amp;shangjin=1&amp;data=1,100,200&amp;loan_id=45                    </small></div>
+                    http://localhost/apii/Showcash/cashin?phone=18398608857&amp;token=f4afab2d8ab76ee8ec89f736ba768b6605eb2612                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>HTTP_ACCEPT_ENCODING</strong></div>
@@ -500,12 +482,12 @@
             <div class="clearfix">
                 <div class="col-md-3"><strong>HTTP_COOKIE</strong></div>
                 <div class="col-md-9"><small>
-                    __guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; __51cke__=; __tins__18759442=%7B%22sid%22%3A%201541133071536%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201541134878363%7D; __51laig__=2; pay_loan_id=45; pay_parm=%5B%7B%22id%22%3A1%2C%22account%22%3A%5B%2259%22%5D%2C%22title%22%3A%22%5Cu4fdd%5Cu8bc1%5Cu91d159%5Cu6807%22%7D%2C%7B%22id%22%3A100%2C%22account%22%3A%5B%2250%22%5D%2C%22title%22%3A%22%5Cu5148%5Cu606f%5Cu540e%5Cu672c50%5Cu4fdd%5Cu8bc1%5Cu91d1%283000%5Cu4ee5%5Cu4e0b%29%22%7D%2C%7B%22id%22%3A200%2C%22account%22%3A%5B%221%22%5D%2C%22title%22%3A%22%5Cu60ac%5Cu8d4f%22%7D%5D                    </small></div>
+                    __guid=111872281.1111390201129146600.1540370156582.2195; _ga=GA1.1.1315841170.1540630862; device=0; renderMode=0; cashout_loanid=-                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>PATH</strong></div>
                 <div class="col-md-9"><small>
-                    C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\install\node\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;E:\install\Microsoft VS Code\bin                    </small></div>
+                    C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\install\node\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\install\android\java\java1.8\jdk\bin;E:\install\android\java\java1.8\jdk\jre\bin;E:\install\Git\cmd;e:\install\python\python3.7\Scripts;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;E:\install\Microsoft VS Code\bin                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>SystemRoot</strong></div>
@@ -591,12 +573,17 @@
             <div class="clearfix">
                 <div class="col-md-3"><strong>REMOTE_PORT</strong></div>
                 <div class="col-md-9"><small>
-                    64403                    </small></div>
+                    60129                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>REDIRECT_URL</strong></div>
                 <div class="col-md-9"><small>
-                    /apii/Knowpay/pay.html                    </small></div>
+                    /apii/Showcash/cashin.html                    </small></div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REDIRECT_QUERY_STRING</strong></div>
+                <div class="col-md-9"><small>
+                    phone=18398608857&amp;token=f4afab2d8ab76ee8ec89f736ba768b6605eb2612&amp;type=2                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>GATEWAY_INTERFACE</strong></div>
@@ -611,17 +598,17 @@
             <div class="clearfix">
                 <div class="col-md-3"><strong>REQUEST_METHOD</strong></div>
                 <div class="col-md-9"><small>
-                    POST                    </small></div>
+                    GET                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>QUERY_STRING</strong></div>
                 <div class="col-md-9"><small>
-                </small></div>
+                    phone=18398608857&amp;token=f4afab2d8ab76ee8ec89f736ba768b6605eb2612&amp;type=2                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>REQUEST_URI</strong></div>
                 <div class="col-md-9"><small>
-                    /apii/Knowpay/pay.html                    </small></div>
+                    /apii/Showcash/cashin.html?phone=18398608857&amp;token=f4afab2d8ab76ee8ec89f736ba768b6605eb2612&amp;type=2                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>SCRIPT_NAME</strong></div>
@@ -636,17 +623,17 @@
             <div class="clearfix">
                 <div class="col-md-3"><strong>REQUEST_TIME_FLOAT</strong></div>
                 <div class="col-md-9"><small>
-                    1541138002.991                    </small></div>
+                    1542165969.957                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>REQUEST_TIME</strong></div>
                 <div class="col-md-9"><small>
-                    1541138002                    </small></div>
+                    1542165969                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>PATH_INFO</strong></div>
                 <div class="col-md-9"><small>
-                    apii/Knowpay/pay.html                    </small></div>
+                    apii/Showcash/cashin.html                    </small></div>
             </div>
         </div>
     </div>
@@ -672,12 +659,12 @@
             <div class="clearfix">
                 <div class="col-md-3"><strong>THINK_START_TIME</strong></div>
                 <div class="col-md-9"><small>
-                    1541138002.9967                    </small></div>
+                    1542165969.9616                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>THINK_START_MEM</strong></div>
                 <div class="col-md-9"><small>
-                    396176                    </small></div>
+                    395112                    </small></div>
             </div>
             <div class="clearfix">
                 <div class="col-md-3"><strong>EXT</strong></div>
@@ -784,7 +771,7 @@
     <span>{ 十年磨一剑-为API开发设计的高性能框架 }</span>
 </div>
 <script>
-    var LINE = 195;
+    var LINE = 624;
 
     function $(selector, node){
         var elements;
