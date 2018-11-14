@@ -801,5 +801,6 @@ class Setindex extends Common
         }
 
         return $this->ajaxRuturn(1000, "恭喜你加入合伙人计划");
+        
     }
 }
