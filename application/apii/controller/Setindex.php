@@ -5,9 +5,14 @@ namespace app\apii\controller;
 use app\admin\model\Apiconfig;
 use app\admin\model\Cashout;
 use app\admin\model\HeHuoRen;
+use app\admin\model\user\base\Alipay;
+use app\admin\model\user\base\Gjj;
 use app\admin\model\user\base\Lianxiren;
 use app\admin\model\user\base\Rl;
+use app\admin\model\user\base\Sb;
+use app\admin\model\user\base\Sjk;
 use app\admin\model\user\base\Wechat;
+use app\admin\model\user\base\Xinyongka;
 use app\admin\model\UserLoanModel;
 use app\admin\model\UserMoney;
 use app\apii\model\CaseInModel;
@@ -163,7 +168,7 @@ class Setindex extends Common
 
         }
         else if ($type=="xinyongka"){
-            $user_xinyongka = new UsersXykModel();
+            $user_xinyongka = new Xinyongka();
             $user_xinyongka_result = $user_xinyongka->where("uid", $user_result->id)->find();
             $data = [
                 "xyk_account"=>$area,
@@ -178,7 +183,7 @@ class Setindex extends Common
             }
         }
         else if ($type=="sb"){
-            $user_sb = new UserSbModel();
+            $user_sb = new Sb();
             $user_sb_result = $user_sb->where("uid", $user_result->id)->find();
             $data = [
                 "sb_account"=>$area,
@@ -193,7 +198,7 @@ class Setindex extends Common
             }
         }
         else if ($type=="gjj"){
-            $user_gjj = new UserGjjModel();
+            $user_gjj = new Gjj();
             $user_gjj_result = $user_gjj->where("uid", $user_result->id)->find();
             $data = [
                 "gjj_account"=>$area,
@@ -208,7 +213,7 @@ class Setindex extends Common
             }
         }
         else if ($type=="sjk"){
-            $user_sjk = new UserSjkModel();
+            $user_sjk = new Sjk();
             $user_sjk_result = $user_sjk->where("uid", $user_result->id)->find();
             $data = [
                 "gjj_account"=>$area,
@@ -222,23 +227,23 @@ class Setindex extends Common
                 $user_sjk->save($data);
             }
         }
-        else if ($type=="jsz"){
-            $user_jsz = new UserGjjModel();
-            $user_jsz_result = $user_jsz->where("uid", $user_result->id)->find();
-            $data = [
-                "jsz_account"=>$area,
-                "create_at"=>date("Y-m-d H:i:s")
-            ];
-            if (!empty($user_jsz_result)){
-
-                $user_jsz->update($data, ['id'=>$user_jsz_result->id]);
-            }else{
-                $data['uid'] = $user_result->id;
-                $user_jsz->save($data);
-            }
-        }
+//        else if ($type=="jsz"){
+//            $user_jsz = new ();
+//            $user_jsz_result = $user_jsz->where("uid", $user_result->id)->find();
+//            $data = [
+//                "jsz_account"=>$area,
+//                "create_at"=>date("Y-m-d H:i:s")
+//            ];
+//            if (!empty($user_jsz_result)){
+//
+//                $user_jsz->update($data, ['id'=>$user_jsz_result->id]);
+//            }else{
+//                $data['uid'] = $user_result->id;
+//                $user_jsz->save($data);
+//            }
+//        }
         else if ($type=="wechat"){
-            $user_wechat = new UsersWeChat();
+            $user_wechat = new Wechat();
             $user_wechat_result = $user_wechat->where("uid", $user_result->id)->find();
             $data = [
                 "account"=>$account,
@@ -253,7 +258,7 @@ class Setindex extends Common
             }
         }
         else if ($type=="alipy"){
-            $user_alipy = new UsersAlipy();
+            $user_alipy = new Alipay();
             $user_alipy_result = $user_alipy->where("uid", $user_result->id)->find();
             $data = [
                 "account"=>$area,
@@ -801,6 +806,6 @@ class Setindex extends Common
         }
 
         return $this->ajaxRuturn(1000, "恭喜你加入合伙人计划");
-        
+
     }
 }
