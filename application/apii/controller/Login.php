@@ -248,6 +248,35 @@ class Login extends Common
     }
     /*
      *
+     * 发送验证码
+     *
+     * */
+    public function orthersmscode(){
+        $phone1 = input("get.phone1");
+        $smscode = new SendCodeModel();
+        $smsresult = $smscode->where("phone", $phone1)->order("create", "desc")->find();
+        if ($smsresult && $smsresult->create > date('Y-m-d H:i:s')){
+            return $this->ajaxRuturn(4001, "1分钟内不能再次发送短信");
+        }
+        $code = mt_rand(100000,999999)."";
+        $config = new Apiconfig();
+        $configresult = $config->where("title","腾讯云短信")->find();
+        $jsonconfig = json_decode($configresult->rule);
+        $result = $this->smsSend($jsonconfig, $phone1, $code);
+        if ($result){
+            $data =[
+                "phone"=>$phone1,
+                "code"=>$code,
+                "create"=>date('Y-m-d H:i:s', time())
+            ];
+            $smscode->save($data);
+            return $this->ajaxRuturn(1000, "短信发送成功", Array(["code"=>$code]));
+        }else{
+            return $this->ajaxRuturn(1000, "获取发送失败", Array(["code"=>$code]));
+        }
+    }
+    /*
+     *
      * 验证验证码
      *
      * */
