@@ -464,12 +464,12 @@ class Setindex extends Common
             $loan_value = 0;
             $user = new UserModel();
             $user_base = new Info();
-            $lianxiren = new UserLianXiRen();
-            $wechat = new UsersWeChat();
-            $alipy = new UsersAlipy();
-            $xinyongka = new UsersXykModel();
-            $gjj = new UserGjjModel();
-            $sb = new UserSbModel();
+            $lianxiren = new Lianxiren();
+            $wechat = new Wechat();
+            $alipy = new Alipay();
+            $xinyongka = new Xinyongka();
+            $gjj = new Gjj();
+            $sb = new Sb();
             $user_base_result = $user_base->where('uid', $this->user_result->id)->find();
             if (!empty($user_base_result)){
                 $loan_value = 3000+ (mt_rand(0,10)*100);
