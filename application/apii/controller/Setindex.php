@@ -216,12 +216,12 @@ class Setindex extends Common
             $user_sjk = new Sjk();
             $user_sjk_result = $user_sjk->where("uid", $user_result->id)->find();
             $data = [
-                "gjj_account"=>$area,
+                "xsz_account"=>$area,
                 "create_at"=>date("Y-m-d H:i:s")
             ];
-            if (!empty($user_gjj_result)){
+            if (!empty($user_sjk_result)){
 
-                $user_sjk->update($data, ['id'=>$user_gjj_result->id]);
+                $user_sjk->update($data, ['id'=>$user_sjk_result->id]);
             }else{
                 $data['uid'] = $user_result->id;
                 $user_sjk->save($data);
