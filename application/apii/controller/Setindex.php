@@ -517,7 +517,7 @@ class Setindex extends Common
                 $loan_value = $loan_value;
             }
 
-            $user_money = new UserMoneyModel();
+            $user_money = new UserMoney();
 
             $user_money_result = $user_money->where('uid', $this->user_result->id)->find();
             if (!empty($user_money_result)){
