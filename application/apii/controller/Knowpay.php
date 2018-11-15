@@ -105,7 +105,7 @@ class Knowpay extends Common
 
             $view_data = [
                 [
-                    "title"=>"提现账户",
+                    "title"=>"充值账户",
                     "account"=>[
                         "微信",
                         "支付宝",
@@ -113,7 +113,7 @@ class Knowpay extends Common
                     ]
                 ],
                 [
-                    "title"=>"提现类型",
+                    "title"=>"充值类型",
                     "account"=>[
                         rtrim($menulist, "->")
                     ]
