@@ -261,8 +261,8 @@ class Knowpay extends Common
         $orderuid = $this->user_result->username;
         $uid = "11196";//"此处填写平台的uid";
         $token = "fa70150088cb3722d4e7a7cdd92053d6";//"此处填写平台的Token";
-        $return_url = 'http://www.demo.com/payreturn.php';
-        $notify_url = 'http://www.demo.com/paynotify.php';
+        $return_url = 'http://140.143.89.128';
+        $notify_url = 'http://140.143.89.128/apii/Wxnotify/paynotify.html';
 
         $key = md5($goodsname. $istype . $notify_url . $this->code . $orderuid . $price . $return_url . $token . $uid);
         //经常遇到有研发问为啥key值返回错误，大多数原因：1.参数的排列顺序不对；2.上面的参数少传了，但是这里的key值又带进去计算了，导致服务端key算出来和你的不一样。
