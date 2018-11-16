@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\knowpay\cashin.html";i:1541137690;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"E:\install\server\xmapp721\htdocs\fask\public/../application/apii\view\knowpay\cashin.html";i:1542351497;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,10 +161,10 @@
             $iosMask.on('touchend', hideActionSheet);
             var toast = new auiToast();
             var dialog = new auiDialog({});
-            $(".ui-btn-lg1").on('touchend',function () {
+            $(".ui-btn-lg1").on('click',function () {
                 if ($(".weui-cell").children(".weui-cell__ft").text().indexOf("请选择") != -1) {
                     toast.fail({
-                        title: "请选择体现账户或者提现类型",
+                        title: "请选择充值账户或者充值类型",
                         duration: 2000
                     });
                     return;
