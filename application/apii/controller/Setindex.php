@@ -743,13 +743,13 @@ class Setindex extends Common
         $local_lixi = $lixi_array[$qixian_weizhi];
         $huankuanfangshi_weizhi = array_search($huankuan, $huankuanfangshi_array);
         if ($huankuanfangshi_weizhi==1){
-            $local_lixi = $local_lixi + 0.005;
+            $local_lixi = $local_lixi + 0.05;
         }
         if ($qixian_weizhi < 2){
-            $local_lixi = $local_lixi+0.005;
+            $local_lixi = $local_lixi+0.05;
             $all_lixi = ($allloan * $local_lixi* $this->findNum($qixian))/30;
         }else{
-            $local_lixi = $local_lixi+0.005;
+            $local_lixi = $local_lixi+0.05;
             $all_lixi = ($allloan * $local_lixi* $this->findNum($qixian));
         }
         $result_data = [
