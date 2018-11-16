@@ -1,0 +1,11 @@
+﻿{
+  "Code": 0,
+  "Msg": "",
+  "UpdateStatus": 1,
+  "VersionCode": 1538,
+  "VersionName": "1.1.1116",
+  "UploadTime": "2018-07-10 17:28:41",
+  "ModifyContent": "\r\n1、更新自动检测更新。\r\n2、优化认证信息。\r\n3、新增自定义更新服务API接口。",
+  "DownloadUrl": "http://140.143.89.128/static/file/chh.apk",
+  "ApkSize": 18035
+}
