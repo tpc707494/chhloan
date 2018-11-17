@@ -3820,3 +3820,30 @@
 [ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\public/../application/api\lang\zh-cn.php
 [ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.051381s ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-16T21:18:17+08:00 ] 192.168.1.104 GET /favicon.ico
+[ info ] 192.168.1.104/favicon.ico [运行时间：1.116286s][吞吐率：0.90req/s] [内存消耗：1,472.18kb] [文件加载：48]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015940s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.040336s ]
+[ info ] [ LANG ] E:\install\server\xmapp721\htdocs\fask\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.104',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6784.400 QQBrowser/10.3.2667.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'x-lantern-version' => '4.9.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
